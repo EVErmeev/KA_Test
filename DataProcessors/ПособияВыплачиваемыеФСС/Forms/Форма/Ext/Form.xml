@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -21,6 +21,7 @@
 			</Title>
 			<Group>AlwaysHorizontal</Group>
 			<HorizontalSpacing>Half</HorizontalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаНапоминаниеОбОтключенииПодпискиНаЭЛНРасширеннаяПодсказка" id="669"/>
@@ -33,6 +34,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="206"/>
@@ -101,6 +103,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="266"/>
 			<ChildItems>
 				<Page name="ГруппаСписки" id="200">
@@ -130,6 +133,7 @@
 							</ToolTip>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПособияРасширеннаяПодсказка" id="24"/>
@@ -148,6 +152,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаБольничныеЛистыРасширеннаяПодсказка" id="128"/>
 									<ChildItems>
@@ -159,6 +164,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="КоманднаяПанельПособийРасширеннаяПодсказка" id="99"/>
@@ -201,6 +207,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="БольничныеЛистыКонтекстноеМеню" id="2">
 												<Autofill>false</Autofill>
 												<ChildItems>
@@ -347,6 +354,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаОтпускаПоУходуРасширеннаяПодсказка" id="130"/>
 									<ChildItems>
@@ -358,6 +366,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКоманднаяПанельОтпускаПоУходуРасширеннаяПодсказка" id="157"/>
@@ -399,6 +408,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ОтпускаПоУходуЗаРебенкомКонтекстноеМеню" id="132">
 												<Autofill>false</Autofill>
 												<ChildItems>
@@ -579,6 +589,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаЗаявленияРасширеннаяПодсказка" id="26"/>
 							<ChildItems>
@@ -590,6 +601,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="КоманднаяПанельЗаявленийРасширеннаяПодсказка" id="101"/>
@@ -603,6 +615,7 @@
 											</Title>
 											<Height>1</Height>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКнопокСоздатьЗаявлениеРасширеннаяПодсказка" id="193"/>
@@ -653,6 +666,7 @@
 									<ShowRoot>false</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЗаявленияНаВыплатуПособияКонтекстноеМеню" id="30">
 										<Autofill>false</Autofill>
 										<ChildItems>
@@ -813,6 +827,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаРеестрыРасширеннаяПодсказка" id="28"/>
 							<ChildItems>
@@ -824,6 +839,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="КоманднаяПанельРеестровРасширеннаяПодсказка" id="103"/>
@@ -866,6 +882,7 @@
 									<ShowRoot>false</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="РеестрыКонтекстноеМеню" id="49">
 										<Autofill>false</Autofill>
 										<ChildItems>
@@ -1046,6 +1063,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПервичныеДокументыДляВозмещенияРасширеннаяПодсказка" id="498"/>
@@ -1065,6 +1083,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаОплатаДнейУходаЗаДетьмиИнвалидамиРасширеннаяПодсказка" id="422"/>
 									<ChildItems>
@@ -1076,6 +1095,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="КоманднаяПанельДнейУходаЗаДетьмиИнвалидамиРасширеннаяПодсказка" id="424"/>
@@ -1120,6 +1140,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ОплатаДнейУходаЗаДетьмиИнвалидамиКонтекстноеМеню" id="431">
 												<ChildItems>
 													<Button name="ОплатаДнейУходаЗаДетьмиИнвалидамиКонтекстноеМенюВключитьВЗаявлениеОВозмещении" id="495">
@@ -1196,6 +1217,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ExtendedTooltip name="ГруппаОплатаПособийНаПогребениеРасширеннаяПодсказка" id="500"/>
 									<ChildItems>
@@ -1207,6 +1229,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="КоманднаяПанельОплатаПособийНаПогребениеРасширеннаяПодсказка" id="502"/>
@@ -1251,6 +1274,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ОплатаПособийНаПогребениеКонтекстноеМеню" id="509">
 												<ChildItems>
 													<Button name="ОплатаПособийНаПогребениеКонтекстноеМенюВключитьВЗаявлениеОВозмещенииПособийНаПогребение" id="559">
@@ -1336,6 +1360,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидовРасширеннаяПодсказка" id="456"/>
 							<ChildItems>
@@ -1347,6 +1372,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="КоманднаяПанельЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидовРасширеннаяПодсказка" id="458"/>
@@ -1422,6 +1448,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидовКонтекстноеМеню" id="465"/>
 									<AutoCommandBar name="ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидовКоманднаяПанель" id="466"/>
 									<ExtendedTooltip name="ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидовРасширеннаяПодсказка" id="467"/>

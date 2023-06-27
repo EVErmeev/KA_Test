@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Customizable>false</Customizable>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -21,11 +21,13 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<United>false</United>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка11" id="47"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаНаправленияДеятельности" id="48">
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -33,6 +35,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаНаправленияДеятельностиКолонка1" id="50">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка13" id="51"/>
@@ -67,6 +70,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаНаправленияДеятельностиКолонка2" id="52">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка14" id="53"/>
@@ -98,11 +102,13 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<United>false</United>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="4"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаУчетДоходов" id="38">
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -110,6 +116,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаУчетДоходовКолонка1" id="40">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка9" id="41"/>
@@ -131,6 +138,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаУчетДоходовКолонка2" id="42">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка10" id="43"/>
@@ -139,6 +147,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаУчетРасходов" id="10">
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -146,6 +155,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаУчетРасходовКолонка1" id="14">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка2" id="15"/>
@@ -180,6 +190,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаУчетРасходовКолонка2" id="16">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка3" id="17"/>
@@ -224,11 +235,13 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<United>false</United>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка4" id="23"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаГоризонтальныйБлокЗарплата" id="24">
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<United>false</United>
 					<ShowTitle>false</ShowTitle>
@@ -236,6 +249,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаЗарплатаКолонка1" id="26">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка6" id="27"/>
@@ -270,6 +284,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаЗарплатаКолонка2" id="30">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка7" id="31"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -41,6 +41,7 @@
 						<UsualGroup name="КвартальнаяОтчетностьШапка" id="414">
 							<Height>1</Height>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КвартальнаяОтчетностьШапкаExtendedTooltip" id="2831"/>
@@ -544,6 +545,7 @@
 						</Table>
 						<UsualGroup name="КарточкаДокументаГруппа" id="2292">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КарточкаДокументаГруппаExtendedTooltip" id="2887"/>
@@ -573,6 +575,7 @@
 											<ChildItems>
 												<UsualGroup name="СотрудникиШапка" id="2753">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="СотрудникиШапкаExtendedTooltip" id="2891"/>
@@ -1279,12 +1282,14 @@
 											<ChildItems>
 												<UsualGroup name="ДанныеРСВ" id="2301">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ДанныеРСВExtendedTooltip" id="2931"/>
 													<ChildItems>
 														<UsualGroup name="ИтогиПоТарифамЗаголовок" id="2795">
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ИтогиПоТарифамЗаголовокExtendedTooltip" id="2932"/>
@@ -1541,12 +1546,14 @@
 																	<ChildItems>
 																		<UsualGroup name="ДанныеРСВИтогиЛеваяКолонка" id="2370">
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ДанныеРСВИтогиЛеваяКолонкаExtendedTooltip" id="2942"/>
 																			<ChildItems>
 																				<UsualGroup name="ДанныеРСВИтогиЗаработок" id="2457">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиЗаработокExtendedTooltip" id="2943"/>
@@ -1560,6 +1567,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаработокЗаголовкиExtendedTooltip" id="2944"/>
 																							<ChildItems>
@@ -1630,6 +1638,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаработокПоОбычнымТарифамExtendedTooltip" id="2950"/>
 																							<ChildItems>
@@ -1688,6 +1697,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаработокПоЛьготнымТарифамExtendedTooltip" id="2956"/>
 																							<ChildItems>
@@ -1741,6 +1751,7 @@
 																				</UsualGroup>
 																				<UsualGroup name="ДанныеРСВИтогиДопВзносыБаза" id="2445">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиДопВзносыБазаExtendedTooltip" id="2962"/>
@@ -1754,6 +1765,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиДопВзносыЗаголовокExtendedTooltip" id="2963"/>
 																						</UsualGroup>
@@ -1763,12 +1775,14 @@
 																		</UsualGroup>
 																		<UsualGroup name="ДанныеРСВИтогиПраваяКолонка" id="2444">
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ДанныеРСВИтогиПраваяКолонкаExtendedTooltip" id="2964"/>
 																			<ChildItems>
 																				<UsualGroup name="ДанныеРСВИтогиВзносы" id="2329">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиВзносыExtendedTooltip" id="2965"/>
@@ -1782,6 +1796,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаПоследние3МесяцаЗаголовкиExtendedTooltip" id="2966"/>
 																							<ChildItems>
@@ -1818,6 +1833,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаПоследние3МесяцаНачисленоExtendedTooltip" id="2969"/>
 																							<ChildItems>
@@ -1850,6 +1866,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаПоследние3МесяцаУплаченоРасширеннаяПодсказка" id="2972"/>
 																							<ChildItems>
@@ -1891,12 +1908,14 @@
 																	<ChildItems>
 																		<UsualGroup name="ДанныеРСВИтогиЛеваяКолонка1" id="3083">
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ДанныеРСВИтогиЛеваяКолонка1РасширеннаяПодсказка" id="3084"/>
 																			<ChildItems>
 																				<UsualGroup name="ДанныеРСВИтогиЗаработок2014" id="3085">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиЗаработок2014РасширеннаяПодсказка" id="3086"/>
@@ -1910,6 +1929,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаработокЗаголовки2014РасширеннаяПодсказка" id="3088"/>
 																							<ChildItems>
@@ -1957,6 +1977,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="РСВ_1ОбъектОбложенияПоМесяцамРасширеннаяПодсказка" id="3105"/>
 																							<ChildItems>
@@ -1998,6 +2019,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="РСВ_1ОблагаемаяБазаМоМесяцамРасширеннаяПодсказка" id="3122"/>
 																							<ChildItems>
@@ -2039,6 +2061,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="РСВ_1БазаСверхПредельнойВеличиныПоМесяцамРасширеннаяПодсказка" id="3160"/>
 																							<ChildItems>
@@ -2077,12 +2100,14 @@
 																		</UsualGroup>
 																		<UsualGroup name="ДанныеРСВИтогиПраваяКолонка2014" id="3142">
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>NormalSeparation</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ДанныеРСВИтогиПраваяКолонка2014РасширеннаяПодсказка" id="3143"/>
 																			<ChildItems>
 																				<UsualGroup name="ДанныеРСВИтогиВзносы2014" id="3144">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиВзносы2014РасширеннаяПодсказка" id="3145"/>
@@ -2096,6 +2121,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаПоследние3МесяцаЗаголовки2014РасширеннаяПодсказка" id="3147"/>
 																							<ChildItems>
@@ -2119,6 +2145,7 @@
 																				</UsualGroup>
 																				<UsualGroup name="ДанныеРСВИтогиПрочее2014" id="3191">
 																					<Group>Horizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ДанныеРСВИтогиПрочее2014РасширеннаяПодсказка" id="3192"/>
@@ -2132,6 +2159,7 @@
 																							</Title>
 																							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																							<Group>Vertical</Group>
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ExtendedTooltip name="ДанныеРСВИтогиЗаПоследние3МесяцаЗаголовки2015РасширеннаяПодсказка" id="3194"/>
 																							<ChildItems>
@@ -2163,6 +2191,7 @@
 											<ChildItems>
 												<UsualGroup name="ИтогиПоКатегориямЗаголовокГруппа" id="2794">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ИтогиПоКатегориямЗаголовокГруппаExtendedTooltip" id="2976"/>
@@ -2465,18 +2494,21 @@
 												</Table>
 												<UsualGroup name="ДанныеАДВ_6_2Итоги" id="2506">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиExtendedTooltip" id="2994"/>
 													<ChildItems>
 														<UsualGroup name="ДанныеАДВ_6_2ИтогиЛеваяКолонка" id="2507">
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиЛеваяКолонкаExtendedTooltip" id="2995"/>
 															<ChildItems>
 																<UsualGroup name="ДанныеАДВ_6_2ИтогиЗаработокГруппа" id="2508">
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиЗаработокГруппаExtendedTooltip" id="2996"/>
@@ -2490,6 +2522,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиЗаработокЗаголовкиExtendedTooltip" id="2997"/>
 																			<ChildItems>
@@ -2549,6 +2582,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиЗаработокПоОбычнымКатегориямExtendedTooltip" id="3002"/>
 																			<ChildItems>
@@ -2599,6 +2633,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиЗаработокПоЛьготнымКатегориямExtendedTooltip" id="3007"/>
 																			<ChildItems>
@@ -2644,6 +2679,7 @@
 																</UsualGroup>
 																<UsualGroup name="ДанныеАДВ_6_2ИтогиДопВзносыБаза" id="2542">
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиДопВзносыБазаExtendedTooltip" id="3012"/>
@@ -2652,12 +2688,14 @@
 														</UsualGroup>
 														<UsualGroup name="ДанныеАДВ_6_2ИтогиПраваяКолонка" id="2544">
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиПраваяКолонкаExtendedTooltip" id="3013"/>
 															<ChildItems>
 																<UsualGroup name="ДанныеАДВ_6_2ИтогиВзносы" id="2545">
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиВзносыExtendedTooltip" id="3014"/>
@@ -2671,6 +2709,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиВзносыЗаголовкиExtendedTooltip" id="3015"/>
 																			<ChildItems>
@@ -2707,6 +2746,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиВзносыЗаголовкиНачисленоExtendedTooltip" id="3018"/>
 																			<ChildItems>
@@ -2737,6 +2777,7 @@
 																			</Title>
 																			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ExtendedTooltip name="ДанныеАДВ_6_2ИтогиВзносыЗаголовкиУплаченоРасширеннаяПодсказка" id="3021"/>
 																			<ChildItems>

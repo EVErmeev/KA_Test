@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -28,6 +28,7 @@
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОбщаяИнформацияОСервисеРасширеннаяПодсказка" id="116"/>
 			<ChildItems>
@@ -96,6 +97,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="156"/>
@@ -115,6 +117,7 @@
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
 									<VerticalAlign>Bottom</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКоманднаяПанельОрганизацияРасширеннаяПодсказка" id="171"/>
 									<ChildItems>
@@ -256,6 +259,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаИспользованиеEDIРасширеннаяПодсказка" id="229"/>
@@ -342,6 +346,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПрефиксНомеровДокументовРасширеннаяПодсказка" id="355"/>
 													<ChildItems>
@@ -378,6 +383,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПродажиЗакупкиРасширеннаяПодсказка" id="97"/>
 													<ChildItems>
@@ -404,6 +410,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаПриниматьЗаказыОтПокупателейРасширеннаяПодсказка" id="173"/>
 																	<ChildItems>
@@ -425,6 +432,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаОпределениеПокупателейЗаказРасширеннаяПодсказка" id="178"/>
 																			<ChildItems>
@@ -441,6 +449,7 @@
 																						</v8:item>
 																					</Title>
 																					<Group>Vertical</Group>
+																					<Behavior>Usual</Behavior>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаВариантыОпределенияПокупателейРасширеннаяПодсказка" id="183"/>
 																					<ChildItems>
@@ -452,6 +461,7 @@
 																								</v8:item>
 																							</Title>
 																							<Group>AlwaysHorizontal</Group>
+																							<Behavior>Usual</Behavior>
 																							<ShowTitle>false</ShowTitle>
 																							<ExtendedTooltip name="ГруппаВариантыОпределенияПокупателейЧерныйСписокРасширеннаяПодсказка" id="193"/>
 																							<ChildItems>
@@ -499,6 +509,7 @@
 																								</v8:item>
 																							</Title>
 																							<Group>AlwaysHorizontal</Group>
+																							<Behavior>Usual</Behavior>
 																							<ShowTitle>false</ShowTitle>
 																							<ExtendedTooltip name="ГруппаВариантыОпределенияПокупателейБелыйСписокРасширеннаяПодсказка" id="185"/>
 																							<ChildItems>
@@ -551,6 +562,7 @@
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<HorizontalSpacing>Half</HorizontalSpacing>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаПринимаемЗаказыВТерминахПокупателяРасширеннаяПодсказка" id="201"/>
@@ -582,6 +594,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаНастройкаПокупателиВТерминахПокупателяРасширеннаяПодсказка" id="206"/>
@@ -649,6 +662,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>NormalSeparation</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАвтоматическиЗагружаемЗаказыКлиентовРасширеннаяПодсказка" id="80"/>
@@ -682,6 +696,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаОпределениеСкладаВЗагружаемыхЗаказахКлиентаРасширеннаяПодсказка" id="360"/>
 																			<ChildItems>
@@ -786,6 +801,7 @@
 																			<v8:content>Группа автоматически загружаем заказы клиентов</v8:content>
 																		</v8:item>
 																	</Title>
+																	<Behavior>Usual</Behavior>
 																	<Representation>NormalSeparation</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАвтоматическиОбновляемЗаказыКлиентовРасширеннаяПодсказка" id="85"/>
@@ -833,6 +849,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>NormalSeparation</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАвтоматическиОтменяемСтрокиЗаказовКлиентовРасширеннаяПодсказка" id="231"/>
@@ -861,6 +878,7 @@
 																					<v8:content>Группа причина отмены заказа клиента</v8:content>
 																				</v8:item>
 																			</Title>
+																			<Behavior>Usual</Behavior>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаПричинаОтменыЗаказаКлиентаРасширеннаяПодсказка" id="239"/>
 																			<ChildItems>
@@ -920,6 +938,7 @@
 																			<v8:content>Группа отправлять заказы поставщикам</v8:content>
 																		</v8:item>
 																	</Title>
+																	<Behavior>Usual</Behavior>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаОтправлятьЗаказыПоставщикамРасширеннаяПодсказка" id="101"/>
 																	<ChildItems>
@@ -942,6 +961,7 @@
 																			<v8:content>Группа автоматически загружаем заказы клиентов</v8:content>
 																		</v8:item>
 																	</Title>
+																	<Behavior>Usual</Behavior>
 																	<Representation>NormalSeparation</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАвтоматическиОбновляемЗаказыПоставщиковРасширеннаяПодсказка" id="106"/>
@@ -983,6 +1003,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>NormalSeparation</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАвтоматическиОтменяемСтрокиЗаказовПоставщикуРасширеннаяПодсказка" id="244"/>
@@ -1017,6 +1038,7 @@
 																					<v8:content>Группа причина отмены заказа клиента</v8:content>
 																				</v8:item>
 																			</ToolTip>
+																			<Behavior>Usual</Behavior>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаПричинаОтменыЗаказаПоставщикуРасширеннаяПодсказка" id="249"/>
 																			<ChildItems>
@@ -1110,6 +1132,7 @@
 														</v8:item>
 													</Title>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаДлительнаяОперацияРасширеннаяПодсказка" id="265"/>
 													<ChildItems>
@@ -1235,6 +1258,7 @@
 								</v8:item>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДлительнаяОперацияПолучениеРасширеннаяПодсказка" id="285"/>
 							<ChildItems>
@@ -1300,6 +1324,7 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНетДоступныхОрганизацийРасширеннаяПодсказка" id="313"/>
 							<ChildItems>

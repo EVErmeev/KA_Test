@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
@@ -29,6 +29,7 @@
 					<v8:content>Дополнительные реквизиты</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаДополнительныхРеквизитовРасширеннаяПодсказка" id="31"/>
 			<ChildItems>
 				<Page name="ГруппаОсновное" id="96">
@@ -59,6 +60,7 @@
 									<v8:content>Группа данные первичного документа</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаДанныеПервичногоДокументаРасширеннаяПодсказка" id="6"/>
 							<ChildItems>
 								<InputField name="НаименованиеПервичногоДокумента" id="7">
@@ -114,6 +116,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ДанныеОПрослеживаемомТовареРасширеннаяПодсказка" id="17"/>
 							<ChildItems>
 								<UsualGroup name="ИнформацияОТоваре" id="117">
@@ -129,6 +132,7 @@
 											<v8:content>Информация о товаре</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ИнформацияОТовареРасширеннаяПодсказка" id="118"/>
 									<ChildItems>
@@ -146,6 +150,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ЛевоРасширеннаяПодсказка" id="108"/>
 											<ChildItems>
@@ -183,6 +188,7 @@
 															<v8:content>Количество</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКоличествоРасширеннаяПодсказка" id="177"/>
@@ -216,6 +222,7 @@
 															<v8:content>Количество прослеживаемости</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКоличествоПрослеживаемостиРасширеннаяПодсказка" id="179"/>
@@ -260,6 +267,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ПравоРасширеннаяПодсказка" id="110"/>
 										</UsualGroup>
@@ -270,6 +278,7 @@
 													<v8:content>Сумма</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСуммаРасширеннаяПодсказка" id="183"/>
@@ -431,6 +440,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВторойПризнакУведомленияРасширеннаяПодсказка" id="53"/>
@@ -587,6 +597,7 @@
 							</Title>
 							<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодРеорганизацииРасширеннаяПодсказка" id="81">
@@ -643,6 +654,7 @@
 							</Title>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИННКППДоРеорганизацииРасширеннаяПодсказка" id="89">

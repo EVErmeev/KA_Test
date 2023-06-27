@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -176,6 +176,7 @@
 					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="52"/>
 			<Events>
 				<Event name="OnCurrentPageChange">СтраницыПриСменеСтраницы</Event>
@@ -205,6 +206,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="46"/>
@@ -217,6 +219,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРеквизитыЛевоРасширеннаяПодсказка" id="48"/>
@@ -229,6 +232,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="29"/>
@@ -280,6 +284,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРеквизитыПравоРасширеннаяПодсказка" id="50"/>
@@ -613,6 +618,7 @@
 							</Title>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСчетаРасширеннаяПодсказка" id="240"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаСчетаУчета" id="241">
@@ -625,6 +631,7 @@
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<Group>Horizontal</Group>
 									<VerticalSpacing>OneAndHalf</VerticalSpacing>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСчетаУчетаРасширеннаяПодсказка" id="242"/>
@@ -639,6 +646,7 @@
 											<Width>20</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСчетУчетаФлагРасширеннаяПодсказка" id="299"/>
@@ -680,6 +688,7 @@
 									</Title>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСчетАмортизацииРасширеннаяПодсказка" id="244"/>
@@ -694,6 +703,7 @@
 											<Width>20</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСчетАмортизацииФлагРасширеннаяПодсказка" id="301"/>
@@ -737,6 +747,7 @@
 							</Title>
 							<ToolTipRepresentation>None</ToolTipRepresentation>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаГоризонтальноРасширеннаяПодсказка" id="134"/>
@@ -750,6 +761,7 @@
 									</Title>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<ExtendedTooltip name="ГруппаБУРасширеннаяПодсказка" id="60"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаГрафикАмортизации" id="302">
@@ -760,6 +772,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаГрафикАмортизацииРасширеннаяПодсказка" id="303"/>
@@ -774,6 +787,7 @@
 													<Width>20</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаГрафикАмортизацииФлагРасширеннаяПодсказка" id="313"/>
@@ -821,6 +835,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСрокИспользованияБУРасширеннаяПодсказка" id="305"/>
@@ -835,6 +850,7 @@
 													<Width>20</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСрокИспользованияБУФлагРасширеннаяПодсказка" id="315"/>
@@ -866,6 +882,7 @@
 													</Title>
 													<ToolTipRepresentation>None</ToolTipRepresentation>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСрокИспользованияБУРеквизитыРасширеннаяПодсказка" id="132"/>
@@ -902,6 +919,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОбъемНаработкиБУРасширеннаяПодсказка" id="307"/>
@@ -916,6 +934,7 @@
 													<Width>20</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОбъемНаработкиБУФлагРасширеннаяПодсказка" id="317"/>
@@ -956,6 +975,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКоэффициентАмортизацииБУРасширеннаяПодсказка" id="309"/>
@@ -970,6 +990,7 @@
 													<Width>20</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКоэффициентАмортизацииБУФлагРасширеннаяПодсказка" id="319"/>
@@ -1010,6 +1031,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКоэффициентУскоренияБУРасширеннаяПодсказка" id="311"/>
@@ -1024,6 +1046,7 @@
 													<Width>20</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКоэффициентУскоренияБУФлагРасширеннаяПодсказка" id="321"/>
@@ -1067,6 +1090,7 @@
 									</Title>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<ExtendedTooltip name="ГруппаНУРасширеннаяПодсказка" id="93"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаСрокИспользованияНУ" id="94">
@@ -1078,6 +1102,7 @@
 											</Title>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСрокИспользованияНУРасширеннаяПодсказка" id="95"/>
@@ -1092,6 +1117,7 @@
 													<Width>19</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСрокИспользованияНУФлагРасширеннаяПодсказка" id="323"/>
@@ -1123,6 +1149,7 @@
 													</Title>
 													<ToolTipRepresentation>None</ToolTipRepresentation>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСрокИспользованияНУРеквизитыРасширеннаяПодсказка" id="190"/>
@@ -1163,6 +1190,7 @@
 											</Title>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСпециальныйКоэффициентНУРасширеннаяПодсказка" id="106"/>
@@ -1177,6 +1205,7 @@
 													<Width>19</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСпециальныйКоэффициентНУФлагРасширеннаяПодсказка" id="325"/>
@@ -1233,6 +1262,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтражениеРасходовРасширеннаяПодсказка" id="136"/>

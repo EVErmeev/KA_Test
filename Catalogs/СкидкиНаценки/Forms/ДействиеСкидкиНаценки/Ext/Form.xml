@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -42,6 +42,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="338"/>
@@ -73,6 +74,7 @@
 			</Title>
 			<TitleTextColor>style:FormTextColor</TitleTextColor>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаИспользованиеТекущейСкидкиРасширеннаяПодсказка" id="123"/>
 			<ChildItems>
@@ -83,6 +85,7 @@
 							<v8:content>Дополнительная информация</v8:content>
 						</v8:item>
 					</Title>
+					<PagesRepresentation>TabsOnTop</PagesRepresentation>
 					<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="128"/>
 					<ChildItems>
 						<Page name="ГруппаСклады" id="129">
@@ -107,6 +110,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ИспользованиеНаСкладахШапкаРасширеннаяПодсказка" id="347"/>
@@ -288,6 +292,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ИспользованиеНаСкладахКонтекстноеМеню" id="132">
 										<ChildItems>
 											<Button name="ИспользованиеНаСкладахКонтекстноеМенюСписок" id="530">
@@ -494,6 +499,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ИспользованиеВКартахЛояльностиШапкаРасширеннаяПодсказка" id="354"/>
@@ -632,6 +638,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ИспользованиеВКартахЛояльностиКонтекстноеМеню" id="183">
 										<ChildItems>
 											<Popup name="ИспользованиеВКартахЛояльностиКонтекстноеМенюГруппаУстановитьСтатус" id="568">
@@ -802,6 +809,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ИспользованиеВИндивидуальныхСоглашенияхСКлиентамиШапкаРасширеннаяПодсказка" id="363"/>
@@ -940,6 +948,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ИспользованиеВИндивидуальныхСоглашенияхСКлиентамиКонтекстноеМеню" id="384">
 										<ChildItems>
 											<Popup name="ИспользованиеВИндивидуальныхСоглашенияхСКлиентамиКонтекстноеМенюГруппаУстановитьСтатус" id="576">
@@ -1152,6 +1161,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ИспользованиеВТиповыхСоглашенияхСКлиентамиШапкаРасширеннаяПодсказка" id="431"/>
@@ -1290,6 +1300,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ИспользованиеВТиповыхСоглашенияхСКлиентамиКонтекстноеМеню" id="452">
 										<ChildItems>
 											<Popup name="ИспользованиеВТиповыхСоглашенияхСКлиентамиКонтекстноеМенюГруппаУстановитьСтатус" id="584">

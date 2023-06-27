@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandSet>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -138,6 +138,7 @@
 	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="59">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="60"/>
 			<Events>
 				<Event name="OnCurrentPageChange">ГруппаСтраницыПриСменеСтраницы</Event>
@@ -166,10 +167,12 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаИдентификаторПартииРасширеннаяПодсказка" id="40"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаИдентификаторПартииЛево" id="41">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИдентификаторПартииЛевоРасширеннаяПодсказка" id="42"/>
@@ -215,12 +218,14 @@
 								</UsualGroup>
 								<UsualGroup name="ГруппаИдентификаторПартииПраво" id="43">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИдентификаторПартииПравоРасширеннаяПодсказка" id="44"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаГруппировкаКод" id="88">
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаГруппировкаКодРасширеннаяПодсказка" id="89"/>
@@ -272,10 +277,12 @@
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОсновноеИзделиеРасширеннаяПодсказка" id="46"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаОсновноеИзделиеЛево" id="47">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОсновноеИзделиеЛевоРасширеннаяПодсказка" id="48"/>
@@ -312,6 +319,7 @@
 								</UsualGroup>
 								<UsualGroup name="ГруппаОсновноеИзделиеПраво" id="49">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОсновноеИзделиеПравоРасширеннаяПодсказка" id="50"/>
@@ -341,6 +349,7 @@
 									<v8:content>Дополнительно</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОтветственноеПодразделениеРасширеннаяПодсказка" id="102"/>
 							<ChildItems>
 								<InputField name="ОтветственноеПодразделение" id="103">
@@ -375,6 +384,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="66"/>

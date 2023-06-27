@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -29,6 +29,7 @@
 			<Height>15</Height>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДеревоНастройкиПоВиджетамРасширеннаяПодсказка" id="31"/>
 			<ChildItems>
@@ -40,6 +41,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаТаблицаВиджетовРасширеннаяПодсказка" id="33"/>
 					<ChildItems>
@@ -149,6 +151,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиПоВиджетамРасширеннаяПодсказка" id="35"/>
 					<ChildItems>
@@ -193,6 +196,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыЗакупкиРасширеннаяПодсказка" id="44"/>
@@ -231,6 +235,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСтатусыДокументовОтступЗакупкиРасширеннаяПодсказка" id="49"/>
 													<ChildItems>
@@ -252,6 +257,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаСтатусыДокументовЗакупкиРасширеннаяПодсказка" id="54"/>
 															<ChildItems>
@@ -355,6 +361,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыПродажиРасширеннаяПодсказка" id="72"/>
@@ -393,6 +400,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСтатусыДокументовОтступПродажиРасширеннаяПодсказка" id="80"/>
 													<ChildItems>
@@ -414,6 +422,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаСтатусыДокументовПродажиРасширеннаяПодсказка" id="85"/>
 															<ChildItems>
@@ -516,6 +525,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыКонтрольПоступленийРасширеннаяПодсказка" id="98"/>
@@ -548,6 +558,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКонтрольПоступленийПоДатамОтступРасширеннаяПодсказка" id="128"/>
 													<ChildItems>
@@ -564,6 +575,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаКонтрольПоступленийПоДатамРасширеннаяПодсказка" id="133"/>
 															<ChildItems>
@@ -643,6 +655,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыКонтрольОтгрузокРасширеннаяПодсказка" id="137"/>
@@ -681,6 +694,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКонтрольОтгрузокПоДатамОтступРасширеннаяПодсказка" id="145"/>
 													<ChildItems>
@@ -703,6 +717,7 @@
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаКонтрольОтгрузокПоДатамРасширеннаяПодсказка" id="150"/>
 															<ChildItems>
@@ -782,6 +797,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыКупитьРасширеннаяПодсказка" id="166"/>
@@ -841,6 +857,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРазделыСправочникиРазделыРасширеннаяПодсказка" id="186"/>
@@ -902,6 +919,7 @@
 					<v8:content>Группа командная панель</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="27"/>
 			<ChildItems>

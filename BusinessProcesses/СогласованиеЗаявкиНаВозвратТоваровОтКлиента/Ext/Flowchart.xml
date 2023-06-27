@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<GraphicalSchema xmlns="http://v8.1c.ru/8.3/xcf/scheme" xmlns:sch="http://v8.1c.ru/8.2/data/graphscheme" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<GraphicalSchema xmlns="http://v8.1c.ru/8.3/xcf/scheme" xmlns:sch="http://v8.1c.ru/8.2/data/graphscheme" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<BackColor>style:FieldBackColor</BackColor>
 	<GridEnabled>true</GridEnabled>
 	<DrawGridMode>Lines</DrawGridMode>
@@ -56,7 +56,7 @@
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя">
-						<Value xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xsi:type="xr:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЗаявкиНаВозвратТоваровОтКлиентов</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЗаявкиНаВозвратТоваровОтКлиентов</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -712,7 +712,7 @@
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя">
-						<Value xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xsi:type="xr:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийКоммерческиеУсловияПродаж</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийКоммерческиеУсловияПродаж</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -801,7 +801,7 @@
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя">
-						<Value xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xsi:type="xr:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЦеновыеУсловияПродаж</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЦеновыеУсловияПродаж</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -857,7 +857,7 @@
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя">
-						<Value xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xsi:type="xr:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийФинансовыеУсловияПродаж</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийФинансовыеУсловияПродаж</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -913,7 +913,7 @@
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя">
-						<Value xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xsi:type="xr:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЛогистическиеУсловияПродаж</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.РолиИсполнителей.СогласующийЛогистическиеУсловияПродаж</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>

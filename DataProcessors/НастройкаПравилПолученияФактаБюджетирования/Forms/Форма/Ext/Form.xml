@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -19,6 +19,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="273"/>
@@ -106,6 +107,7 @@
 									<v8:content>Страницы правила по статьям показателям бюджетов</v8:content>
 								</v8:item>
 							</Title>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыПравилаПоСтатьямПоказателямБюджетовРасширеннаяПодсказка" id="364"/>
 							<ChildItems>
 								<Page name="СтраницаПравилаПоСтатьямБюджетов" id="365">
@@ -154,6 +156,7 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="СтатьиБюджетовКонтекстноеМеню" id="370"/>
 											<AutoCommandBar name="СтатьиБюджетовКоманднаяПанель" id="371">
 												<Autofill>false</Autofill>
@@ -417,6 +420,7 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ПоказателиБюджетовКонтекстноеМеню" id="399"/>
 											<AutoCommandBar name="ПоказателиБюджетовКоманднаяПанель" id="400">
 												<Autofill>false</Autofill>
@@ -665,6 +669,7 @@
 									<v8:content>Страницы разделы источников данных</v8:content>
 								</v8:item>
 							</Title>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыРазделыИсточниковДанныхРасширеннаяПодсказка" id="362"/>
 							<ChildItems>
 								<Page name="СтраницаПравилаПоХозяйственнымОперациям" id="538">
@@ -719,6 +724,7 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>DontUpdate</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ХозяйственныеОперацииКонтекстноеМеню" id="2"/>
 											<AutoCommandBar name="ХозяйственныеОперацииКоманднаяПанель" id="3">
 												<Autofill>false</Autofill>
@@ -1001,6 +1007,7 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>DontUpdate</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="СтатьиАктивовПассивовКонтекстноеМеню" id="87"/>
 											<AutoCommandBar name="СтатьиАктивовПассивовКоманднаяПанель" id="88">
 												<Autofill>false</Autofill>
@@ -1267,6 +1274,7 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>DontUpdate</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ПланСчетовРегламентированногоУчетаКонтекстноеМеню" id="958"/>
 											<AutoCommandBar name="ПланСчетовРегламентированногоУчетаКоманднаяПанель" id="957">
 												<Autofill>false</Autofill>
@@ -1530,6 +1538,7 @@
 									<ChildItems>
 										<UsualGroup name="ГруппаПравилаПоСчетамМеждународногоУчета" id="1056">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПравилаПоСчетамМеждународногоУчетаРасширеннаяПодсказка" id="1057"/>
@@ -1579,6 +1588,7 @@
 													<ShowRoot>false</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>DontUpdate</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="ПланСчетовМеждународногоУчетаКонтекстноеМеню" id="967"/>
 													<AutoCommandBar name="ПланСчетовМеждународногоУчетаКоманднаяПанель" id="966">
 														<Autofill>false</Autofill>
@@ -1845,6 +1855,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОтражениеВУчетеРасширеннаяПодсказка" id="684"/>

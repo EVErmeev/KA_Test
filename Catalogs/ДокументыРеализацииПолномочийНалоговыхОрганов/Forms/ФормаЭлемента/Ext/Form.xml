@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -238,6 +238,7 @@
 			<HorizontalStretch>true</HorizontalStretch>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПанельОтправкиExtendedTooltip" id="132"/>
@@ -256,6 +257,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:ЦветФонаУдачнойОтправки</BackColor>
@@ -275,6 +277,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="СостояниеОтправкиРасширеннаяПодсказка" id="136"/>
@@ -361,6 +364,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаКомментарийКСостоянию" id="180">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКомментарийКСостояниюРасширеннаяПодсказка" id="181"/>
@@ -395,6 +399,7 @@
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПанельПриемаРасширеннаяПодсказка" id="170"/>
@@ -404,6 +409,7 @@
 									<HorizontalStretch>true</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКнопкиПриемаExtendedTooltip" id="175"/>
@@ -427,6 +433,7 @@
 				<UsualGroup name="БлокОшибокИИзвещений" id="194">
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:ЦветФонаОшибкиОтправки</BackColor>
@@ -441,6 +448,7 @@
 							</ToolTip>
 							<Width>27</Width>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="БлокКритическихОшибокРасширеннаяПодсказка" id="197"/>
@@ -486,6 +494,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="БлокНеотправленныхИзвещенийРасширеннаяПодсказка" id="205"/>
@@ -532,6 +541,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="111"/>
@@ -551,6 +561,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЗаголовкиРасширеннаяПодсказка" id="113"/>
@@ -644,6 +655,7 @@
 					</ToolTip>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСрокиПредставленияРасширеннаяПодсказка" id="115"/>
@@ -656,6 +668,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>#E1EDA4</BackColor>
@@ -698,6 +711,7 @@
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
 							<VerticalSpacing>Single</VerticalSpacing>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>#F2F2F2</BackColor>
@@ -717,6 +731,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗаголовкаСроковРасширеннаяПодсказка" id="378"/>
@@ -763,6 +778,7 @@
 											<v8:content>Группа не удалось разобрать PDF</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНеУдалосьРазобратьPDFРасширеннаяПодсказка" id="430"/>
@@ -837,6 +853,7 @@
 									<Group>AlwaysHorizontal</Group>
 									<HorizontalSpacing>Half</HorizontalSpacing>
 									<VerticalAlign>Center</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаДатаПриемаРасширеннаяПодсказка" id="383"/>
@@ -896,6 +913,7 @@
 									<HorizontalSpacing>Half</HorizontalSpacing>
 									<VerticalSpacing>None</VerticalSpacing>
 									<VerticalAlign>Center</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОтветаНаТребованиеРасширеннаяПодсказка" id="414"/>
@@ -956,6 +974,7 @@
 											<GroupVerticalAlign>Center</GroupVerticalAlign>
 											<Group>AlwaysHorizontal</Group>
 											<HorizontalAlign>Right</HorizontalAlign>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОшибокОтветаРасширеннаяПодсказка" id="400"/>
@@ -1030,6 +1049,7 @@
 		</LabelDecoration>
 		<UsualGroup name="ГруппаКвитанцияОПрисвоенииРНПТ" id="290">
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКвитанцияОПрисвоенииРНПТРасширеннаяПодсказка" id="291"/>
@@ -1059,6 +1079,7 @@
 				</LabelField>
 				<UsualGroup name="ГруппаРеквизитыСобственникаТовараЮЛ" id="304">
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРеквизитыСобственникаТовараЮЛРасширеннаяПодсказка" id="305"/>
@@ -1083,6 +1104,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаРеквизитыСобственникаТовараФЛ" id="315">
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРеквизитыСобственникаТовараФЛРасширеннаяПодсказка" id="316"/>

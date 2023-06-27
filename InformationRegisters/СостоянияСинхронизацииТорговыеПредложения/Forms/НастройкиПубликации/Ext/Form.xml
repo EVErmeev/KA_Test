@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -61,6 +61,7 @@
 		</InputField>
 		<UsualGroup name="ГруппаЦеныОформление" id="84">
 			<HorizontalStretch>true</HorizontalStretch>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:ЦветФонаСкидкиТорговыхПредложенийОсветление</BackColor>
@@ -74,10 +75,12 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<BackColor>style:ЦветФонаСкидкиТорговыхПредложений</BackColor>
 					<ExtendedTooltip name="ГруппаЦеныРасширеннаяПодсказка" id="39"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаШапка" id="91">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="92"/>
@@ -109,6 +112,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаСкидкиГруппировка" id="89">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкидкиГруппировкаРасширеннаяПодсказка" id="90"/>
@@ -121,16 +125,19 @@
 								</PictureDecoration>
 								<UsualGroup name="ГруппаСкидки" id="50">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСкидкиРасширеннаяПодсказка" id="51"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаЦенаДоСкидки" id="63">
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаЦенаДоСкидкиРасширеннаяПодсказка" id="64"/>
 											<ChildItems>
 												<UsualGroup name="ИспользоватьСкидку" id="77">
 													<Width>11</Width>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ИспользоватьСкидкуРасширеннаяПодсказка" id="78"/>
@@ -184,12 +191,14 @@
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ГруппаМатрицаЦен" id="55">
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаМатрицаЦенРасширеннаяПодсказка" id="56"/>
 											<ChildItems>
 												<UsualGroup name="ИспользоватьСкидкуЗаОпт" id="79">
 													<Width>11</Width>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ИспользоватьСкидкуЗаОптРасширеннаяПодсказка" id="80"/>
@@ -268,6 +277,7 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаРегионы" id="28">
 			<Width>40</Width>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРегионыРасширеннаяПодсказка" id="29"/>
@@ -320,6 +330,7 @@
 			<ExtendedTooltip name="ПубликоватьСрокиПоставкиРасширеннаяПодсказка" id="24"/>
 		</CheckBoxField>
 		<UsualGroup name="ГруппаОстатки" id="33">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОстаткиРасширеннаяПодсказка" id="34"/>
@@ -363,6 +374,7 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаКратностьУпаковок" id="96">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКратностьУпаковокРасширеннаяПодсказка" id="97"/>

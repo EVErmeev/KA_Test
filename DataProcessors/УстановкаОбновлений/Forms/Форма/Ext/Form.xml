@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
@@ -33,6 +33,7 @@
 					<v8:content>Панель предупреждений</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПанельПредупрежденийРасширеннаяПодсказка" id="1236"/>
@@ -62,6 +63,7 @@
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КолонкаПредупрежденияРасширеннаяПодсказка" id="1167"/>
@@ -118,6 +120,7 @@
 					<v8:content>Панель информации</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПанельИнформацииРасширеннаяПодсказка" id="1228"/>
@@ -182,6 +185,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаФайлОбновленияРасширеннаяПодсказка" id="1027"/>
 							<ChildItems>
@@ -242,6 +246,7 @@
 											<v8:content>Панель обновление из основной конфигурации</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ПанельОбновлениеИзОсновнойКонфигурацииExtendedTooltip" id="750"/>
@@ -364,6 +369,7 @@
 							</Title>
 							<VerticalStretch>true</VerticalStretch>
 							<VerticalAlign>Bottom</VerticalAlign>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПоискИУстановкаОбновленийРасширеннаяПодсказка" id="1155"/>
@@ -403,6 +409,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаВыборРежимаОбновленияФайлРасширеннаяПодсказка" id="1035"/>
 							<ChildItems>
@@ -532,6 +539,7 @@
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
 									<VerticalAlign>Center</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСоединенийExtendedTooltip" id="854"/>
@@ -543,6 +551,7 @@
 													<v8:content>Важно</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<BackColor>style:ToolTipBackColor</BackColor>
@@ -702,6 +711,7 @@
 									</Title>
 									<VerticalStretch>true</VerticalStretch>
 									<VerticalAlign>Bottom</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРезервнаяКопияExtendedTooltip" id="868"/>
@@ -758,6 +768,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаВыборРежимаОбновленияСерверРасширеннаяПодсказка" id="1037"/>
 							<ChildItems>
@@ -768,6 +779,7 @@
 											<v8:content>Отступ четыре</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ОтступЧетыреExtendedTooltip" id="890"/>
@@ -884,6 +896,7 @@
 															<v8:content>Панель почта</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ПанельПочтаExtendedTooltip" id="896"/>
@@ -943,6 +956,7 @@
 															<v8:content>Соединений 1</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСоединений1ExtendedTooltip" id="901"/>
@@ -1062,6 +1076,7 @@
 											<v8:content>Резервная копия сервер</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРезервнаяКопияСерверExtendedTooltip" id="911"/>
@@ -1084,6 +1099,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДополнительнаяИнформацияРасширеннаяПодсказка" id="1091"/>
@@ -1142,6 +1158,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ОшибкаУстановкиИсправленийРасширеннаяПодсказка" id="1201"/>
 							<ChildItems>
@@ -1153,6 +1170,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСообщениеРасширеннаяПодсказка" id="1209"/>
@@ -1203,6 +1221,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ИсправленияУстановленыРасширеннаяПодсказка" id="1181"/>
 							<ChildItems>
@@ -1224,6 +1243,7 @@
 											<v8:content>Перезапустить отступ</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПерезапуститьОтступРасширеннаяПодсказка" id="1186"/>
@@ -1254,6 +1274,7 @@
 											<v8:content>Активные пользователи</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаАктивныеПользователиРасширеннаяПодсказка" id="1194"/>
@@ -1297,6 +1318,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаОбновленияНеОбнаруженоРасширеннаяПодсказка" id="1101"/>
 							<ChildItems>
@@ -1308,6 +1330,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРезультатПоискаОбновленияExtendedTooltip" id="1103"/>
@@ -1319,6 +1342,7 @@
 													<v8:content>Обновление производится в главном узле</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ОбновлениеПроизводитсяВГлавномУзлеExtendedTooltip" id="1131"/>
@@ -1377,6 +1401,7 @@
 			</Title>
 			<VerticalStretch>true</VerticalStretch>
 			<VerticalAlign>Bottom</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="1004"/>

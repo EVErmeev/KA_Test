@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -42,6 +42,7 @@
 		<UsualGroup name="ГруппаОбеспечивать" id="183">
 			<EnableContentChange>true</EnableContentChange>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОбеспечиватьРасширеннаяПодсказка" id="185"/>
@@ -74,6 +75,7 @@
 				<UsualGroup name="ГруппаСоставПоСпецификации" id="172">
 					<EnableContentChange>true</EnableContentChange>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСоставПоСпецификацииРасширеннаяПодсказка" id="173"/>
@@ -128,12 +130,14 @@
 			<EnableContentChange>true</EnableContentChange>
 			<Width>56</Width>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПроизводитсяНаЭтапеРасширеннаяПодсказка" id="94"/>
 			<ChildItems>
 				<UsualGroup name="Группа1" id="161">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="162"/>
@@ -165,6 +169,7 @@
 						</RadioButtonField>
 						<UsualGroup name="Группа6" id="137">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="138"/>
@@ -203,6 +208,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаРемонтПоСпецификации" id="126">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРемонтПоСпецификацииРасширеннаяПодсказка" id="127"/>
@@ -224,6 +230,7 @@
 						</CheckBoxField>
 						<UsualGroup name="Группа7" id="142">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="143"/>
@@ -265,12 +272,14 @@
 		<UsualGroup name="ГруппаПроизвестиПоСпецификации" id="102">
 			<EnableContentChange>true</EnableContentChange>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПроизвестиПоСпецификацииРасширеннаяПодсказка" id="103"/>
 			<ChildItems>
 				<UsualGroup name="Группа2" id="163">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="164"/>
@@ -303,6 +312,7 @@
 						</RadioButtonField>
 						<UsualGroup name="Группа8" id="147">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="148"/>
@@ -343,6 +353,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаПланироватьНеРанее" id="115">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПланироватьНеРанееРасширеннаяПодсказка" id="116"/>
@@ -370,6 +381,7 @@
 						</CheckBoxField>
 						<UsualGroup name="Группа9" id="152">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="153"/>
@@ -414,6 +426,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="Группа3" id="168">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="169"/>
 			<ChildItems>
 				<Page name="СтатическаяСтруктура" id="170">

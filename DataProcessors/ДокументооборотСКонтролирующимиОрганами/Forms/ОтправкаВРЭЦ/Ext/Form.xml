@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Width>54</Width>
 	<Height>37</Height>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -92,6 +92,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ШапкаСостоянияРасширеннаяПодсказка" id="178"/>
@@ -116,6 +117,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкиРасширеннаяПодсказка" id="183"/>
@@ -134,6 +136,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДанныеОрганизацииРасширеннаяПодсказка" id="185"/>
@@ -176,6 +179,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДанныеГосОрганаРасширеннаяПодсказка" id="193"/>
@@ -222,6 +226,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="БлокКритическихОшибокРасширеннаяПодсказка" id="22"/>
@@ -241,6 +246,7 @@
 					</ToolTip>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:ЦветФонаОшибкиОтправки</BackColor>
@@ -285,6 +291,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="БлокНеотправленныхСообщенийРасширеннаяПодсказка" id="32"/>
@@ -298,6 +305,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:ЦветФонаОшибкиОтправки</BackColor>
@@ -338,24 +346,28 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="БлокЭтаповРасширеннаяПодсказка" id="41"/>
 			<ChildItems>
 				<UsualGroup name="ОбщийБлокЭтапов" id="42">
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбщийБлокЭтаповРасширеннаяПодсказка" id="43"/>
 					<ChildItems>
 						<UsualGroup name="БлокЭтапаОтправки1" id="44">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="БлокЭтапаОтправки1РасширеннаяПодсказка" id="45"/>
 							<ChildItems>
 								<UsualGroup name="БлокЭтапа1" id="46">
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:БазовыйЦветФонаЭтапаОтправки</BackColor>
@@ -363,6 +375,7 @@
 									<ChildItems>
 										<UsualGroup name="СведенияПоЭтапу1" id="48">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоЭтапу1РасширеннаяПодсказка" id="49"/>
@@ -397,6 +410,7 @@
 											<Width>40</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоРезультатуЭтапа1РасширеннаяПодсказка" id="57"/>
@@ -436,12 +450,14 @@
 						</UsualGroup>
 						<UsualGroup name="БлокЭтапаОтправки2" id="64">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="БлокЭтапаОтправки2РасширеннаяПодсказка" id="65"/>
 							<ChildItems>
 								<UsualGroup name="БлокЭтапа2" id="66">
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:БазовыйЦветФонаЭтапаОтправки</BackColor>
@@ -449,6 +465,7 @@
 									<ChildItems>
 										<UsualGroup name="СведенияПоЭтапу2" id="68">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоЭтапу2РасширеннаяПодсказка" id="69"/>
@@ -483,6 +500,7 @@
 											<Width>40</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоРезультатуЭтапа2РасширеннаяПодсказка" id="77"/>
@@ -522,12 +540,14 @@
 						</UsualGroup>
 						<UsualGroup name="БлокЭтапаОтправки3" id="84">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="БлокЭтапаОтправки3РасширеннаяПодсказка" id="85"/>
 							<ChildItems>
 								<UsualGroup name="БлокЭтапа3" id="86">
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:БазовыйЦветФонаЭтапаОтправки</BackColor>
@@ -535,6 +555,7 @@
 									<ChildItems>
 										<UsualGroup name="СведенияПоЭтапу3" id="88">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоЭтапу3РасширеннаяПодсказка" id="89"/>
@@ -569,6 +590,7 @@
 											<Width>40</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоРезультатуЭтапа3РасширеннаяПодсказка" id="97"/>
@@ -608,12 +630,14 @@
 						</UsualGroup>
 						<UsualGroup name="БлокЭтапаОтправки4" id="104">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="БлокЭтапаОтправки4РасширеннаяПодсказка" id="105"/>
 							<ChildItems>
 								<UsualGroup name="БлокЭтапа4" id="106">
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:БазовыйЦветФонаЭтапаОтправки</BackColor>
@@ -621,6 +645,7 @@
 									<ChildItems>
 										<UsualGroup name="СведенияПоЭтапу4" id="108">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоЭтапу4РасширеннаяПодсказка" id="109"/>
@@ -655,6 +680,7 @@
 											<Width>40</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="СведенияПоРезультатуЭтапа4РасширеннаяПодсказка" id="117"/>
@@ -715,6 +741,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ТехническиеСведенияРасширеннаяПодсказка" id="164"/>

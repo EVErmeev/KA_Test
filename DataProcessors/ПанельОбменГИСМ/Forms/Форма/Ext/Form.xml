@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -25,6 +25,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗавершениеФункциональностиРасширеннаяПодсказка" id="250"/>
@@ -78,6 +79,7 @@
 			<GroupVerticalAlign>Center</GroupVerticalAlign>
 			<Group>Horizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИнформацияРасширеннаяПодсказка" id="2"/>
@@ -92,6 +94,7 @@
 					<HorizontalStretch>true</HorizontalStretch>
 					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаИнформацияЛевоРасширеннаяПодсказка" id="4"/>
@@ -176,6 +179,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПанельРасширеннаяПодсказка" id="25"/>
@@ -242,6 +246,7 @@
 						</v8:item>
 					</Title>
 					<Width>40</Width>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиЛевоРасширеннаяПодсказка" id="35"/>
@@ -280,6 +285,7 @@
 						</v8:item>
 					</Title>
 					<Width>40</Width>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиПравоРасширеннаяПодсказка" id="43"/>
@@ -320,6 +326,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ДокументыРасширеннаяПодсказка" id="51"/>
@@ -332,6 +339,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ГруппаЗакупкиРасширеннаяПодсказка" id="53"/>
 					<ChildItems>
@@ -343,6 +351,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЗаявкаНаВыпускКиЗРасширеннаяПодсказка" id="55"/>
@@ -359,6 +368,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗаявкаНаВыпускКиЗЗаголовокРасширеннаяПодсказка" id="57"/>
@@ -381,6 +391,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗаявкаНаВыпускКиЗОформитеРасширеннаяПодсказка" id="61"/>
@@ -403,6 +414,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗаявкаНаВыпускКиЗОтработайтеРасширеннаяПодсказка" id="65"/>
@@ -424,6 +436,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЗаявкаНаВыпускКиЗОжидайтеРасширеннаяПодсказка" id="69"/>
@@ -446,6 +459,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОПоступленииМаркированныхТоваровРасширеннаяПодсказка" id="73"/>
@@ -462,6 +476,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОПоступленииМаркированныхТоваровЗаголовокРасширеннаяПодсказка" id="75"/>
@@ -485,6 +500,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОПоступленииМаркированныхТоваровОформитеРасширеннаяПодсказка" id="79"/>
@@ -506,6 +522,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОПоступленииМаркированныхТоваровОтработайтеРасширеннаяПодсказка" id="84"/>
@@ -528,6 +545,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОПоступленииМаркированныхТоваровОжидайтеРасширеннаяПодсказка" id="88"/>
@@ -550,6 +568,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОВвозеМаркированныхТоваровИзЕАЭСРасширеннаяПодсказка" id="92"/>
@@ -566,6 +585,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОВвозеМаркированныхТоваровИзЕАЭСЗаголовокРасширеннаяПодсказка" id="94"/>
@@ -589,6 +609,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОВвозеМаркированныхТоваровИзЕАЭСОформитеРасширеннаяПодсказка" id="98"/>
@@ -611,6 +632,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОВвозеМаркированныхТоваровИзЕАЭСОтработайтеРасширеннаяПодсказка" id="102"/>
@@ -633,6 +655,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОВвозеМаркированныхТоваровИзЕАЭСОжидайтеРасширеннаяПодсказка" id="106"/>
@@ -655,6 +678,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОбИмпортеМаркированныхТоваровРасширеннаяПодсказка" id="110"/>
@@ -671,6 +695,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбИмпортеМаркированныхТоваровЗаголовокРасширеннаяПодсказка" id="112"/>
@@ -693,6 +718,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбИмпортеМаркированныхТоваровОформитеРасширеннаяПодсказка" id="116"/>
@@ -714,6 +740,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбИмпортеМаркированныхТоваровОтработайтеРасширеннаяПодсказка" id="120"/>
@@ -735,6 +762,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбИмпортеМаркированныхТоваровОжидайтеРасширеннаяПодсказка" id="124"/>
@@ -773,6 +801,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ГруппаСкладРасширеннаяПодсказка" id="130"/>
 					<ChildItems>
@@ -784,6 +813,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаМаркировкаТоваровРасширеннаяПодсказка" id="132"/>
@@ -800,6 +830,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаМаркировкаТоваровЗаголовокРасширеннаяПодсказка" id="134"/>
@@ -822,6 +853,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаМаркировкаТоваровОформитеРасширеннаяПодсказка" id="138"/>
@@ -843,6 +875,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаМаркировкаТоваровОтработайтеРасширеннаяПодсказка" id="143"/>
@@ -864,6 +897,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаМаркировкаТоваровОжидайтеРасширеннаяПодсказка" id="147"/>
@@ -885,6 +919,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПеремаркировкаТоваровРасширеннаяПодсказка" id="151"/>
@@ -901,6 +936,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПеремаркировкаТоваровЗаголовокРасширеннаяПодсказка" id="153"/>
@@ -924,6 +960,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПеремаркировкаТоваровОформитеРасширеннаяПодсказка" id="157"/>
@@ -945,6 +982,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПеремаркировкаТоваровОтработайтеРасширеннаяПодсказка" id="162"/>
@@ -967,6 +1005,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПеремаркировкаТоваровОжидайтеРасширеннаяПодсказка" id="166"/>
@@ -989,6 +1028,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОСписанииКиЗРасширеннаяПодсказка" id="170"/>
@@ -1005,6 +1045,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОСписанииКиЗЗаголовокРасширеннаяПодсказка" id="172"/>
@@ -1028,6 +1069,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОСписанииКиЗОформитеРасширеннаяПодсказка" id="176"/>
@@ -1050,6 +1092,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОСписанииКиЗОтработайтеРасширеннаяПодсказка" id="180"/>
@@ -1072,6 +1115,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОСписанииКиЗОжидайтеРасширеннаяПодсказка" id="184"/>
@@ -1096,6 +1140,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ExtendedTooltip name="ГруппаПродажиРасширеннаяПодсказка" id="188"/>
 					<ChildItems>
@@ -1107,6 +1152,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОбОтгрузкеМаркированныхТоваровРасширеннаяПодсказка" id="190"/>
@@ -1123,6 +1169,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбОтгрузкеМаркированныхТоваровЗаголовокРасширеннаяПодсказка" id="192"/>
@@ -1146,6 +1193,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбОтгрузкеМаркированныхТоваровОформитеРасширеннаяПодсказка" id="196"/>
@@ -1168,6 +1216,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбОтгрузкеМаркированныхТоваровОтработайтеРасширеннаяПодсказка" id="200"/>
@@ -1190,6 +1239,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОбОтгрузкеМаркированныхТоваровОжидайтеРасширеннаяПодсказка" id="204"/>
@@ -1212,6 +1262,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОРозничныхПродажахРасширеннаяПодсказка" id="208"/>
@@ -1228,6 +1279,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхПродажахЗаголовокРасширеннаяПодсказка" id="210"/>
@@ -1250,6 +1302,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхПродажахОформитеРасширеннаяПодсказка" id="214"/>
@@ -1271,6 +1324,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхПродажахОтработайтеРасширеннаяПодсказка" id="219"/>
@@ -1292,6 +1346,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхПродажахОжидайтеРасширеннаяПодсказка" id="223"/>
@@ -1313,6 +1368,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУведомлениеОРозничныхВозвратахРасширеннаяПодсказка" id="227"/>
@@ -1329,6 +1385,7 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхВозвратахЗаголовокРасширеннаяПодсказка" id="229"/>
@@ -1351,6 +1408,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхВозвратахОформитеРасширеннаяПодсказка" id="233"/>
@@ -1372,6 +1430,7 @@
 									<Width>14</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхВозвратахОтработайтеРасширеннаяПодсказка" id="238"/>
@@ -1393,6 +1452,7 @@
 									<Width>12</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУведомлениеОРозничныхВозвратахОжидайтеРасширеннаяПодсказка" id="242"/>
@@ -1418,6 +1478,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКабинетРасширеннаяПодсказка" id="246"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -22,6 +22,7 @@
 					<v8:content>Группа организация</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаОрганизацияРасширеннаяПодсказка" id="57"/>
 		</UsualGroup>
 		<InputField name="ФискальноеУстройство" id="53">
@@ -44,6 +45,7 @@
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОперацияРасширеннаяПодсказка" id="39"/>
 			<ChildItems>
@@ -183,6 +185,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаРеквизитыОрганизацииРасширеннаяПодсказка" id="41"/>
 			<ChildItems>
 				<InputField name="ОрганизацияНазвание" id="1">
@@ -230,12 +233,14 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ExtendedTooltip name="СистемыНалогообложенияРасширеннаяПодсказка" id="98"/>
 					<ChildItems>
 						<UsualGroup name="КодыСистемыНалогообложенияГ1" id="73">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КодыСистемыНалогообложенияГ1РасширеннаяПодсказка" id="74"/>
 							<ChildItems>
@@ -258,6 +263,7 @@
 						<UsualGroup name="КодыСистемыНалогообложенияГ2" id="93">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КодыСистемыНалогообложенияГ2РасширеннаяПодсказка" id="94"/>
 							<ChildItems>
@@ -280,6 +286,7 @@
 						<UsualGroup name="КодыСистемыНалогообложенияГ3" id="95">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КодыСистемыНалогообложенияГ3РасширеннаяПодсказка" id="96"/>
 							<ChildItems>
@@ -305,11 +312,13 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаНастройкиККТ" id="66">
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаНастройкиККТРасширеннаяПодсказка" id="67"/>
 			<ChildItems>
 				<UsualGroup name="Базовая" id="189">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="БазоваяРасширеннаяПодсказка" id="190"/>
 					<ChildItems>
@@ -321,6 +330,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаНастройкиККТ10РасширеннаяПодсказка" id="118"/>
 							<ChildItems>
 								<CheckBoxField name="ПризнакАвтономногоРежима" id="29">
@@ -362,6 +372,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаНастройкиККТ15" id="119">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаНастройкиККТ15РасширеннаяПодсказка" id="120"/>
 							<ChildItems>
@@ -428,6 +439,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ПризнакиАгентаРасширеннаяПодсказка" id="134"/>
 							<ChildItems>
 								<CheckBoxField name="ПА_БанковскийПлатежныйАгент" id="138">
@@ -527,6 +539,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаДополнительно" id="181">
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="182"/>
 					<ChildItems>
@@ -551,6 +564,7 @@
 					<v8:content>Причины изменения сведений о ККТ</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаПричиныИзмененияСведенийОККТРасширеннаяПодсказка" id="160"/>
 			<ChildItems>
 				<Table name="ПричиныИзмененияСведенийОККТ" id="161">
@@ -640,6 +654,7 @@
 					<v8:content>Оператор фискальных данных</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаОператорФискальныхДанныхРасширеннаяПодсказка" id="65"/>
 			<ChildItems>
 				<InputField name="ОрганизацияОФДИНН" id="42">
@@ -664,6 +679,7 @@
 			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 			<Group>Horizontal</Group>
 			<HorizontalAlign>Right</HorizontalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="14"/>
 			<ChildItems>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -36,6 +36,7 @@
 					<v8:content>Страницы помощника</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыПомощникаExtendedTooltip" id="619"/>
 			<ChildItems>
 				<Page name="СтраницаПервичнаяИнформация" id="43">
@@ -55,6 +56,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацииПервичнаяИнформацияExtendedTooltip" id="621"/>
@@ -88,6 +90,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЛокализацияГруппаДекорацииПервичнаяИнформацияЗагрузкаИзФайлаРасширеннаяПодсказка" id="623"/>
@@ -120,6 +123,7 @@
 							<Width>72</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЭтоКомпанияБудетСозданоExtendedTooltip" id="625"/>
@@ -280,6 +284,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаЮридическиеДанныеExtendedTooltip" id="647"/>
@@ -419,6 +424,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаРегистрационныеДанныеРасширеннаяПодсказка" id="653"/>
@@ -464,6 +470,7 @@
 																			<Width>72</Width>
 																			<HorizontalStretch>false</HorizontalStretch>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаИННКППОКПООГРНРасширеннаяПодсказка" id="1299"/>
@@ -696,6 +703,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаСтранаРегистрацииНалоговыйНомерРасширеннаяПодсказка" id="1325"/>
@@ -739,6 +747,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаРегистрационныйНомерИННКППРасширеннаяПодсказка" id="1333"/>
@@ -772,6 +781,7 @@
 																				</InputField>
 																				<UsualGroup name="ГруппаИНН" id="1354">
 																					<Group>AlwaysHorizontal</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="1355"/>
@@ -786,6 +796,7 @@
 																							</Events>
 																						</InputField>
 																						<UsualGroup name="ЛокализацияИННИностраннойОрганизации" id="1344">
+																							<Behavior>Usual</Behavior>
 																							<Representation>None</Representation>
 																							<ShowTitle>false</ShowTitle>
 																							<ExtendedTooltip name="ЛокализацияИННИностраннойОрганизацииРасширеннаяПодсказка" id="1345"/>
@@ -798,6 +809,7 @@
 																										</v8:item>
 																									</Title>
 																									<Group>AlwaysHorizontal</Group>
+																									<Behavior>Usual</Behavior>
 																									<Representation>None</Representation>
 																									<ShowTitle>false</ShowTitle>
 																									<ExtendedTooltip name="ГруппаИННКППРасширеннаяПодсказка" id="1347"/>
@@ -836,6 +848,7 @@
 															<Width>72</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаСокрЮрНаименованиеРасширеннаяПодсказка" id="1271"/>
@@ -892,6 +905,7 @@
 											<Width>72</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДанныеПартнераКомпанияExtendedTooltip" id="635"/>
@@ -954,6 +968,7 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАдресТелефонПартнераExtendedTooltip" id="639"/>
@@ -1029,6 +1044,7 @@
 																	</Title>
 																	<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаСокрНаименованиеТолькоПартнерыРасширеннаяПодсказка" id="1279">
@@ -1078,6 +1094,7 @@
 																	</Title>
 																	<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаАдресТелефонПартнераТолькоПартнерыExtendedTooltip" id="644">
@@ -1150,6 +1167,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДанныеКонтактногоЛицаExtendedTooltip" id="664"/>
@@ -1179,6 +1197,7 @@
 													</Title>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаИнформацияКонтактногоЛицаРасширеннаяПодсказка" id="1172"/>
@@ -1198,6 +1217,7 @@
 															</ToolTip>
 															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаФИОКЛExtendedTooltip" id="665"/>
@@ -1248,6 +1268,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаКонтактнаяИнформацияКЛExtendedTooltip" id="670"/>
@@ -1350,6 +1371,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДанныеПартнерФизЛицоExtendedTooltip" id="676"/>
@@ -1362,6 +1384,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<United>false</United>
 													<ShowTitle>false</ShowTitle>
@@ -1400,6 +1423,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<United>false</United>
 													<ShowTitle>false</ShowTitle>
@@ -1458,6 +1482,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>NormalSeparation</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаЧастноеЛицоКонтрагентExtendedTooltip" id="684"/>
@@ -1531,6 +1556,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаДанныеКонтрагентаЧастноеЛицоExtendedTooltip" id="690"/>
@@ -1542,6 +1568,7 @@
 																	<v8:content>Группа налоговый номер частного лица</v8:content>
 																</v8:item>
 															</Title>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаНалоговыйНомерЧастногоЛицаРасширеннаяПодсказка" id="1343"/>
@@ -1554,6 +1581,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ЛокализацияГруппаИННЧастноеЛицоРасширеннаяПодсказка" id="691"/>
@@ -1587,6 +1615,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаДокументФизическогоЛицаExtendedTooltip" id="694"/>
@@ -1611,6 +1640,7 @@
 																	<Width>72</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаДанныеДокументаФизическогоЛицаExtendedTooltip" id="696"/>
@@ -1632,6 +1662,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>Horizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаСерияНомерExtendedTooltip" id="698"/>
@@ -1644,6 +1675,7 @@
 																						</v8:item>
 																					</Title>
 																					<Group>Vertical</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="СерияРасширеннаяПодсказка" id="1283"/>
@@ -1665,6 +1697,7 @@
 																						</v8:item>
 																					</Title>
 																					<Group>Vertical</Group>
+																					<Behavior>Usual</Behavior>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="1285"/>
@@ -1686,6 +1719,7 @@
 																				</v8:item>
 																			</Title>
 																			<Group>Horizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаДатаВыдачиСрокДействияExtendedTooltip" id="701"/>
@@ -1752,6 +1786,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацииНайденоExtendedTooltip" id="707"/>
@@ -1780,6 +1815,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНайденоДействияExtendedTooltip" id="709"/>
@@ -1792,6 +1828,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденоЛевоРасширеннаяПодсказка" id="710"/>
@@ -2011,6 +2048,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденоПравоРасширеннаяПодсказка" id="1098"/>
@@ -2127,6 +2165,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаЛегендаНайденоСовпадениеРасширеннаяПодсказка" id="1136"/>
@@ -2159,6 +2198,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаЛегендаСущественноеРазличиеРасширеннаяПодсказка" id="1144"/>
@@ -2208,6 +2248,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияДополнительныеСведенияExtendedTooltip" id="720"/>
@@ -2273,6 +2314,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаМенеджерБизнесРегионЧастноеЛицоExtendedTooltip" id="725"/>
@@ -2304,6 +2346,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДоступЧастноеЛицоExtendedTooltip" id="728"/>
@@ -2327,6 +2370,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПолДатаРожденияExtendedTooltip" id="730"/>
@@ -2393,6 +2437,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДопРеквизитыПартнераExtendedTooltip" id="735"/>
@@ -2405,6 +2450,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОсновнойМенеджерРодительExtendedTooltip" id="736"/>
@@ -2446,6 +2492,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаПредупреждениеГоловнойКонтрагентДопСведенияРасширеннаяПодсказка" id="888"/>
@@ -2489,6 +2536,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаДоступБизнесРегионExtendedTooltip" id="739"/>
@@ -2529,6 +2577,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаТипОтношенийExtendedTooltip" id="742"/>
 							<ChildItems>
@@ -2588,6 +2637,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаТипОтношенийДополнительноExtendedTooltip" id="747"/>
@@ -2616,6 +2666,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСтраницыАдресаExtendedTooltip" id="750"/>
@@ -2647,6 +2698,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаАдресПроживанияExtendedTooltip" id="753"/>
@@ -2682,6 +2734,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСегментПервичныйИнтересЧастноеЛицоExtendedTooltip" id="756"/>
@@ -2751,6 +2804,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаАдресаExtendedTooltip" id="762"/>
@@ -2763,6 +2817,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаФактическийАдресExtendedTooltip" id="763"/>
@@ -2823,6 +2878,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСегментПервичныйИнтересКомпанияExtendedTooltip" id="767"/>
@@ -2911,6 +2967,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="1295"/>
@@ -2934,6 +2991,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияБанковскийСчетExtendedTooltip" id="773"/>
@@ -2977,6 +3035,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДанныеБанковскогоСчетаExtendedTooltip" id="776"/>
@@ -2989,6 +3048,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНомерСчетаИIBANРасширеннаяПодсказка" id="777"/>
@@ -3001,6 +3061,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНомерСчетаРасширеннаяПодсказка" id="1368"/>
@@ -3023,6 +3084,7 @@
 													</Events>
 												</InputField>
 												<UsualGroup name="ГруппаОшибкаВНомереСчета" id="1359">
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОшибкаВНомереСчетаРасширеннаяПодсказка" id="1360"/>
@@ -3091,6 +3153,7 @@
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 									<Group>AlwaysHorizontal</Group>
 									<HorizontalAlign>Left</HorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРеквизитыБанкаРасширеннаяПодсказка" id="1373"/>
@@ -3182,6 +3245,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ThroughAlign>Use</ThroughAlign>
 													<ExtendedTooltip name="ГруппаБанкРасширеннаяПодсказка" id="1386"/>
 													<ChildItems>
@@ -3258,6 +3322,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаГородАдресРасширеннаяПодсказка" id="1403"/>
@@ -3291,6 +3356,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ThroughAlign>Use</ThroughAlign>
 													<ExtendedTooltip name="ГруппаБанкМеждународныйРасширеннаяПодсказка" id="1411"/>
 													<ChildItems>
@@ -3367,6 +3433,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаГородАдресМеждународныйРасширеннаяПодсказка" id="1428"/>
@@ -3436,6 +3503,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаВыборБанкаДляРасчетов" id="1435">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыборБанкаДляРасчетовРасширеннаяПодсказка" id="1436"/>
@@ -3473,6 +3541,7 @@
 													<v8:content>Группа банка для расчетов горизонтальная</v8:content>
 												</v8:item>
 											</ToolTip>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаБанкаДляРасчетовГоризонтальнаяРасширеннаяПодсказка" id="1441"/>
@@ -3559,6 +3628,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ThroughAlign>Use</ThroughAlign>
 															<ExtendedTooltip name="ГруппаБанкДляРасчетовРасширеннаяПодсказка" id="1454"/>
 															<ChildItems>
@@ -3617,6 +3687,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаГородАдресБанкаДляРасчетовРасширеннаяПодсказка" id="1468"/>
@@ -3644,6 +3715,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаБанкДляРасчетовМеждународныйРасширеннаяПодсказка" id="1476"/>
 															<ChildItems>
@@ -3708,6 +3780,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>AlwaysHorizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаГородАдресБанкаДляРасчетовМеждународныйРасширеннаяПодсказка" id="1490"/>
@@ -3772,6 +3845,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияОбособленныеПодразделенияРасширеннаяПодсказка" id="898"/>
@@ -3939,6 +4013,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияГоловнойКонтрагентРасширеннаяПодсказка" id="946"/>
@@ -3966,6 +4041,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВыборГоловногоКонтрагентаРасширеннаяПодсказка" id="951"/>
@@ -4003,6 +4079,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГоловнойКонтрагентРасширеннаяПодсказка" id="956"/>
@@ -4031,6 +4108,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПредупреждениеГоловнойКонтрагентРасширеннаяПодсказка" id="967"/>
@@ -4079,6 +4157,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСозданиеГоловногоКонтрагентаРасширеннаяПодсказка" id="978"/>
@@ -4116,6 +4195,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаДанныеГоловногоКонтрагентаОтступРасширеннаяПодсказка" id="1022"/>
@@ -4133,6 +4213,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДанныеГоловногоКонтрагентаРасширеннаяПодсказка" id="983"/>
@@ -4151,6 +4232,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ЛокализацияГруппаИННКППГоловногоКонтрагентаРасширеннаяПодсказка" id="988"/>
@@ -4212,6 +4294,7 @@
 													</Title>
 													<Width>71</Width>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПолноеНаименованиеГоловнойКонтрагентРасширеннаяПодсказка" id="1275"/>
@@ -4268,6 +4351,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаФактическийАдресГоловногоКонтрагентаРасширеннаяПодсказка" id="1004"/>
@@ -4308,6 +4392,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаЮридическийАдресГоловногоКонтрагентаРасширеннаяПодсказка" id="1014"/>
@@ -4396,6 +4481,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияБанковскийСчетГоловногоКонтрагентаРасширеннаяПодсказка" id="1035"/>
@@ -4445,6 +4531,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДанныеБанковскогоСчетаГоловнойКонтрагентРасширеннаяПодсказка" id="1043"/>
@@ -4457,6 +4544,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНомерСчетаИIBANГоловнойКонтрагентРасширеннаяПодсказка" id="1498"/>
@@ -4469,6 +4557,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНомерСчетаГоловнойКонтрагентРасширеннаяПодсказка" id="1500"/>
@@ -4497,6 +4586,7 @@
 															<v8:content>Группа ошибка в номере счета головной контрагент</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОшибкаВНомереСчетаГоловнойКонтрагентРасширеннаяПодсказка" id="1505"/>
@@ -4565,6 +4655,7 @@
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 									<Group>AlwaysHorizontal</Group>
 									<HorizontalAlign>Left</HorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРеквизитыБанкаГоловнойКонтрагентРасширеннаяПодсказка" id="1519"/>
@@ -4656,6 +4747,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ThroughAlign>Use</ThroughAlign>
 													<ExtendedTooltip name="ГруппаБанкГоловнойКонтрагентРасширеннаяПодсказка" id="1532"/>
 													<ChildItems>
@@ -4732,6 +4824,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаГородАдресГоловнойКонтрагентРасширеннаяПодсказка" id="1549"/>
@@ -4765,6 +4858,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ThroughAlign>Use</ThroughAlign>
 													<ExtendedTooltip name="ГруппаБанкМеждународныйГоловнойКонтрагентРасширеннаяПодсказка" id="1557"/>
 													<ChildItems>
@@ -4841,6 +4935,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаГородАдресМеждународныйГоловнойКонтрагентРасширеннаяПодсказка" id="1574"/>
@@ -4916,6 +5011,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыборБанкаДляРасчетовГоловнойКонтрагентРасширеннаяПодсказка" id="1588"/>
@@ -4953,6 +5049,7 @@
 													<v8:content>Группа банка для расчетов горизонтальная</v8:content>
 												</v8:item>
 											</ToolTip>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаБанкаДляРасчетовГоризонтальнаяГоловнойКонтрагентРасширеннаяПодсказка" id="1593"/>
@@ -5039,6 +5136,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ThroughAlign>Use</ThroughAlign>
 															<ExtendedTooltip name="ГруппаБанкДляРасчетовГоловнойКонтрагентРасширеннаяПодсказка" id="1606"/>
 															<ChildItems>
@@ -5097,6 +5195,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаГородАдресБанкаДляРасчетовГоловнойКонтрагентРасширеннаяПодсказка" id="1620"/>
@@ -5124,6 +5223,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<United>false</United>
 															<ExtendedTooltip name="ГруппаБанкДляРасчетовМеждународныйГоловнойКонтрагентРасширеннаяПодсказка" id="1628"/>
 															<ChildItems>
@@ -5188,6 +5288,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>AlwaysHorizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаГородАдресБанкаДляРасчетовМеждународныйГоловнойКонтрагентРасширеннаяПодсказка" id="1642"/>
@@ -5247,6 +5348,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДекорацияФинальнаяExtendedTooltip" id="799"/>
@@ -5300,6 +5402,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалExtendedTooltip" id="803"/>
 			<ChildItems>

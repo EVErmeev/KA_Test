@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Width>101</Width>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -110,6 +110,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОрганизацияExtendedTooltip" id="516"/>
@@ -193,6 +194,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныйОтборExtendedTooltip" id="522"/>
@@ -211,6 +213,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДополнительныйОтборЛеваяExtendedTooltip" id="523"/>
@@ -229,6 +232,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДопОтборExtendedTooltip" id="524"/>
@@ -270,6 +274,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборПоПериодуExtendedTooltip" id="527"/>
@@ -314,6 +319,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДополнительныйОтборПраваяExtendedTooltip" id="529"/>
@@ -579,6 +585,7 @@
 							</ToolTip>
 							<Width>22</Width>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПолосыПрокруткиExtendedTooltip" id="549"/>
@@ -612,6 +619,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСправочникСписокExtendedTooltip" id="551"/>
@@ -639,6 +647,7 @@
 					<ShowRoot>true</ShowRoot>
 					<AllowRootChoice>false</AllowRootChoice>
 					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 					<ContextMenu name="СписокКонтекстноеМеню" id="14"/>
 					<AutoCommandBar name="СписокКоманднаяПанель" id="15">
 						<Autofill>false</Autofill>
@@ -801,6 +810,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаФНСКонтекстноеМеню" id="199"/>
 									<AutoCommandBar name="ЦиклыОбменаФНСКоманднаяПанель" id="200"/>
 									<ExtendedTooltip name="ЦиклыОбменаФНСExtendedTooltip" id="567"/>
@@ -1048,6 +1058,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаЗаявлениеКонтекстноеМеню" id="239"/>
 									<AutoCommandBar name="ЦиклыОбменаЗаявлениеКоманднаяПанель" id="240"/>
 									<ExtendedTooltip name="ЦиклыОбменаЗаявлениеExtendedTooltip" id="580"/>
@@ -1339,6 +1350,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаПФРКонтекстноеМеню" id="279"/>
 									<AutoCommandBar name="ЦиклыОбменаПФРКоманднаяПанель" id="280"/>
 									<ExtendedTooltip name="ЦиклыОбменаПФРExtendedTooltip" id="595"/>
@@ -1514,6 +1526,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ОтправкиФССКонтекстноеМеню" id="305"/>
 									<AutoCommandBar name="ОтправкиФССКоманднаяПанель" id="306"/>
 									<ExtendedTooltip name="ОтправкиФССExtendedTooltip" id="604"/>
@@ -1633,6 +1646,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ОтправкиФСРАРКонтекстноеМеню" id="319"/>
 									<AutoCommandBar name="ОтправкиФСРАРКоманднаяПанель" id="320"/>
 									<ExtendedTooltip name="ОтправкиФСРАРExtendedTooltip" id="610"/>
@@ -1764,6 +1778,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаФСГСКонтекстноеМеню" id="333"/>
 									<AutoCommandBar name="ЦиклыОбменаФСГСКоманднаяПанель" id="334"/>
 									<ExtendedTooltip name="ЦиклыОбменаФСГСExtendedTooltip" id="616"/>
@@ -1954,6 +1969,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ОтправкиРПНКонтекстноеМеню" id="629"/>
 									<AutoCommandBar name="ОтправкиРПНКоманднаяПанель" id="630"/>
 									<ExtendedTooltip name="ОтправкиРПНРасширеннаяПодсказка" id="631"/>
@@ -2073,6 +2089,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ОтправкиФТСКонтекстноеМеню" id="851"/>
 									<AutoCommandBar name="ОтправкиФТСКоманднаяПанель" id="852"/>
 									<ExtendedTooltip name="ОтправкиФТСРасширеннаяПодсказка" id="853"/>
@@ -2198,6 +2215,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаПредставлениеКонтекстноеМеню" id="722"/>
 									<AutoCommandBar name="ЦиклыОбменаПредставлениеКоманднаяПанель" id="723"/>
 									<ExtendedTooltip name="ЦиклыОбменаПредставлениеРасширеннаяПодсказка" id="724"/>
@@ -2414,6 +2432,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 									<ContextMenu name="ЦиклыОбменаЦБКонтекстноеМеню" id="887"/>
 									<AutoCommandBar name="ЦиклыОбменаЦБКоманднаяПанель" id="888"/>
 									<ExtendedTooltip name="ЦиклыОбменаЦБРасширеннаяПодсказка" id="889"/>

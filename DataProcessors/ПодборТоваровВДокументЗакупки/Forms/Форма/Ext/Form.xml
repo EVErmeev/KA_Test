@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -27,6 +27,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельФормыExtendedTooltip" id="879"/>
@@ -233,6 +234,7 @@
 			</Title>
 			<Height>12</Height>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРазделыExtendedTooltip" id="899"/>
@@ -244,6 +246,7 @@
 							<v8:content>Страницы</v8:content>
 						</v8:item>
 					</Title>
+					<PagesRepresentation>TabsOnTop</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыExtendedTooltip" id="900"/>
 					<Events>
 						<Event name="OnCurrentPageChange">СтраницыПриСменеСтраницы</Event>
@@ -268,6 +271,7 @@
 									</Title>
 									<Height>5</Height>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденныеТоварыExtendedTooltip" id="902"/>
@@ -341,6 +345,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокСтандартныйПоискНоменклатураКонтекстноеМеню" id="774">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -642,6 +647,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокСтандартныйПоискХарактеристикиКонтекстноеМеню" id="800">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -837,6 +843,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискНоменклатураExtendedTooltip" id="950"/>
@@ -987,6 +994,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокРасширенныйПоискНоменклатураКонтекстноеМеню" id="163">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -1207,6 +1215,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискХарактеристикаExtendedTooltip" id="977"/>
@@ -1328,6 +1337,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокРасширенныйПоискХарактеристикиКонтекстноеМеню" id="176">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -1603,6 +1613,7 @@
 									</Title>
 									<Width>35</Width>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияExtendedTooltip" id="1001"/>
@@ -1615,6 +1626,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="1002"/>
@@ -1777,6 +1789,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ИерархияНоменклатурыКонтекстноеМеню" id="1313">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -1919,6 +1932,7 @@
 															<ShowRoot>false</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="1249">
 																<Autofill>false</Autofill>
 																<ChildItems>
@@ -2248,6 +2262,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрПоЦенеExtendedTooltip" id="1024"/>
@@ -2385,6 +2400,7 @@
 									</Title>
 									<Height>5</Height>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНайденныеТоварыПартнераРасширеннаяПодсказка" id="1033"/>
@@ -2484,6 +2500,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМеню" id="843">
 																<ChildItems>
 																	<Button name="СписокСтандартныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="866">
@@ -2657,6 +2674,7 @@
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="РасширенныйПоискНоменклатураПартнераExtendedTooltip" id="1053"/>
@@ -2764,6 +2782,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМеню" id="400">
 																<ChildItems>
 																	<Button name="СписокРасширенныйПоискНоменклатураПартнераКонтекстноеМенюПерейтиКЦенамНоменклатуры" id="430">
@@ -3022,6 +3041,7 @@
 									</Title>
 									<Width>35</Width>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияНоменклатураПартнераExtendedTooltip" id="1076"/>
@@ -3034,6 +3054,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрНоменклатурыПартнераExtendedTooltip" id="1077"/>
@@ -3064,6 +3085,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="НавигацияИерархияНоменклатурыПартнераExtendedTooltip" id="1079"/>
@@ -3114,6 +3136,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>true</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="ИерархияНоменклатурыПартнераКонтекстноеМеню" id="681"/>
 													<AutoCommandBar name="ИерархияНоменклатурыПартнераКоманднаяПанель" id="682"/>
 													<ExtendedTooltip name="ИерархияНоменклатурыПартнераExtendedTooltip" id="1080"/>
@@ -3164,6 +3187,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаФильтрПоЦенеПоставщикаExtendedTooltip" id="1082"/>
@@ -3247,6 +3271,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодобранныеТоварыРасширеннаяПодсказка" id="1295"/>
@@ -3260,6 +3285,7 @@
 					</Title>
 					<Height>1</Height>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаИнформацияExtendedTooltip" id="1088"/>
@@ -3304,6 +3330,7 @@
 					</Title>
 					<Height>7</Height>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбластьПодобранныеТоварыExtendedTooltip" id="1092"/>

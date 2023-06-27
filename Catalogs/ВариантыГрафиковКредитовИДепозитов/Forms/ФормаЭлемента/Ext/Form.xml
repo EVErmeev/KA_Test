@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandSet>
 		<ExcludedCommand>Write</ExcludedCommand>
 		<ExcludedCommand>WriteAndClose</ExcludedCommand>
@@ -155,6 +155,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ФлагиExtendedTooltip" id="210"/>
 			<ChildItems>
@@ -195,6 +196,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ОписаниеДоговораExtendedTooltip" id="196"/>
@@ -255,6 +257,7 @@
 			</Title>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПараметрыГрафикаExtendedTooltip" id="201"/>
@@ -267,6 +270,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ExtendedTooltip name="ГруппаДатыСрокиExtendedTooltip" id="202"/>
 					<ChildItems>
 						<LabelField name="ДатаПервогоТранша" id="115">
@@ -293,6 +297,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСрокиExtendedTooltip" id="205"/>
@@ -359,6 +364,7 @@
 				</v8:item>
 			</Title>
 			<Width>67</Width>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаГрафикиExtendedTooltip" id="213"/>
 			<ChildItems>
 				<Page name="СтраницаТраншей" id="138">
@@ -724,6 +730,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСрокиСуммыExtendedTooltip" id="235"/>
@@ -736,6 +743,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаИтогиExtendedTooltip" id="236"/>
@@ -749,6 +757,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаТраншиExtendedTooltip" id="237"/>
 							<ChildItems>
 								<LabelField name="СуммаТраншей" id="102">
@@ -781,6 +790,7 @@
 							<Group>Vertical</Group>
 							<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОплатыExtendedTooltip" id="241"/>
 							<ChildItems>
 								<LabelField name="СуммаОплаты" id="169">
@@ -841,6 +851,7 @@
 							<Group>Vertical</Group>
 							<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаНачисленияExtendedTooltip" id="245"/>
 							<ChildItems>
 								<LabelField name="НачисленияИтогПроцентов" id="174">
@@ -892,6 +903,7 @@
 			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
 			<Group>AlwaysHorizontal</Group>
 			<HorizontalAlign>Left</HorizontalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="249"/>

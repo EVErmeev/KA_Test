@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -213,6 +213,7 @@
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<United>false</United>
 			<ShowTitle>false</ShowTitle>
@@ -244,6 +245,7 @@
 					<v8:content>Группа основная</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<United>false</United>
 			<ShowTitle>false</ShowTitle>
@@ -256,6 +258,7 @@
 							<v8:content>Страницы</v8:content>
 						</v8:item>
 					</Title>
+					<PagesRepresentation>TabsOnTop</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<Page name="СтраницаОсновное" id="11">
@@ -276,6 +279,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНередактируемыеПослеОтправкиРеквизитыОсновноеВерхРасширеннаяПодсказка" id="914"/>
@@ -288,6 +292,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ThroughAlign>DontUse</ThroughAlign>
@@ -333,6 +338,7 @@
 											<TitleFont ref="style:TextFont" height="12" kind="StyleItem"/>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ThroughAlign>Use</ThroughAlign>
 											<ExtendedTooltip name="ГруппаГрузоотправительРасширеннаяПодсказка" id="219"/>
@@ -340,6 +346,7 @@
 												<UsualGroup name="ГруппаХозяйствующийСубъектГрузоотправитель" id="336">
 													<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -385,6 +392,7 @@
 													</Title>
 													<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -433,6 +441,7 @@
 											<TitleFont ref="style:TextFont" height="12" kind="StyleItem"/>
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ThroughAlign>Use</ThroughAlign>
 											<ExtendedTooltip name="ГруппаГрузополучательРасширеннаяПодсказка" id="221"/>
@@ -440,6 +449,7 @@
 												<UsualGroup name="ГруппаХозяйствующийСубъектГрузополучатель" id="341">
 													<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -479,6 +489,7 @@
 												<UsualGroup name="ГруппаПредприятиеГрузополучатель" id="361">
 													<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -529,6 +540,7 @@
 									<TitleFont ref="style:TextFont" height="12" kind="StyleItem"/>
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаОснованиеРасширеннаяПодсказка" id="330"/>
@@ -562,6 +574,7 @@
 												</v8:item>
 											</Title>
 											<HorizontalStretch>false</HorizontalStretch>
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКомандыЗаполненияОснованияРасширеннаяПодсказка" id="674"/>
 											<ChildItems>
@@ -613,6 +626,7 @@
 									<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="1005"/>
 								</InputField>
 								<UsualGroup name="ГруппаКомментарий" id="327">
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="328"/>
@@ -662,6 +676,7 @@
 											<ChildItems>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияВетеринарноСопроводительныйДокумент" id="496">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -795,6 +810,7 @@
 												</LabelField>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияПродукция" id="456">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -840,6 +856,7 @@
 												</UsualGroup>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияНоменклатура" id="609">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -891,6 +908,7 @@
 												</UsualGroup>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияХарактеристика" id="671">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаТоварыБезРазбиенияХарактеристикаРасширеннаяПодсказка" id="672"/>
@@ -929,6 +947,7 @@
 												</UsualGroup>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияСерия" id="452">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -981,6 +1000,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаТоварыБезРазбиенияПроизводственныеПартииРасширеннаяПодсказка" id="916"/>
@@ -995,6 +1015,7 @@
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаТоварыБезРазбиенияКоличество" id="620">
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -1026,6 +1047,7 @@
 													</Title>
 													<Group>Horizontal</Group>
 													<VerticalAlign>Top</VerticalAlign>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -1124,6 +1146,7 @@
 															<v8:content>Возвращаемое количество</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -1186,6 +1209,7 @@
 															<v8:content>Группа товары без разбиения реквизиты</v8:content>
 														</v8:item>
 													</Title>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаТоварыБезРазбиенияРеквизитыРасширеннаяПодсказка" id="715"/>
@@ -1218,6 +1242,7 @@
 																</v8:item>
 															</Title>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ТоварыБезРазбиенияКачествоПродукцииРасширеннаяПодсказка" id="697"/>
@@ -1246,6 +1271,7 @@
 														</LabelField>
 														<UsualGroup name="ГруппаТоварыБезРазбиенияСрокГодности" id="871">
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаТоварыБезРазбиенияСрокГодностиРасширеннаяПодсказка" id="872"/>
@@ -1259,6 +1285,7 @@
 														</UsualGroup>
 														<UsualGroup name="ГруппаТоварыБезРазбиенияУпаковкиШтрихкоды" id="876">
 															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаТоварыБезРазбиенияУпаковкиШтрихкодыРасширеннаяПодсказка" id="877"/>
@@ -1302,6 +1329,7 @@
 																	<v8:content>Товары группа ошибка</v8:content>
 																</v8:item>
 															</Title>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ТоварыГруппаОшибкаРасширеннаяПодсказка" id="1055"/>
 															<ChildItems>
@@ -1352,6 +1380,7 @@
 													<HorizontalStretch>true</HorizontalStretch>
 													<Group>Horizontal</Group>
 													<HorizontalAlign>Right</HorizontalAlign>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="СтраницаТоварыСпискомКоманднаяПанельРасширеннаяПодсказка" id="769"/>
@@ -1427,6 +1456,7 @@
 															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Horizontal</Group>
 															<VerticalAlign>Center</VerticalAlign>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ТоварыСпискомГруппаОтборСтрокРасширеннаяПодсказка" id="775"/>
@@ -1519,6 +1549,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="СтраницаТоварыСпискомТаблицаРасширеннаяПодсказка" id="763"/>
@@ -1806,6 +1837,7 @@
 															<Width>30</Width>
 															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаТоварыСпискомПанельРасширеннаяПодсказка" id="612"/>
 															<ChildItems>
@@ -1817,6 +1849,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаТоварыСпискомПанельОсновноеРасширеннаяПодсказка" id="912"/>
@@ -1856,6 +1889,7 @@
 																		</LabelField>
 																		<UsualGroup name="ГруппаТоварыСпискомПроизводственныеПартии" id="893">
 																			<Group>Horizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаТоварыСпискомПроизводственныеПартииРасширеннаяПодсказка" id="894"/>
@@ -1872,6 +1906,7 @@
 																		<UsualGroup name="ГруппаТоварыСпискомКачествоПродукции" id="704">
 																			<ReadOnly>true</ReadOnly>
 																			<Group>Vertical</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаТоварыСпискомКачествоПродукцииРасширеннаяПодсказка" id="705"/>
@@ -1899,6 +1934,7 @@
 																		</LabelField>
 																		<UsualGroup name="ГруппаТоварыСпискомСрокГодности" id="883">
 																			<Group>Horizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаТоварыСпискомСрокГодностиРасширеннаяПодсказка" id="884"/>
@@ -1937,6 +1973,7 @@
 																		</UsualGroup>
 																		<UsualGroup name="ГруппаТоварыСпискомУпаковкиШтрихкоды" id="888">
 																			<Group>Horizontal</Group>
+																			<Behavior>Usual</Behavior>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
 																			<ExtendedTooltip name="ГруппаТоварыСпискомУпаковкиШтрихкодыРасширеннаяПодсказка" id="889"/>
@@ -2007,6 +2044,7 @@
 																	<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 																	<Group>Horizontal</Group>
 																	<VerticalAlign>Bottom</VerticalAlign>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ТоварыСпискомСвернутьПанельРасширеннаяПодсказка" id="753"/>
@@ -2033,6 +2071,7 @@
 																			<v8:content>Товары группа ошибка</v8:content>
 																		</v8:item>
 																	</Title>
+																	<Behavior>Usual</Behavior>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаТоварыСпискомОшибкаРасширеннаяПодсказка" id="1063"/>
 																	<ChildItems>
@@ -2064,6 +2103,7 @@
 														<UsualGroup name="ГруппаТоварыСпискомПанельСвернута" id="754">
 															<VerticalStretch>true</VerticalStretch>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаТоварыСпискомПанельСвернутаРасширеннаяПодсказка" id="755"/>
@@ -2110,6 +2150,7 @@
 									<TitleFont ref="style:TextFont" height="12" kind="StyleItem"/>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаТТНРасширеннаяПодсказка" id="121"/>
@@ -2166,12 +2207,14 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаТТНБезПереключателяРасширеннаяПодсказка" id="1007"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаСерияНомерТТН" id="325">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -2210,6 +2253,7 @@
 												</UsualGroup>
 												<UsualGroup name="ГруппаДатаТипТТН" id="323">
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ThroughAlign>Use</ThroughAlign>
@@ -2269,6 +2313,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ExtendedTooltip name="ГруппаПеревозкаРасширеннаяПодсказка" id="1009"/>
 									<ChildItems>
@@ -2303,6 +2348,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ThroughAlign>Use</ThroughAlign>
@@ -2347,6 +2393,7 @@
 													<v8:content>Прибывшее транспортное средство</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаТранспортноеСредствоРасширеннаяПодсказка" id="1022"/>
@@ -2361,6 +2408,7 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаМаршрутСледования" id="1026">
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ThroughAlign>Use</ThroughAlign>
@@ -2389,6 +2437,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаМаршрутВозвратаРасширеннаяПодсказка" id="1032"/>
@@ -2418,6 +2467,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ExtendedTooltip name="ГруппаПрочееРасширеннаяПодсказка" id="1037"/>
 									<ChildItems>
@@ -2436,6 +2486,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНередактируемыеПослеОтправкиРеквизитыОсновноеНизРасширеннаяПодсказка" id="1039"/>
@@ -2454,6 +2505,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСвязанныеДокументыРасширеннаяПодсказка" id="1041"/>

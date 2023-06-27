@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -71,6 +71,7 @@
 			</ToolTip>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОсновнаяExtendedTooltip" id="2790"/>
@@ -90,6 +91,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ExtendedTooltip name="ГруппаУчетныеЗаписиExtendedTooltip" id="2791"/>
 					<ChildItems>
 						<Table name="УчетныеЗаписи" id="24">
@@ -212,6 +214,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДокументовExtendedTooltip" id="2797"/>
@@ -230,6 +233,7 @@
 									<v8:content>Группа страниц</v8:content>
 								</v8:item>
 							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="ГруппаСтраницExtendedTooltip" id="2798"/>
 							<Events>
 								<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -269,6 +273,7 @@
 													<v8:content>Группа страницы ФНС</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыФНСExtendedTooltip" id="2800"/>
 											<Events>
 												<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -538,6 +543,7 @@
 															<ShowRoot>false</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаОтчетностьФНСКонтекстноеМеню" id="42"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаОтчетностьФНСКоманднаяПанель" id="43">
 																<Autofill>false</Autofill>
@@ -1022,6 +1028,7 @@
 															<ShowRoot>false</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаЗаявлениеКонтекстноеМеню" id="1865"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаЗаявлениеКоманднаяПанель" id="1866">
 																<Autofill>false</Autofill>
@@ -1344,6 +1351,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаТребованияКонтекстноеМеню" id="1919"/>
 															<AutoCommandBar name="ТаблицаТребованияКоманднаяПанель" id="1920">
 																<Autofill>false</Autofill>
@@ -1493,6 +1501,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаТребованияКонтекстноеМеню" id="1939"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаТребованияКоманднаяПанель" id="1940">
 																<Autofill>false</Autofill>
@@ -1678,6 +1687,7 @@
 																</v8:item>
 															</ToolTip>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаКоманднаяПанельТаблицаПредставленияРасширеннаяПодсказка" id="3997"/>
@@ -1828,6 +1838,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаПредставленияКонтекстноеМеню" id="2182"/>
 															<AutoCommandBar name="ТаблицаПредставленияКоманднаяПанель" id="2183">
 																<Autofill>false</Autofill>
@@ -1928,6 +1939,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаПредставленияКонтекстноеМеню" id="2199"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаПредставленияКоманднаяПанель" id="2200">
 																<Autofill>false</Autofill>
@@ -2152,6 +2164,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаУведомленияКонтекстноеМеню" id="2355"/>
 															<AutoCommandBar name="ТаблицаУведомленияКоманднаяПанель" id="2356">
 																<Autofill>false</Autofill>
@@ -2544,6 +2557,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаУведомленияКонтекстноеМеню" id="2376"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаУведомленияКоманднаяПанель" id="2377">
 																<Autofill>false</Autofill>
@@ -2769,6 +2783,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаИсходящиеДокументыФНСКонтекстноеМеню" id="91"/>
 															<AutoCommandBar name="ТаблицаИсходящиеДокументыФНСКоманднаяПанель" id="92">
 																<Autofill>false</Autofill>
@@ -2928,6 +2943,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаИсходящиеФНСКонтекстноеМеню" id="120"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаИсходящиеФНСКоманднаяПанель" id="121">
 																<Autofill>false</Autofill>
@@ -3168,6 +3184,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаВходящиеДокументыФНСКонтекстноеМеню" id="163"/>
 															<AutoCommandBar name="ТаблицаВходящиеДокументыФНСКоманднаяПанель" id="164">
 																<Autofill>false</Autofill>
@@ -3304,6 +3321,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаВходящиеФНСКонтекстноеМеню" id="192"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаВходящиеФНСКоманднаяПанель" id="193">
 																<Autofill>false</Autofill>
@@ -3477,6 +3495,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЗапросыИОНКонтекстноеМеню" id="235"/>
 															<AutoCommandBar name="ТаблицаЗапросыИОНКоманднаяПанель" id="236">
 																<ChildItems>
@@ -3603,6 +3622,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаЗапросыИОНКонтекстноеМеню" id="260"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаЗапросыИОНКоманднаяПанель" id="261">
 																<Autofill>false</Autofill>
@@ -3854,6 +3874,7 @@
 													<v8:content>Группа страницы ФСГС</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыФСГСExtendedTooltip" id="3130"/>
 											<Events>
 												<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -4066,6 +4087,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаОтчетностьФСГСКонтекстноеМеню" id="1983"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаОтчетностьФСГСКоманднаяПанель" id="1984">
 																<Autofill>false</Autofill>
@@ -4322,6 +4344,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаИсходящиеДокументыФСГСКонтекстноеМеню" id="2029"/>
 															<AutoCommandBar name="ТаблицаИсходящиеДокументыФСГСКоманднаяПанель" id="2030">
 																<Autofill>false</Autofill>
@@ -4475,6 +4498,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаИсходящиеФСГСКонтекстноеМеню" id="2051"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаИсходящиеФСГСКоманднаяПанель" id="2052">
 																<Autofill>false</Autofill>
@@ -4649,6 +4673,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаВходящиеДокументыФСГСКонтекстноеМеню" id="2065"/>
 															<AutoCommandBar name="ТаблицаВходящиеДокументыФСГСКоманднаяПанель" id="2066">
 																<Autofill>false</Autofill>
@@ -4787,6 +4812,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаВходящиеФСГСКонтекстноеМеню" id="2085"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаВходящиеФСГСКоманднаяПанель" id="2086">
 																<Autofill>false</Autofill>
@@ -4920,6 +4946,7 @@
 													<v8:content>Группа страницы ПФР</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыПФРExtendedTooltip" id="3035"/>
 											<Events>
 												<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -5138,6 +5165,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаОтчетностьПФРКонтекстноеМеню" id="343"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаОтчетностьПФРКоманднаяПанель" id="344">
 																<Autofill>false</Autofill>
@@ -5364,6 +5392,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаИсходящиеДокументыПФРКонтекстноеМеню" id="386"/>
 															<AutoCommandBar name="ТаблицаИсходящиеДокументыПФРКоманднаяПанель" id="387">
 																<Autofill>false</Autofill>
@@ -5553,6 +5582,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаИсходящиеПФРКонтекстноеМеню" id="444"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаИсходящиеПФРКоманднаяПанель" id="445">
 																<Autofill>false</Autofill>
@@ -5731,6 +5761,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаВходящиеДокументыПФРКонтекстноеМеню" id="415"/>
 															<AutoCommandBar name="ТаблицаВходящиеДокументыПФРКоманднаяПанель" id="416">
 																<Autofill>false</Autofill>
@@ -5874,6 +5905,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаВходящиеПФРКонтекстноеМеню" id="487"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаВходящиеПФРКоманднаяПанель" id="488">
 																<Autofill>false</Autofill>
@@ -6032,6 +6064,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЗапросыИОСКонтекстноеМеню" id="2256"/>
 															<AutoCommandBar name="ТаблицаЗапросыИОСКоманднаяПанель" id="2257">
 																<ChildItems>
@@ -6141,6 +6174,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаЗапросыИОСКонтекстноеМеню" id="2271"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаЗапросыИОСКоманднаяПанель" id="2272">
 																<Autofill>false</Autofill>
@@ -6336,6 +6370,7 @@
 													<v8:content>Группа страницы ФСС</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыФССExtendedTooltip" id="3212"/>
 											<ChildItems>
 												<Page name="ГруппаОтчетностьФСС" id="2309">
@@ -6556,6 +6591,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаОтправкиОтчетностьФССКонтекстноеМеню" id="2313"/>
 															<AutoCommandBar name="ТаблицаОтправкиОтчетностьФССКоманднаяПанель" id="2314">
 																<Autofill>false</Autofill>
@@ -6762,6 +6798,7 @@
 													<v8:content>Группа страницы ФСРАР</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыФСРАРExtendedTooltip" id="3244"/>
 											<ChildItems>
 												<Page name="ГруппаОтчетностьФСРАР" id="2461">
@@ -6953,6 +6990,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаОтправкиОтчетностьФСРАРКонтекстноеМеню" id="2465"/>
 															<AutoCommandBar name="ТаблицаОтправкиОтчетностьФСРАРКоманднаяПанель" id="2466">
 																<Autofill>false</Autofill>
@@ -7135,6 +7173,7 @@
 													<v8:content>Группа страницы РПН</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыРПНРасширеннаяПодсказка" id="3320"/>
 											<Events>
 												<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -7306,6 +7345,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаОтправкиОтчетностьРПНКонтекстноеМеню" id="3358"/>
 															<AutoCommandBar name="ТаблицаОтправкиОтчетностьРПНКоманднаяПанель" id="3359">
 																<Autofill>false</Autofill>
@@ -7493,6 +7533,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаОтправкиУведомленияРПНКонтекстноеМеню" id="4208"/>
 															<AutoCommandBar name="ТаблицаОтправкиУведомленияРПНКоманднаяПанель" id="4209">
 																<Autofill>false</Autofill>
@@ -7589,6 +7630,7 @@
 													<v8:content>Группа страницы ФТС</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыФТСРасширеннаяПодсказка" id="4012"/>
 											<ChildItems>
 												<Page name="ГруппаОтчетностьФТС" id="4013">
@@ -7780,6 +7822,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаОтправкиОтчетностьФТСКонтекстноеМеню" id="4093"/>
 															<AutoCommandBar name="ТаблицаОтправкиОтчетностьФТСКоманднаяПанель" id="4094">
 																<Autofill>false</Autofill>
@@ -7979,6 +8022,7 @@
 													<v8:content>Группа страницы ЦБ</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыЦБРасширеннаяПодсказка" id="4238"/>
 											<Events>
 												<Event name="OnCurrentPageChange">ПриСменеСтраницы</Event>
@@ -8157,6 +8201,7 @@
 															<ShowRoot>false</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаОтчетностьЦБКонтекстноеМеню" id="4274"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаОтчетностьЦБКоманднаяПанель" id="4275">
 																<Autofill>false</Autofill>
@@ -8345,6 +8390,7 @@
 													<v8:content>Группа страницы Выписки</v8:content>
 												</v8:item>
 											</ToolTip>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ГруппаСтраницыВыпискиExtendedTooltip" id="3274"/>
 											<ChildItems>
 												<Page name="ГруппаЗапросНаВыпискуЕГР" id="2517">
@@ -8395,6 +8441,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЗапросыЕГРКонтекстноеМеню" id="2547"/>
 															<AutoCommandBar name="ТаблицаЗапросыЕГРКоманднаяПанель" id="2548">
 																<ChildItems>
@@ -8521,6 +8568,7 @@
 															<ShowRoot>true</ShowRoot>
 															<AllowRootChoice>false</AllowRootChoice>
 															<UpdateOnDataChange>Auto</UpdateOnDataChange>
+															<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 															<ContextMenu name="ТаблицаЦиклыОбменаЗапросыЕГРКонтекстноеМеню" id="2562"/>
 															<AutoCommandBar name="ТаблицаЦиклыОбменаЗапросыЕГРКоманднаяПанель" id="2563">
 																<Autofill>false</Autofill>
@@ -8675,6 +8723,7 @@
 											<ShowRoot>true</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ТранспортноеСообщениеКонтекстноеМеню" id="306"/>
 											<AutoCommandBar name="ТранспортноеСообщениеКоманднаяПанель" id="307">
 												<Autofill>false</Autofill>

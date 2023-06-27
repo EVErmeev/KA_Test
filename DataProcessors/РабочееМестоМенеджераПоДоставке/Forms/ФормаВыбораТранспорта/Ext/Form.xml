@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -38,6 +38,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВерхExtendedTooltip" id="382"/>
@@ -50,6 +51,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЛевоЦентрExtendedTooltip" id="383"/>
@@ -62,6 +64,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЛевоExtendedTooltip" id="384"/>
@@ -131,6 +134,7 @@
 															<v8:content>Страницы транспортные средства типы</v8:content>
 														</v8:item>
 													</Title>
+													<PagesRepresentation>TabsOnTop</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыТранспортныеСредстваТипыExtendedTooltip" id="385"/>
 													<ChildItems>
 														<Page name="СтраницаТранспортныеСредства" id="332">
@@ -150,6 +154,7 @@
 																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
+																	<Behavior>Usual</Behavior>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаДатаПоискExtendedTooltip" id="387"/>
@@ -445,6 +450,7 @@
 																	<ShowRoot>true</ShowRoot>
 																	<AllowRootChoice>false</AllowRootChoice>
 																	<UpdateOnDataChange>Auto</UpdateOnDataChange>
+																	<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 																	<ContextMenu name="ТипыТранспортныхСредствКонтекстноеМеню" id="339"/>
 																	<AutoCommandBar name="ТипыТранспортныхСредствКоманднаяПанель" id="340"/>
 																	<ExtendedTooltip name="ТипыТранспортныхСредствExtendedTooltip" id="405"/>
@@ -579,6 +585,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="ТипыТранспортныхСредствПеревозчикаКонтекстноеМеню" id="489"/>
 													<AutoCommandBar name="ТипыТранспортныхСредствПеревозчикаКоманднаяПанель" id="490"/>
 													<ExtendedTooltip name="ТипыТранспортныхСредствПеревозчикаРасширеннаяПодсказка" id="491"/>
@@ -669,6 +676,7 @@
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЦентрExtendedTooltip" id="410"/>
@@ -699,6 +707,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыбранныеТранспортныеСредстваExtendedTooltip" id="414"/>
@@ -981,6 +990,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ПодвалExtendedTooltip" id="427"/>
@@ -1000,6 +1010,7 @@
 					</ToolTip>
 					<Height>4</Height>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>StrongSeparation</Representation>
 					<ExtendedTooltip name="ВесExtendedTooltip" id="428"/>
 					<ChildItems>
@@ -1011,6 +1022,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНабралиВесExtendedTooltip" id="429"/>
@@ -1058,6 +1070,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОсталосьВесExtendedTooltip" id="432"/>
@@ -1108,6 +1121,7 @@
 					</ToolTip>
 					<Height>4</Height>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>StrongSeparation</Representation>
 					<ExtendedTooltip name="ОбъемExtendedTooltip" id="435"/>
 					<ChildItems>
@@ -1133,6 +1147,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНабралиОбъемExtendedTooltip" id="437"/>
@@ -1180,6 +1195,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОсталосьОбъемExtendedTooltip" id="440"/>

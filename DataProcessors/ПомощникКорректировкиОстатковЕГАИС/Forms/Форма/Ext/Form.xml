@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -64,6 +64,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаОрганизацияТорговыйОбъектРасширеннаяПодсказка" id="37"/>
 							<ChildItems>
@@ -221,6 +222,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаПроверкаУчетныхОстатковРасширеннаяПодсказка" id="75"/>
 							<ChildItems>
@@ -232,6 +234,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПроверкаИнвентаризацииЗаголовокРасширеннаяПодсказка" id="846"/>
@@ -256,6 +259,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаНадписьПроверкаИнвентаризацииРасширеннаяПодсказка" id="856"/>
 											<ChildItems>
@@ -607,6 +611,7 @@
 														</v8:item>
 													</ToolTip>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаНеоформленныеДокументыРасширеннаяПодсказка" id="1206"/>
@@ -650,12 +655,14 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПроверкаОстатковЕГАИСРасширеннаяПодсказка" id="159"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаПроверкаОстатковЕГАИСЗаголовок" id="857">
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПроверкаОстатковЕГАИСЗаголовокРасширеннаяПодсказка" id="858"/>
@@ -683,6 +690,7 @@
 											</Title>
 											<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ГруппаНадписьПроверкаОстатковЕГАИСРасширеннаяПодсказка" id="863"/>
 											<ChildItems>
@@ -769,6 +777,7 @@
 												</PictureDecoration>
 												<UsualGroup name="ГруппаНеподтвержденныеДокументы" id="786">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаНеподтвержденныеДокументыРасширеннаяПодсказка" id="787"/>
@@ -1102,6 +1111,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаПроверкаМарокРасширеннаяПодсказка" id="1401"/>
 							<ChildItems>
@@ -1121,6 +1131,7 @@
 								</LabelDecoration>
 								<UsualGroup name="ГруппаГиперссылокПроверкаМарок" id="1468">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГиперссылокПроверкаМарокРасширеннаяПодсказка" id="1469"/>
@@ -1344,11 +1355,13 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаПросмотрОстатковРасширеннаяПодсказка" id="405"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаГиперссылокПросмотрОстатков" id="1246">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГиперссылокПросмотрОстатковРасширеннаяПодсказка" id="1247"/>
@@ -1370,6 +1383,7 @@
 										</LabelDecoration>
 										<UsualGroup name="ОстаткиФильтрИГрупповыеДействия" id="1415">
 											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ОстаткиФильтрИГрупповыеДействияРасширеннаяПодсказка" id="1416"/>
@@ -1611,6 +1625,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОстаткиОписаниеСтрокиРасширеннаяПодсказка" id="1276"/>
@@ -1678,6 +1693,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ControlRepresentation>Picture</ControlRepresentation>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаСозданиеДокументовРасширеннаяПодсказка" id="836"/>
@@ -1700,6 +1716,7 @@
 									<ExtendedTooltip name="НадписьСозданиеДокументовРасширеннаяПодсказка" id="539"/>
 								</LabelDecoration>
 								<UsualGroup name="ГруппаГиперссылокСозданиеДокументов" id="1457">
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаГиперссылокСозданиеДокументовРасширеннаяПодсказка" id="1458"/>
@@ -2063,6 +2080,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ExtendedTooltip name="ГруппаОкончаниеРасширеннаяПодсказка" id="632"/>
 							<ChildItems>
@@ -2100,6 +2118,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>false</AllowGettingCurrentRowURL>
 									<ContextMenu name="СозданныеДокументыКонтекстноеМеню" id="637"/>
 									<AutoCommandBar name="СозданныеДокументыКоманднаяПанель" id="638"/>
 									<ExtendedTooltip name="СозданныеДокументыРасширеннаяПодсказка" id="639"/>

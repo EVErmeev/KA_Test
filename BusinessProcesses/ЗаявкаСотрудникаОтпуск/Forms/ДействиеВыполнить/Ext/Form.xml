@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<CommandSet>
 		<ExcludedCommand>Activate</ExcludedCommand>
 		<ExcludedCommand>Copy</ExcludedCommand>
@@ -85,6 +85,7 @@
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаФормаРасширеннаяПодсказка" id="448"/>
@@ -98,6 +99,7 @@
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="316"/>
@@ -109,6 +111,7 @@
 									<v8:content>Шапка</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="318"/>
@@ -164,6 +167,7 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<BackColor>style:AuxiliaryNavigationColor</BackColor>
@@ -176,6 +180,7 @@
 											<v8:content>Группа предметы</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПредметыРасширеннаяПодсказка" id="335"/>
@@ -188,6 +193,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПолейСодержанияРасширеннаяПодсказка" id="411"/>
@@ -200,6 +206,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаПодписантыРасширеннаяПодсказка" id="466"/>
 											<ChildItems>
 												<LabelField name="ЗаданиеРуководительСотрудника" id="474">
@@ -217,6 +224,7 @@
 													<v8:content>Сотрудник</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаФизическоеЛицоРасширеннаяПодсказка" id="436"/>
 											<ChildItems>
 												<LabelField name="ЗаданиеФизическоеЛицо" id="430">
@@ -235,6 +243,7 @@
 													<v8:content>Отпуск</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаОтпускРасширеннаяПодсказка" id="438"/>
 											<ChildItems>
 												<LabelField name="ВидОтпуска" id="439">
@@ -273,6 +282,7 @@
 													<v8:content>Компенсация отпуска</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаКомпенсацияОтпускаРасширеннаяПодсказка" id="455"/>
 											<ChildItems>
 												<LabelField name="ЗаданиеКоличествоДнейКомпенсации" id="456">
@@ -296,6 +306,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаНачисленияРасширеннаяПодсказка" id="478"/>
 											<ChildItems>
 												<LabelField name="ЗаданиеЕдиновременнаяВыплата" id="479">
@@ -317,6 +328,7 @@
 													<v8:content>Комментарий сотрудника</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаКомментарийСотрудникаРасширеннаяПодсказка" id="443"/>
 											<ChildItems>
 												<LabelDecoration name="КомментарийСотрудника" id="451">
@@ -351,6 +363,7 @@
 											<v8:content>Приложения к заявлению</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ExtendedTooltip name="ГруппаФайлыРасширеннаяПодсказка" id="337"/>
 								</UsualGroup>
 								<UsualGroup name="ГруппаВыполненоДата" id="341">
@@ -360,6 +373,7 @@
 											<v8:content>Выполнено дата</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыполненоДатаРасширеннаяПодсказка" id="342"/>
@@ -381,6 +395,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаДокументРасширеннаяПодсказка" id="434"/>
 							<ChildItems>
 								<Table name="ЗаданиеОтпуска" id="391">
@@ -482,6 +497,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаОтветРасширеннаяПодсказка" id="355"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаШаблонОтвета" id="467">
@@ -492,6 +508,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаШаблонОтветаРасширеннаяПодсказка" id="468"/>
@@ -551,6 +568,7 @@
 											<v8:content>Группа присоединить файл</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПрисоединитьФайлРасширеннаяПодсказка" id="363"/>
@@ -601,6 +619,7 @@
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСостояниеРасширеннаяПодсказка" id="373"/>
@@ -612,6 +631,7 @@
 									<v8:content>Подвал</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПодвалРасширеннаяПодсказка" id="381"/>
@@ -649,6 +669,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПраваяКолонкаРасширеннаяПодсказка" id="460"/>

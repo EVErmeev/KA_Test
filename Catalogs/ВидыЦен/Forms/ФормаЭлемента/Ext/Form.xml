@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -51,6 +51,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="395"/>
@@ -63,6 +64,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиExtendedTooltip" id="396"/>
@@ -97,6 +99,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСтатусГруппаРасширеннаяПодсказка" id="531"/>
 					<ChildItems>
@@ -120,6 +123,7 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаВидаТипаЦен" id="831">
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВидаТипаЦенРасширеннаяПодсказка" id="832"/>
@@ -212,6 +216,7 @@
 					</Events>
 				</InputField>
 				<UsualGroup name="ГруппаДанныхПоИндивидуальномуВидуЦен" id="748">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ThroughAlign>DontUse</ThroughAlign>
@@ -240,6 +245,7 @@
 			</Title>
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ThroughAlign>Use</ThroughAlign>
@@ -253,6 +259,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВалютаНДСExtendedTooltip" id="399"/>
@@ -286,6 +293,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ThroughAlign>Use</ThroughAlign>
 					<ExtendedTooltip name="ГруппаУточнениеВалютПоЦеновымГруппамРасширеннаяПодсказка" id="696"/>
@@ -301,6 +309,7 @@
 							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Collapsed>true</Collapsed>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -330,6 +339,7 @@
 			</Title>
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" kind="StyleItem"/>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаИспользованиеExtendedTooltip" id="402"/>
@@ -342,6 +352,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонка1РасширеннаяПодсказка" id="516"/>
@@ -406,6 +417,7 @@
 					<Width>36</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонка2РасширеннаяПодсказка" id="518"/>
@@ -447,6 +459,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаВспомогательнойЦены" id="737">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВспомогательнойЦеныРасширеннаяПодсказка" id="738"/>
@@ -499,6 +512,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ThroughAlign>Use</ThroughAlign>
 			<ExtendedTooltip name="ГруппаОтборНоменклатурыРасширеннаяПодсказка" id="430"/>
@@ -511,6 +525,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ThroughAlign>Use</ThroughAlign>
 					<ExtendedTooltip name="ГруппаВариантОтбораНоменклатурыГоризонтальноРасширеннаяПодсказка" id="582"/>
@@ -559,6 +574,7 @@
 			</Title>
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<Representation>None</Representation>
 			<ThroughAlign>DontUse</ThroughAlign>
@@ -589,6 +605,7 @@
 					</Events>
 				</CheckBoxField>
 				<UsualGroup name="ГруппаВыбораВариантаРасчетаЦены" id="562">
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ThroughAlign>Use</ThroughAlign>
 					<ExtendedTooltip name="ГруппаВыбораВариантаРасчетаЦеныРасширеннаяПодсказка" id="563"/>
@@ -853,6 +870,7 @@ Eсли указано 0 дней - анализироваться будет в
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаДополнительнойНастройкиРасширеннаяПодсказка" id="678"/>
 					<ChildItems>
@@ -877,6 +895,7 @@ Eсли указано 0 дней - анализироваться будет в
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаСКДExtendedTooltip" id="414"/>
@@ -915,6 +934,7 @@ Eсли указано 0 дней - анализироваться будет в
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СтраницаПравилаРасчетаExtendedTooltip" id="418"/>
@@ -927,6 +947,7 @@ Eсли указано 0 дней - анализироваться будет в
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОсновнаяФормулаРасчетаExtendedTooltip" id="419"/>
@@ -963,6 +984,7 @@ Eсли указано 0 дней - анализироваться будет в
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНаценкаНаБазовыйВидЦеныExtendedTooltip" id="422"/>
@@ -975,6 +997,7 @@ Eсли указано 0 дней - анализироваться будет в
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаБазовыйВидЦеныExtendedTooltip" id="423"/>
@@ -1024,12 +1047,14 @@ Eсли указано 0 дней - анализироваться будет в
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаНаценкаРасширеннаяПодсказка" id="427"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаНаценкаГориз" id="602">
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ГруппаНаценкаГоризРасширеннаяПодсказка" id="603"/>
@@ -1119,6 +1144,7 @@ Eсли указано 0 дней - анализироваться будет в
 								</v8:item>
 							</Title>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаУточнениеПоЦеновымГруппамРасширеннаяПодсказка" id="634"/>
@@ -1134,6 +1160,7 @@ Eсли указано 0 дней - анализироваться будет в
 									<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Collapsed>true</Collapsed>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -1201,6 +1228,7 @@ Eсли указано 0 дней - анализироваться будет в
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<Representation>None</Representation>
@@ -1214,6 +1242,7 @@ Eсли указано 0 дней - анализироваться будет в
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаУпрощенныеПравилаОкругленияЦеныТочностьОкругленияРасширеннаяПодсказка" id="524"/>
@@ -1372,6 +1401,7 @@ Eсли указано 0 дней - анализироваться будет в
 			<TitleTextColor>style:ЦветТекстаЗаголовокОтчетаВТакси</TitleTextColor>
 			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
 			<ControlRepresentation>Picture</ControlRepresentation>
 			<Representation>None</Representation>
@@ -1387,6 +1417,7 @@ Eсли указано 0 дней - анализироваться будет в
 					<TitleTextColor>style:FormTextColor</TitleTextColor>
 					<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОсновнойПорогСрабатыванияОбщРасширеннаяПодсказка" id="463"/>
@@ -1402,6 +1433,7 @@ Eсли указано 0 дней - анализироваться будет в
 							</Events>
 						</CheckBoxField>
 						<UsualGroup name="ГруппаОсновнойПорогСрабатывания" id="571">
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ThroughAlign>Use</ThroughAlign>
 							<ExtendedTooltip name="ГруппаОсновнойПорогСрабатыванияРасширеннаяПодсказка" id="572"/>
@@ -1474,6 +1506,7 @@ Eсли указано 0 дней - анализироваться будет в
 					<TitleTextColor>style:ГиперссылкаЦвет</TitleTextColor>
 					<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаУточнениеПороговСрабатыванияПоЦеновымГруппамExtendedTooltip" id="466"/>
@@ -1499,6 +1532,7 @@ Eсли указано 0 дней - анализироваться будет в
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="536"/>
 		</UsualGroup>
 	</ChildItems>

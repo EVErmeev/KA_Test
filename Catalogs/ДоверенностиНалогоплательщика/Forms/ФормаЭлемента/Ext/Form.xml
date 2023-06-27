@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
@@ -14,6 +14,7 @@
 	<ChildItems>
 		<UsualGroup name="ГруппаВладелец" id="343">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВладелецРасширеннаяПодсказка" id="344"/>
@@ -55,6 +56,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКлючевыеПараметрыExtendedTooltip" id="234"/>
@@ -101,6 +103,7 @@
 		</UsualGroup>
 		<UsualGroup name="Группа1" id="18">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1ExtendedTooltip" id="238"/>
@@ -181,6 +184,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="ОсновнаяПанель" id="19">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ОсновнаяПанельExtendedTooltip" id="241"/>
 			<ChildItems>
 				<Page name="ГруппаПредставитель" id="20">
@@ -207,6 +211,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПредставительШапкаExtendedTooltip" id="243"/>
@@ -269,6 +274,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаПредставительОсновная" id="28">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
 							<ShowTitle>false</ShowTitle>
@@ -296,6 +302,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаПредставительЛеваяФизлицоОбычнаяExtendedTooltip" id="249"/>
 													<ChildItems>
 														<InputField name="ПредставительФЛ_ФИО" id="43">
@@ -409,6 +416,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаПредставительЛеваяЮрлицоОбычнаяExtendedTooltip" id="258"/>
 													<ChildItems>
 														<InputField name="ПредставительЮЛ_НаимОрг" id="33">
@@ -498,6 +506,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаПредставительПраваяОсновнаяОбычнаяExtendedTooltip" id="266"/>
 													<ChildItems>
 														<InputField name="ПредставительУЛ_ФИО" id="57">
@@ -605,6 +614,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаДоверительШапка" id="73">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДоверительШапкаExtendedTooltip" id="274"/>
@@ -667,6 +677,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаДоверительОсновная" id="78">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
 							<ShowTitle>false</ShowTitle>
@@ -706,6 +717,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаДоверительЛеваяФизлицоОбычнаяExtendedTooltip" id="280"/>
 													<ChildItems>
 														<InputField name="ДоверительФЛ_ФИО" id="81">
@@ -843,6 +855,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаДоверительЛеваяЮрлицоОбычнаяExtendedTooltip" id="289"/>
 													<ChildItems>
 														<InputField name="ДоверительЮЛ_НаимОрг" id="96">
@@ -967,6 +980,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаДоверительПраваяОсновнаяОбычнаяExtendedTooltip" id="299"/>
 													<ChildItems>
 														<InputField name="ДоверительУЛ_ФИО" id="108">
@@ -1104,6 +1118,7 @@
 					<ChildItems>
 						<UsualGroup name="ГруппаНотариусШапка" id="128">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНотариусШапкаExtendedTooltip" id="308"/>
@@ -1150,6 +1165,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаНотариусОсновная" id="129">
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ChildItemsWidth>Equal</ChildItemsWidth>
 							<ShowTitle>false</ShowTitle>
@@ -1177,6 +1193,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаНотариусЛеваяФизлицоОбычнаяExtendedTooltip" id="313"/>
 													<ChildItems>
 														<InputField name="НотариусФЛ_ФИО" id="132">
@@ -1249,6 +1266,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаНотариусЛеваяЮрлицоОбычнаяExtendedTooltip" id="318"/>
 													<ChildItems>
 														<InputField name="НотариусЮЛ_НаимОрг" id="147">
@@ -1319,6 +1337,7 @@
 														</v8:item>
 													</Title>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<ExtendedTooltip name="ГруппаНотариусПраваяОсновнаяОбычнаяExtendedTooltip" id="325"/>
 													<ChildItems>
 														<InputField name="НотариусУЛ_ФИО" id="159">
@@ -1396,6 +1415,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ПанельСведенияОПолномочияхExtendedTooltip" id="329"/>
 			<ChildItems>
 				<Table name="ПолномочияПредставителя" id="170">

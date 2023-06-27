@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>None</CommandBarLocation>
 	<MobileDeviceCommandBarContent>
@@ -26,6 +26,7 @@
 					<v8:content>Группа1</v8:content>
 				</v8:item>
 			</Title>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="334"/>
 			<ChildItems>
@@ -83,6 +84,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОбщиеПроверкиРасширеннаяПодсказка" id="150"/>
@@ -96,6 +98,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЗаконныйСертификатРасширеннаяПодсказка" id="2"/>
@@ -150,6 +153,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЗаконныйСертификатРезультатИРешениеРасширеннаяПодсказка" id="207"/>
@@ -180,6 +184,7 @@
 											<v8:content>Законный сертификат ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ЗаконныйСертификатОшибкаКлиентРасширеннаяПодсказка" id="391"/>
 									<ChildItems>
@@ -235,6 +240,7 @@
 											<v8:content>Наличие сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ЗаконныйСертификатОшибкаСерверРасширеннаяПодсказка" id="393"/>
 									<ChildItems>
@@ -295,6 +301,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНаличиеСертификатаРасширеннаяПодсказка" id="39"/>
@@ -349,6 +356,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="НаличиеСертификатаРезультатИРешениеРасширеннаяПодсказка" id="171"/>
@@ -381,6 +389,7 @@
 											<v8:content>Наличие сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НаличиеСертификатаОшибкаКлиентРасширеннаяПодсказка" id="351"/>
 									<ChildItems>
@@ -436,6 +445,7 @@
 											<v8:content>Наличие сертификата ошибка (сервер)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НаличиеСертификатаОшибкаСерверРасширеннаяПодсказка" id="353"/>
 									<ChildItems>
@@ -496,6 +506,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДанныеСертификатаРасширеннаяПодсказка" id="50"/>
@@ -550,6 +561,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДанныеСертификатаРезультатИРешениеРасширеннаяПодсказка" id="189"/>
@@ -588,6 +600,7 @@
 											<v8:content>Данные сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ДанныеСертификатаОшибкаКлиентРасширеннаяПодсказка" id="367"/>
 									<ChildItems>
@@ -643,6 +656,7 @@
 											<v8:content>Наличие сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ДанныеСертификатаОшибкаСерверРасширеннаяПодсказка" id="369"/>
 									<ChildItems>
@@ -703,6 +717,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНаличиеПрограммыСертификатаРасширеннаяПодсказка" id="17"/>
@@ -757,6 +772,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="НаличиеПрограммыРезультатИРешениеРасширеннаяПодсказка" id="225"/>
@@ -789,6 +805,7 @@
 											<v8:content>Наличие сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НаличиеПрограммыОшибкаКлиентРасширеннаяПодсказка" id="371"/>
 									<ChildItems>
@@ -844,6 +861,7 @@
 											<v8:content>Наличие сертификата ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НаличиеПрограммыОшибкаСерверРасширеннаяПодсказка" id="373"/>
 									<ChildItems>
@@ -906,6 +924,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПроверкиОперацийРасширеннаяПодсказка" id="128"/>
@@ -918,6 +937,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПодписаниеДанныхРасширеннаяПодсказка" id="86"/>
@@ -972,6 +992,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПодписаниеДанныхРезультатИРешениеРасширеннаяПодсказка" id="243"/>
@@ -1004,6 +1025,7 @@
 											<v8:content>Подписание ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ПодписаниеОшибкаКлиентРасширеннаяПодсказка" id="375"/>
 									<ChildItems>
@@ -1059,6 +1081,7 @@
 											<v8:content>Наличие сертификата ошибка (сервер)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ПодписаниеОшибкаСерверРасширеннаяПодсказка" id="377"/>
 									<ChildItems>
@@ -1119,6 +1142,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПроверкаПодписиДанныхРасширеннаяПодсказка" id="97"/>
@@ -1173,6 +1197,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ПроверкаПодписиРезультатИРешениеРасширеннаяПодсказка" id="261"/>
@@ -1206,6 +1231,7 @@
 											<v8:content>Проверка подписи ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ПроверкаПодписиОшибкаКлиентРасширеннаяПодсказка" id="379"/>
 									<ChildItems>
@@ -1261,6 +1287,7 @@
 											<v8:content>Проверка подписи  ошибка (сервер)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ПроверкаПодписиОшибкаСерверРасширеннаяПодсказка" id="381"/>
 									<ChildItems>
@@ -1321,6 +1348,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШифрованиеДанныхРасширеннаяПодсказка" id="61"/>
@@ -1375,6 +1403,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ШифрованиеРезультатИРешениеРасширеннаяПодсказка" id="279"/>
@@ -1408,6 +1437,7 @@
 											<v8:content>Шифрование ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ШифрованиеОшибкаКлиентРасширеннаяПодсказка" id="383"/>
 									<ChildItems>
@@ -1463,6 +1493,7 @@
 											<v8:content>Шифрование сертификата ошибка (сервер)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ШифрованиеОшибкаСерверРасширеннаяПодсказка" id="385"/>
 									<ChildItems>
@@ -1523,6 +1554,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРасшифровкаДанныхРасширеннаяПодсказка" id="72"/>
@@ -1577,6 +1609,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="РасшифровкаРезультатИРешениеРасширеннаяПодсказка" id="297"/>
@@ -1609,6 +1642,7 @@
 											<v8:content>Расшифровка ошибка (клиент)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="РасшифровкаОшибкаКлиентРасширеннаяПодсказка" id="387"/>
 									<ChildItems>
@@ -1664,6 +1698,7 @@
 											<v8:content>Наличие сертификата ошибка (сервер)</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="РасшифровкаОшибкаСерверРасширеннаяПодсказка" id="389"/>
 									<ChildItems>
@@ -1726,6 +1761,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаДополнительныеПроверкиРасширеннаяПодсказка" id="148"/>
@@ -1743,6 +1779,7 @@
 			</Title>
 			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 			<VerticalStretch>true</VerticalStretch>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаВводаПароляРасширеннаяПодсказка" id="143"/>
 			<ChildItems>
@@ -1754,6 +1791,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПоляРасширеннаяПодсказка" id="141"/>
@@ -1765,6 +1803,7 @@
 									<v8:content>Пароль</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПарольРасширеннаяПодсказка" id="155"/>
@@ -1880,6 +1919,7 @@
 			</Title>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="157"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<CommandSet>
@@ -149,6 +149,7 @@
 						</Table>
 						<UsualGroup name="ГруппаОтборОрганизацииПриемник" id="150">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтборОрганизацииПриемникРасширеннаяПодсказка" id="151"/>
@@ -199,6 +200,7 @@
 									<v8:content>Группа период действия</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПериодДействияРасширеннаяПодсказка" id="200"/>
@@ -229,12 +231,14 @@
 						</LabelDecoration>
 						<UsualGroup name="ГруппаСкопироватьНастройкиСистемыНалогообложения" id="183">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьНастройкиСистемыНалогообложенияРасширеннаяПодсказка" id="184"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаНастройкиСистемыНалогообложения" id="188">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНастройкиСистемыНалогообложенияРасширеннаяПодсказка" id="189"/>
@@ -268,6 +272,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаСкопироватьУчетнаяПолитикаБухУчета" id="81">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьУчетнаяПолитикаБухУчетаРасширеннаяПодсказка" id="82"/>
@@ -282,6 +287,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаУчетнаяПолитикаБухУчетаОтступ" id="86">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУчетнаяПолитикаБухУчетаОтступРасширеннаяПодсказка" id="87"/>
@@ -304,6 +310,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаСкопироватьУчетнаяПолитикаФинансовогоУчета" id="97">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьУчетнаяПолитикаФинансовогоУчетаРасширеннаяПодсказка" id="98"/>
@@ -318,6 +325,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаУчетнаяПолитикаФинансовогоУчетаОтступ" id="99">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаУчетнаяПолитикаФинансовогоУчетаОтступРасширеннаяПодсказка" id="100"/>
@@ -340,6 +348,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаСкопироватьНастройкиУчетаНалогаНаПрибыль" id="107">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьНастройкиУчетаНалогаНаПрибыльРасширеннаяПодсказка" id="108"/>
@@ -354,6 +363,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаНастройкиУчетаНалогаНаПрибыльОтступ" id="109">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНастройкиУчетаНалогаНаПрибыльОтступРасширеннаяПодсказка" id="110"/>
@@ -382,6 +392,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьНастройкиУчетаНДСРасширеннаяПодсказка" id="118"/>
@@ -396,6 +407,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаНастройкиУчетаНДСОтступ" id="119">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНастройкиУчетаНДСОтступРасширеннаяПодсказка" id="120"/>
@@ -418,6 +430,7 @@
 						</UsualGroup>
 						<UsualGroup name="ГруппаСкопироватьНастройкиУчетаУСН" id="127">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьНастройкиУчетаУСНРасширеннаяПодсказка" id="128"/>
@@ -432,6 +445,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаНастройкиУчетаУСНОтступ" id="129">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНастройкиУчетаУСНОтступРасширеннаяПодсказка" id="130"/>
@@ -460,6 +474,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСкопироватьСтавкиНалогаНаИмуществоРасширеннаяПодсказка" id="171"/>
@@ -480,6 +495,7 @@
 								</CheckBoxField>
 								<UsualGroup name="ГруппаСтавкиНалогаНаИмущество" id="175">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаСтавкиНалогаНаИмуществоРасширеннаяПодсказка" id="176"/>
@@ -514,6 +530,7 @@
 						<UsualGroup name="ГруппаИтогОшибка" id="160">
 							<Visible>false</Visible>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИтогОшибкаРасширеннаяПодсказка" id="161"/>
@@ -549,6 +566,7 @@
 						<UsualGroup name="ГруппаИтогУспешно" id="158">
 							<Visible>false</Visible>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИтогУспешноРасширеннаяПодсказка" id="159"/>

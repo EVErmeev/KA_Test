@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -25,6 +25,7 @@
 					<v8:content>Страницы графики</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыГрафикиРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
 				<Page name="СтраницаГрафикОплат" id="3">
@@ -250,6 +251,7 @@
 									<v8:content>Группа график оплат услуг подвал</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаГрафикОплатУслугПодвалРасширеннаяПодсказка" id="313"/>
@@ -454,6 +456,7 @@
 									<v8:content>Группа график начисления услуг</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаГрафикНачисленияУслугРасширеннаяПодсказка" id="321"/>
@@ -585,6 +588,7 @@
 									<v8:content>Группа график оплат услуг подвал</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаГрафикОплатУслугПодвал2РасширеннаяПодсказка" id="329"/>
@@ -621,6 +625,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСрокиСуммыРасширеннаяПодсказка" id="118"/>
@@ -633,6 +638,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаИтогиРасширеннаяПодсказка" id="120"/>
@@ -647,6 +653,7 @@
 							<Group>Vertical</Group>
 							<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<TitleDataPath>Оплата_Итого</TitleDataPath>
 							<ExtendedTooltip name="ГруппаОплатыРасширеннаяПодсказка" id="122"/>
 							<ChildItems>
@@ -658,6 +665,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОплата_УслугаПоАренде_ИтогоРасширеннаяПодсказка" id="233"/>
@@ -689,6 +697,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОплата_ОбеспечительныйПлатеж_ИтогоРасширеннаяПодсказка" id="235"/>
@@ -720,6 +729,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОплата_ВыкупнаяСтоимость_ИтогоРасширеннаяПодсказка" id="237"/>
@@ -751,6 +761,7 @@
 										</v8:item>
 									</Title>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОплата_ВыкупнаяСтоимость_Итого1РасширеннаяПодсказка" id="297"/>
@@ -791,6 +802,7 @@
 							<Group>Vertical</Group>
 							<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<TitleDataPath>Начисление_Итого</TitleDataPath>
 							<ExtendedTooltip name="ГруппаНачисленияРасширеннаяПодсказка" id="136"/>
 							<ChildItems>
@@ -801,6 +813,7 @@
 											<v8:content>Начисление услуга по аренде итого</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачисление_УслугаПоАренде_ИтогоРасширеннаяПодсказка" id="257"/>
@@ -837,6 +850,7 @@
 											<v8:content>Начисление обеспечительный платеж итого</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачисление_ОбеспечительныйПлатеж_ИтогоРасширеннаяПодсказка" id="259"/>
@@ -867,6 +881,7 @@
 											<v8:content>Начисление выкупная стоимость итого</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачисление_ВыкупнаяСтоимость_ИтогоРасширеннаяПодсказка" id="261"/>
@@ -897,6 +912,7 @@
 											<v8:content>Начисление выкупная стоимость итого</v8:content>
 										</v8:item>
 									</Title>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНачисление_ВыкупнаяСтоимость_Итого1РасширеннаяПодсказка" id="305"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -41,6 +41,7 @@
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="366"/>
@@ -54,6 +55,7 @@
 					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<VerticalAlign>Center</VerticalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПояснениеКФормеРасширеннаяПодсказка" id="358"/>
@@ -129,6 +131,7 @@
 				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыПодготовкаКВыгрузкеРасширеннаяПодсказка" id="370"/>
 			<ChildItems>
 				<Page name="ЗаполнениеДанных" id="371">
@@ -205,6 +208,7 @@
 													<v8:content>Группа пользовательских настроек проблемы</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<ExtendedTooltip name="ГруппаПользовательскихНастроекПроблемыРасширеннаяПодсказка" id="405"/>
 										</UsualGroup>
 										<Table name="Проблемы" id="385">
@@ -231,6 +235,7 @@
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
 											<UserSettingsGroup>ГруппаПользовательскихНастроекПроблемы</UserSettingsGroup>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="ПроблемыКонтекстноеМеню" id="386"/>
 											<AutoCommandBar name="ПроблемыКоманднаяПанель" id="387">
 												<ChildItems>
@@ -414,6 +419,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРазметкиРасширеннаяПодсказка" id="27"/>
@@ -427,6 +433,7 @@
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="29"/>
@@ -438,6 +445,7 @@
 									<v8:content>Группа выбора режима сопоставления</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВыбораРежимаСопоставленияРасширеннаяПодсказка" id="214"/>
@@ -462,6 +470,7 @@
 										</v8:item>
 									</Title>
 									<Height>1</Height>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРежимПоВидамРасширеннаяПодсказка" id="221"/>
@@ -492,6 +501,7 @@
 										</v8:item>
 									</Title>
 									<Height>1</Height>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРежимПоИерархииРасширеннаяПодсказка" id="226"/>
@@ -522,6 +532,7 @@
 										</v8:item>
 									</Title>
 									<Height>1</Height>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<BackColor>style:TableHeaderBackColor</BackColor>
@@ -572,6 +583,7 @@
 													<v8:content>Пользовательские настройки по видам</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПользовательскихНастроекПоВидамРасширеннаяПодсказка" id="212"/>
@@ -610,6 +622,7 @@
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
 											<UserSettingsGroup>ГруппаПользовательскихНастроекПоВидам</UserSettingsGroup>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="СписокПоВидамКонтекстноеМеню" id="2">
 												<ChildItems>
 													<Button name="СписокКонтекстноеМенюВыбратьКатегорию" id="205">
@@ -760,6 +773,7 @@
 											<Group>Vertical</Group>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<VerticalAlign>Center</VerticalAlign>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ДлительнаяОперацияПоВидамРасширеннаяПодсказка" id="477"/>
@@ -809,6 +823,7 @@
 													<v8:content>Пользовательские настройки (по иерархии)</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПользовательскихНастроекИерархияРасширеннаяПодсказка" id="352"/>
@@ -849,6 +864,7 @@
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
 											<UserSettingsGroup>ГруппаПользовательскихНастроекИерархия</UserSettingsGroup>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="СписокПоИерархииКонтекстноеМеню" id="240">
 												<ChildItems>
 													<Button name="СписокКонтекстноеМенюВыбратьКатегориюИерархия" id="261">
@@ -1002,6 +1018,7 @@
 													<v8:content>Пользовательские настройки (по иерархии)</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаПользовательскихНастроекНоменклатураРасширеннаяПодсказка" id="354"/>
@@ -1015,6 +1032,7 @@
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<BackColor>style:ReportGroup2BackColor</BackColor>
@@ -1099,6 +1117,7 @@
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
 											<UserSettingsGroup>ГруппаПользовательскихНастроекНоменклатура</UserSettingsGroup>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 											<ContextMenu name="СписокПоНоменклатуреКонтекстноеМеню" id="278">
 												<ChildItems>
 													<Button name="СписокКонтекстноеМенюВыбратьКатегориюНоменклатура" id="299">
@@ -1279,6 +1298,7 @@
 									<v8:content>Информация</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЛевоИнформацияРасширеннаяПодсказка" id="194"/>
@@ -1322,6 +1342,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="31"/>
@@ -1365,6 +1386,7 @@
 													<v8:content>Сопоставление реквизитов номенклатуры</v8:content>
 												</v8:item>
 											</Title>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРеквизитовРасширеннаяПодсказка" id="184"/>
@@ -1573,6 +1595,7 @@
 											<VerticalStretch>true</VerticalStretch>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<VerticalAlign>Center</VerticalAlign>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДлительногоОжиданияРасширеннаяПодсказка" id="182"/>
@@ -1646,6 +1669,7 @@
 									<v8:content>Информация</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПравоИнформацияРасширеннаяПодсказка" id="186"/>
@@ -1692,6 +1716,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаУстранениеПроблемПоНоменклатуреРасширеннаяПодсказка" id="420"/>
@@ -1704,6 +1729,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЗаполнениеДанныхРасширеннаяПодсказка" id="422"/>
@@ -1730,6 +1756,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПроблемыРасширеннаяПодсказка" id="427"/>
@@ -1774,6 +1801,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСопоставлениеНоменклатурыРасширеннаяПодсказка" id="438"/>
@@ -1801,6 +1829,7 @@
 							</Title>
 							<TitleTextColor>style:FormTextColor</TitleTextColor>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаСопоставлениеСРубрикаторомРасширеннаяПодсказка" id="448"/>
 							<ChildItems>
@@ -1890,6 +1919,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСопоставлениеРеквизитовРасширеннаяПодсказка" id="443"/>

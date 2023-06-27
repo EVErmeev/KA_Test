@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -65,6 +65,7 @@
 			</Title>
 			<ToolTipRepresentation>Button</ToolTipRepresentation>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЛокальныеКлючиРасширеннаяПодсказка" id="240"/>
@@ -108,6 +109,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЛокальныеКлючиГоризонтальнаяРасширеннаяПодсказка" id="253"/>
@@ -201,6 +203,7 @@
 							<v8:content>Локальные ключи лицензия</v8:content>
 						</v8:item>
 					</Title>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЛокальныеКлючиЛицензияРасширеннаяПодсказка" id="255"/>
@@ -279,6 +282,7 @@
 			</Events>
 		</RadioButtonField>
 		<UsualGroup name="ГруппаПодсказка" id="288">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодсказкаРасширеннаяПодсказка" id="289"/>
@@ -316,6 +320,7 @@
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВОблакеРасширеннаяПодсказка" id="141"/>
@@ -333,6 +338,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВариантыОблакаРасширеннаяПодсказка" id="194"/>
@@ -345,6 +351,7 @@
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВОблакеВертикальнаяРасширеннаяПодсказка" id="143"/>
@@ -365,6 +372,7 @@
 								<UsualGroup name="ГруппаНовыйТелефон" id="18">
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНовыйТелефонРасширеннаяПодсказка" id="19"/>
@@ -372,6 +380,7 @@
 										<UsualGroup name="ГруппаНомерТелефонаДляПроверки" id="118">
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНомерТелефонаДляПроверкиExtendedTooltip" id="119"/>
@@ -436,6 +445,7 @@
 										</UsualGroup>
 										<UsualGroup name="ГруппаКодПодтверждения" id="90">
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКодПодтвержденияРасширеннаяПодсказка" id="91"/>
@@ -443,6 +453,7 @@
 												<UsualGroup name="ГруппаКодИОтменаВводаНовогоТелефона" id="107">
 													<Group>Horizontal</Group>
 													<VerticalAlign>Center</VerticalAlign>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКодИОтменаВводаНовогоТелефонаРасширеннаяПодсказка" id="108"/>
@@ -521,12 +532,14 @@
 									<v8:content>Ключ в блаке выбор</v8:content>
 								</v8:item>
 							</Title>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВОблакеВыборРасширеннаяПодсказка" id="181"/>
 							<ChildItems>
 								<UsualGroup name="ВертикальнаяПодгруппаПродленияСертификата" id="195">
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ВертикальнаяПодгруппаПродленияСертификатаРасширеннаяПодсказка" id="196"/>
@@ -539,6 +552,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ЕстьВыборМестаХраненияРасширеннаяПодсказка" id="200"/>
@@ -612,6 +626,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОблачнаяПодписьРасширеннаяПодсказка" id="157"/>
@@ -653,6 +668,7 @@
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОблачнаяПодписьГоризонтальноРасширеннаяПодсказка" id="260"/>
@@ -664,11 +680,13 @@
 						</LabelDecoration>
 						<UsualGroup name="ГруппаОблачнаяПодписьЭлементы" id="281">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОблачнаяПодписьЭлементыРасширеннаяПодсказка" id="282"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаОблачнаяПодписьЭлементы1" id="283">
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОблачнаяПодписьЭлементы1РасширеннаяПодсказка" id="284"/>
@@ -692,6 +710,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаОблачнаяПодписьЭлементы2" id="279">
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаОблачнаяПодписьЭлементы2РасширеннаяПодсказка" id="280"/>
@@ -719,6 +738,7 @@
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОблачнаяПодписьВыборРасширеннаяПодсказка" id="278"/>

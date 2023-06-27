@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -21,6 +21,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельФормыExtendedTooltip" id="775"/>
@@ -254,6 +255,7 @@
 			</Title>
 			<Height>12</Height>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ОбластьПодбораExtendedTooltip" id="794"/>
@@ -266,6 +268,7 @@
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ChildItemsWidth>LeftWidest</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -280,6 +283,7 @@
 							</Title>
 							<Height>5</Height>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНайденныеТоварыExtendedTooltip" id="796"/>
@@ -311,6 +315,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКомандныеПанелиСписокСтандартныйПоискНоменклатураРасширеннаяПодсказка" id="1254"/>
@@ -432,6 +437,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="СписокСтандартныйПоискНоменклатураКонтекстноеМеню" id="163">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -655,6 +661,7 @@
 														</v8:item>
 													</Title>
 													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаКомандныеПанелиСписокСтандартныйПоискХарактеристикиРасширеннаяПодсказка" id="1239"/>
@@ -744,6 +751,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="СписокСтандартныйПоискХарактеристикиКонтекстноеМеню" id="176">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -937,6 +945,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="РасширенныйПоискНоменклатураExtendedTooltip" id="846"/>
@@ -1101,6 +1110,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="СписокРасширенныйПоискНоменклатураКонтекстноеМеню" id="733">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -1332,6 +1342,7 @@
 														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="РасширенныйПоискХарактеристикаExtendedTooltip" id="873"/>
@@ -1465,6 +1476,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="СписокРасширенныйПоискХарактеристикиКонтекстноеМеню" id="712">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -1765,6 +1777,7 @@
 							</Title>
 							<Width>35</Width>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="СтраницаФильтрыExtendedTooltip" id="900"/>
@@ -1777,6 +1790,7 @@
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="901"/>
@@ -1939,6 +1953,7 @@
 													<ShowRoot>true</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="ИерархияНоменклатурыКонтекстноеМеню" id="1141">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -2081,6 +2096,7 @@
 													<ShowRoot>false</ShowRoot>
 													<AllowRootChoice>false</AllowRootChoice>
 													<UpdateOnDataChange>Auto</UpdateOnDataChange>
+													<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 													<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="1096">
 														<Autofill>false</Autofill>
 														<ChildItems>
@@ -2528,6 +2544,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаФильтрПоЦенеExtendedTooltip" id="928"/>
@@ -2621,6 +2638,7 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодобранныеТоварыРасширеннаяПодсказка" id="1139"/>
@@ -2634,6 +2652,7 @@
 					</Title>
 					<Height>1</Height>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаИнформацияExtendedTooltip" id="934"/>
@@ -2674,6 +2693,7 @@
 					</Title>
 					<Height>7</Height>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОбластьПодобранныеТоварыExtendedTooltip" id="938"/>

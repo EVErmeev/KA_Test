@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -15,6 +15,7 @@
 					<v8:content>Страницы по орг форме предпринимателя</v8:content>
 				</v8:item>
 			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыПоОргФормеПредпринимателяExtendedTooltip" id="318"/>
 			<ChildItems>
 				<Page name="СтраницаИндивидуальныйПредприниматель" id="83">
@@ -44,6 +45,7 @@
 									<v8:content>Страницы сообщения ИННИП</v8:content>
 								</v8:item>
 							</Title>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыСообщенияИННИПExtendedTooltip" id="321"/>
 							<ChildItems>
 								<Page name="НетСообщенийИННИП" id="273">
@@ -95,6 +97,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИННКППЮЛExtendedTooltip" id="326"/>
@@ -107,6 +110,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИННЮЛExtendedTooltip" id="327"/>
@@ -129,6 +133,7 @@
 													<v8:content>Страницы сообщения ИННЮЛ</v8:content>
 												</v8:item>
 											</Title>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="СтраницыСообщенияИННЮЛExtendedTooltip" id="329"/>
 											<ChildItems>
 												<Page name="НетСообщенийИННЮЛ" id="280">
@@ -171,6 +176,7 @@
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКППЮЛExtendedTooltip" id="334"/>
@@ -193,6 +199,7 @@
 													<v8:content>Страницы сообщения КППЮЛ</v8:content>
 												</v8:item>
 											</Title>
+											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="СтраницыСообщенияКППЮЛExtendedTooltip" id="336"/>
 											<ChildItems>
 												<Page name="НетСообщенийКППЮЛ" id="285">
@@ -235,6 +242,7 @@
 		</Pages>
 		<UsualGroup name="ГруппаОКПООГРН" id="97">
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОКПООГРНРасширеннаяПодсказка" id="340"/>
@@ -247,6 +255,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКодПоОКПОExtendedTooltip" id="348"/>
@@ -269,6 +278,7 @@
 									<v8:content>Страницы сообщения ОКПО</v8:content>
 								</v8:item>
 							</Title>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыСообщенияОКПОExtendedTooltip" id="350"/>
 							<ChildItems>
 								<Page name="НетСообщенийОКПО" id="298">
@@ -311,6 +321,7 @@
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОГРНExtendedTooltip" id="354"/>
@@ -333,6 +344,7 @@
 									<v8:content>Страницы сообщения ОГРН</v8:content>
 								</v8:item>
 							</Title>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыСообщенияОГРНExtendedTooltip" id="356"/>
 							<ChildItems>
 								<Page name="НетСообщенийОГРН" id="303">
@@ -377,6 +389,7 @@
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКнопокExtendedTooltip" id="363"/>

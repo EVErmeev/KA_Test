@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<AutoTitle>false</AutoTitle>
 	<HorizontalSpacing>None</HorizontalSpacing>
 	<VerticalSpacing>None</VerticalSpacing>
@@ -44,6 +44,7 @@
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
 			<VerticalAlign>Bottom</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FormBackColor</BackColor>
@@ -60,6 +61,7 @@
 					<HorizontalSpacing>None</HorizontalSpacing>
 					<VerticalSpacing>None</VerticalSpacing>
 					<HorizontalAlign>Center</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="МенюРасширеннаяПодсказка" id="4"/>
@@ -80,6 +82,7 @@
 							<Group>Vertical</Group>
 							<HorizontalSpacing>None</HorizontalSpacing>
 							<VerticalSpacing>None</VerticalSpacing>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандаКСборкеРасширеннаяПодсказка" id="18"/>
@@ -127,6 +130,7 @@
 							<Group>Vertical</Group>
 							<HorizontalSpacing>None</HorizontalSpacing>
 							<VerticalSpacing>None</VerticalSpacing>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандаУточнитьРасширеннаяПодсказка" id="20"/>
@@ -174,6 +178,7 @@
 							<Group>Vertical</Group>
 							<HorizontalSpacing>None</HorizontalSpacing>
 							<VerticalSpacing>None</VerticalSpacing>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомандаСобраноРасширеннаяПодсказка" id="22"/>
@@ -568,6 +573,7 @@
 					<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<VerticalAlign>Bottom</VerticalAlign>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КнопкиКСборкеРасширеннаяПодсказка" id="14"/>
@@ -642,6 +648,7 @@
 			<Group>Vertical</Group>
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FormBackColor</BackColor>
@@ -716,6 +723,7 @@
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<Group>AlwaysHorizontal</Group>
 					<HorizontalAlign>Center</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СвойстваТовараРасширеннаяПодсказка" id="56"/>
 					<ChildItems>
@@ -728,6 +736,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЗаголовкиСвойствРасширеннаяПодсказка" id="58"/>
 							<ChildItems>
@@ -814,6 +823,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЗначениеСвойствРасширеннаяПодсказка" id="60"/>
 							<ChildItems>
@@ -899,6 +909,7 @@
 					<Group>Vertical</Group>
 					<HorizontalSpacing>Single</HorizontalSpacing>
 					<HorizontalAlign>Center</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КнопкиСобратьЗаменитьРасширеннаяПодсказка" id="101"/>
 					<ChildItems>
@@ -987,6 +998,7 @@
 			<Group>Vertical</Group>
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FormBackColor</BackColor>
@@ -1018,6 +1030,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ШапкаСобратьТоварРасширеннаяПодсказка" id="114"/>
@@ -1069,6 +1082,7 @@
 					<VerticalStretch>false</VerticalStretch>
 					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="СвойстваТовараСобратьРасширеннаяПодсказка" id="122"/>
 					<ChildItems>
@@ -1086,6 +1100,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЗаголовкиСвойствСобратьРасширеннаяПодсказка" id="124"/>
 							<ChildItems>
@@ -1153,6 +1168,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ЗначениеСвойствСобратьРасширеннаяПодсказка" id="141"/>
 							<ChildItems>
@@ -1208,6 +1224,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПредупреждениеРасширеннаяПодсказка" id="170"/>
@@ -1280,6 +1297,7 @@
 							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ИконкиПредупрежденияРасширеннаяПодсказка" id="172"/>
@@ -1300,6 +1318,7 @@
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Vertical</Group>
 									<HorizontalAlign>Center</HorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИконка1РасширеннаяПодсказка" id="174"/>
 									<ChildItems>
@@ -1349,6 +1368,7 @@
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Vertical</Group>
 									<HorizontalAlign>Center</HorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИконка2РасширеннаяПодсказка" id="176"/>
 									<ChildItems>
@@ -1398,6 +1418,7 @@
 									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Vertical</Group>
 									<HorizontalAlign>Center</HorizontalAlign>
+									<Behavior>Usual</Behavior>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИконка3РасширеннаяПодсказка" id="178"/>
 									<ChildItems>
@@ -1480,6 +1501,7 @@
 					<HorizontalStretch>true</HorizontalStretch>
 					<VerticalStretch>false</VerticalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСобраноРасширеннаяПодсказка" id="207"/>
 					<ChildItems>
@@ -1510,6 +1532,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНадписьСобраноРасширеннаяПодсказка" id="212"/>
@@ -1562,6 +1585,7 @@
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<HorizontalAlign>Center</HorizontalAlign>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКоличествоРасширеннаяПодсказка" id="236"/>
 					<ChildItems>
@@ -1672,6 +1696,7 @@
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
 			<VerticalAlign>Bottom</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FieldSelectedTextColor</BackColor>
@@ -1696,6 +1721,7 @@
 					<Group>Vertical</Group>
 					<HorizontalSpacing>None</HorizontalSpacing>
 					<VerticalSpacing>None</VerticalSpacing>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:FieldSelectedTextColor</BackColor>
@@ -1718,6 +1744,7 @@
 					<VerticalStretch>true</VerticalStretch>
 					<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:FieldSelectedTextColor</BackColor>
 					<ExtendedTooltip name="ГруппаШКРасширеннаяПодсказка" id="454"/>
@@ -1767,6 +1794,7 @@
 			<Group>Vertical</Group>
 			<HorizontalSpacing>None</HorizontalSpacing>
 			<VerticalSpacing>None</VerticalSpacing>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FieldSelectedTextColor</BackColor>
@@ -1789,6 +1817,7 @@
 					<VerticalStretch>true</VerticalStretch>
 					<Group>Vertical</Group>
 					<VerticalSpacing>Single</VerticalSpacing>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<BackColor>style:FieldSelectedTextColor</BackColor>
@@ -1822,6 +1851,7 @@
 							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЗаменаЛевРасширеннаяПодсказка" id="487"/>
 							<ChildItems>
@@ -1839,6 +1869,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ФотоКолЛевРасширеннаяПодсказка" id="494"/>
@@ -1870,6 +1901,7 @@
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Vertical</Group>
 									<VerticalAlign>Top</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СвойстваЛевРасширеннаяПодсказка" id="552"/>
@@ -1890,6 +1922,7 @@
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>AlwaysHorizontal</Group>
 											<HorizontalSpacing>Single</HorizontalSpacing>
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКолВоЛевРасширеннаяПодсказка" id="576"/>
 											<ChildItems>
@@ -1957,6 +1990,7 @@
 							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаЗаменаПравРасширеннаяПодсказка" id="489"/>
 							<ChildItems>
@@ -1974,6 +2008,7 @@
 										</v8:item>
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ФотоКолПравРасширеннаяПодсказка" id="496"/>
@@ -2005,6 +2040,7 @@
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Vertical</Group>
 									<VerticalAlign>Top</VerticalAlign>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СвойстваПравРасширеннаяПодсказка" id="563"/>
@@ -2025,6 +2061,7 @@
 											<HorizontalStretch>true</HorizontalStretch>
 											<Group>AlwaysHorizontal</Group>
 											<HorizontalSpacing>Single</HorizontalSpacing>
+											<Behavior>Usual</Behavior>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаКолВоПравРасширеннаяПодсказка" id="574"/>
 											<ChildItems>
@@ -2081,6 +2118,7 @@
 			<Group>Vertical</Group>
 			<HorizontalAlign>Center</HorizontalAlign>
 			<VerticalAlign>Bottom</VerticalAlign>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<BackColor>style:FieldSelectedTextColor</BackColor>
 			<ExtendedTooltip name="ГруппаКалькуляторРасширеннаяПодсказка" id="253"/>
@@ -2100,12 +2138,14 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КнопкиКалькулятораРасширеннаяПодсказка" id="460"/>
 					<ChildItems>
 						<UsualGroup name="Группа1" id="254">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="255"/>
 							<ChildItems>
@@ -2146,6 +2186,7 @@
 						<UsualGroup name="Группа2" id="256">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="257"/>
 							<ChildItems>
@@ -2186,6 +2227,7 @@
 						<UsualGroup name="Группа3" id="258">
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="259"/>
 							<ChildItems>
@@ -2246,6 +2288,7 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="КомандыПодтвержденияКалькуляторРасширеннаяПодсказка" id="458"/>
 					<ChildItems>
