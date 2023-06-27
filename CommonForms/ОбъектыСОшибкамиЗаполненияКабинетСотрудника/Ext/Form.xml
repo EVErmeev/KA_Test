@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Публикуемые объекты с ошибками заполнения</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыФормы" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы формы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<Page name="СтраницаФизическиеЛица" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физические лица</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаФизическиеЛицаРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<Table name="ФизическиеЛица" id="1">
+							<Representation>List</Representation>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ФизическиеЛица</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>CreateFolder</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>HierarchicalList</ExcludedCommand>
+								<ExcludedCommand>LevelDown</ExcludedCommand>
+								<ExcludedCommand>LevelUp</ExcludedCommand>
+								<ExcludedCommand>List</ExcludedCommand>
+								<ExcludedCommand>MoveItem</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+								<ExcludedCommand>Tree</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>true</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ФизическиеЛицаКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="ФизическиеЛицаКоманднаяПанель" id="3">
+								<ChildItems>
+									<Button name="ФизическиеЛицаОбновить" id="93">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ФизическиеЛица.StandardCommand.Refresh</CommandName>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ФизическиеЛицаОбновитьРасширеннаяПодсказка" id="94"/>
+									</Button>
+									<Button name="ФизическиеЛицаПроверитьЗаполнениеОбъектов" id="87">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПроверитьЗаполнениеОбъектов</CommandName>
+										<ExtendedTooltip name="ФизическиеЛицаПроверитьЗаполнениеОбъектовРасширеннаяПодсказка" id="88"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ФизическиеЛицаРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="ФизическиеЛицаСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>ФизическиеЛица</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ФизическиеЛицаСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ФизическиеЛицаСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ФизическиеЛицаСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>ФизическиеЛица</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ФизическиеЛицаСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ФизическиеЛицаСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ФизическиеЛицаУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>ФизическиеЛица</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ФизическиеЛицаУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ФизическиеЛицаУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ФизическиеЛицаФизическоеЛицо" id="23">
+									<DataPath>ФизическиеЛица.ФизическоеЛицо</DataPath>
+									<ContextMenu name="ФизическиеЛицаФизическоеЛицоКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ФизическиеЛицаФизическоеЛицоРасширеннаяПодсказка" id="25"/>
+								</LabelField>
+								<CheckBoxField name="ФизическиеЛицаНеПубликуется" id="14">
+									<DataPath>ФизическиеЛица.НеПубликуется</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ФизическиеЛицаНеПубликуетсяКонтекстноеМеню" id="15"/>
+									<ExtendedTooltip name="ФизическиеЛицаНеПубликуетсяРасширеннаяПодсказка" id="16"/>
+								</CheckBoxField>
+								<LabelField name="ФизическиеЛицаОписаниеОшибки" id="17">
+									<DataPath>ФизическиеЛица.ОписаниеОшибки</DataPath>
+									<AutoCellHeight>true</AutoCellHeight>
+									<ContextMenu name="ФизическиеЛицаОписаниеОшибкиКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ФизическиеЛицаОписаниеОшибкиРасширеннаяПодсказка" id="19"/>
+								</LabelField>
+								<LabelField name="ФизическиеЛицаПредупреждение" id="20">
+									<DataPath>ФизическиеЛица.Предупреждение</DataPath>
+									<ContextMenu name="ФизическиеЛицаПредупреждениеКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ФизическиеЛицаПредупреждениеРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПозиции" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Позиции штатного расписания</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаПозицииРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<Table name="Позиции" id="32">
+							<Representation>List</Representation>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Позиции</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>true</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ПозицииКонтекстноеМеню" id="33"/>
+							<AutoCommandBar name="ПозицииКоманднаяПанель" id="34">
+								<ChildItems>
+									<Button name="ПозицииОбновить" id="95">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.Позиции.StandardCommand.Refresh</CommandName>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ПозицииОбновитьРасширеннаяПодсказка" id="96"/>
+									</Button>
+									<Button name="ПозицииПроверитьЗаполнениеОбъектов" id="89">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПроверитьЗаполнениеОбъектов</CommandName>
+										<ExtendedTooltip name="ПозицииПроверитьЗаполнениеОбъектовРасширеннаяПодсказка" id="90"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПозицииРасширеннаяПодсказка" id="35"/>
+							<SearchStringAddition name="ПозицииСтрокаПоиска" id="36">
+								<AdditionSource>
+									<Item>Позиции</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПозицииСтрокаПоискаКонтекстноеМеню" id="37"/>
+								<ExtendedTooltip name="ПозицииСтрокаПоискаРасширеннаяПодсказка" id="38"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПозицииСостояниеПросмотра" id="39">
+								<AdditionSource>
+									<Item>Позиции</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПозицииСостояниеПросмотраКонтекстноеМеню" id="40"/>
+								<ExtendedTooltip name="ПозицииСостояниеПросмотраРасширеннаяПодсказка" id="41"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПозицииУправлениеПоиском" id="42">
+								<AdditionSource>
+									<Item>Позиции</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПозицииУправлениеПоискомКонтекстноеМеню" id="43"/>
+								<ExtendedTooltip name="ПозицииУправлениеПоискомРасширеннаяПодсказка" id="44"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПозицииПозиция" id="51">
+									<DataPath>Позиции.Позиция</DataPath>
+									<ContextMenu name="ПозицииПозицияКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="ПозицииПозицияРасширеннаяПодсказка" id="53"/>
+								</LabelField>
+								<CheckBoxField name="ПозицииНеПубликуется" id="45">
+									<DataPath>Позиции.НеПубликуется</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПозицииНеПубликуетсяКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ПозицииНеПубликуетсяРасширеннаяПодсказка" id="47"/>
+								</CheckBoxField>
+								<LabelField name="ПозицииОписаниеОшибки" id="48">
+									<DataPath>Позиции.ОписаниеОшибки</DataPath>
+									<AutoCellHeight>true</AutoCellHeight>
+									<ContextMenu name="ПозицииОписаниеОшибкиКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ПозицииОписаниеОшибкиРасширеннаяПодсказка" id="50"/>
+								</LabelField>
+								<LabelField name="ПозицииПредупреждение" id="54">
+									<DataPath>Позиции.Предупреждение</DataPath>
+									<ContextMenu name="ПозицииПредупреждениеКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ПозицииПредупреждениеРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСотрудники" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудники</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаСотрудникиРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<Table name="Сотрудники" id="59">
+							<Representation>List</Representation>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Сотрудники</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>true</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="СотрудникиКонтекстноеМеню" id="60"/>
+							<AutoCommandBar name="СотрудникиКоманднаяПанель" id="61">
+								<ChildItems>
+									<Button name="СотрудникиОбновить" id="97">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.Сотрудники.StandardCommand.Refresh</CommandName>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="СотрудникиОбновитьРасширеннаяПодсказка" id="98"/>
+									</Button>
+									<Button name="СотрудникиПроверитьЗаполнениеОбъектов" id="91">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПроверитьЗаполнениеОбъектов</CommandName>
+										<ExtendedTooltip name="СотрудникиПроверитьЗаполнениеОбъектовРасширеннаяПодсказка" id="92"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СотрудникиРасширеннаяПодсказка" id="62"/>
+							<SearchStringAddition name="СотрудникиСтрокаПоиска" id="63">
+								<AdditionSource>
+									<Item>Сотрудники</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиСтрокаПоискаКонтекстноеМеню" id="64"/>
+								<ExtendedTooltip name="СотрудникиСтрокаПоискаРасширеннаяПодсказка" id="65"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СотрудникиСостояниеПросмотра" id="66">
+								<AdditionSource>
+									<Item>Сотрудники</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиСостояниеПросмотраКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="СотрудникиСостояниеПросмотраРасширеннаяПодсказка" id="68"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СотрудникиУправлениеПоиском" id="69">
+								<AdditionSource>
+									<Item>Сотрудники</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СотрудникиУправлениеПоискомКонтекстноеМеню" id="70"/>
+								<ExtendedTooltip name="СотрудникиУправлениеПоискомРасширеннаяПодсказка" id="71"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СотрудникиСотрудник" id="81">
+									<DataPath>Сотрудники.Сотрудник</DataPath>
+									<ContextMenu name="СотрудникиСотрудникКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="СотрудникиСотрудникРасширеннаяПодсказка" id="83"/>
+								</LabelField>
+								<CheckBoxField name="СотрудникиНеПубликуется" id="72">
+									<DataPath>Сотрудники.НеПубликуется</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СотрудникиНеПубликуетсяКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="СотрудникиНеПубликуетсяРасширеннаяПодсказка" id="74"/>
+								</CheckBoxField>
+								<LabelField name="СотрудникиОписаниеОшибки" id="75">
+									<DataPath>Сотрудники.ОписаниеОшибки</DataPath>
+									<AutoCellHeight>true</AutoCellHeight>
+									<ContextMenu name="СотрудникиОписаниеОшибкиКонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="СотрудникиОписаниеОшибкиРасширеннаяПодсказка" id="77"/>
+								</LabelField>
+								<LabelField name="СотрудникиФизическоеЛицо" id="84">
+									<DataPath>Сотрудники.ФизическоеЛицо</DataPath>
+									<ContextMenu name="СотрудникиФизическоеЛицоКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="СотрудникиФизическоеЛицоРасширеннаяПодсказка" id="86"/>
+								</LabelField>
+								<LabelField name="СотрудникиПозиция" id="78">
+									<DataPath>Сотрудники.Позиция</DataPath>
+									<ContextMenu name="СотрудникиПозицияКонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="СотрудникиПозицияРасширеннаяПодсказка" id="80"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ФизическиеЛица" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические лица</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ФизическиеЛица.Ссылка КАК ФизическоеЛицо,
+	ОбъектыСОшибками.БлокирующаяОшибка КАК НеПубликуется,
+	ОбъектыСОшибками.ОписаниеБлокирующейОшибки КАК ОписаниеОшибки,
+	ОбъектыСОшибками.ОписаниеОшибки КАК Предупреждение
+ИЗ
+	Справочник.ФизическиеЛица КАК ФизическиеЛица
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ФизическиеЛицаКабинетСотрудника КАК ПубликуемыеФизическиеЛица
+		ПО ФизическиеЛица.Ссылка = ПубликуемыеФизическиеЛица.ФизическоеЛицо
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ОбъектыСОшибкамиЗаполненияКабинетСотрудника КАК ОбъектыСОшибками
+		ПО ФизическиеЛица.Ссылка = ОбъектыСОшибками.ОбъектПубликации</QueryText>
+				<MainTable>Catalog.ФизическиеЛица</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Позиции" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позиции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ШтатноеРасписание.Ссылка КАК Позиция,
+	ОбъектыСОшибками.БлокирующаяОшибка КАК НеПубликуется,
+	ОбъектыСОшибками.ОписаниеБлокирующейОшибки КАК ОписаниеОшибки,
+	ОбъектыСОшибками.ОписаниеОшибки КАК Предупреждение
+ИЗ
+	Справочник.ШтатноеРасписание КАК ШтатноеРасписание
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПубликуемыеОбъектыКабинетСотрудника КАК ПубликуемыеОбъекты
+		ПО ШтатноеРасписание.Ссылка = ПубликуемыеОбъекты.ОбъектПубликации
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ОбъектыСОшибкамиЗаполненияКабинетСотрудника КАК ОбъектыСОшибками
+		ПО ШтатноеРасписание.Ссылка = ОбъектыСОшибками.ОбъектПубликации</QueryText>
+				<MainTable>Catalog.ШтатноеРасписание</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Сотрудники" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудники</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникСотрудники.Ссылка КАК Сотрудник,
+	ОбъектыСОшибками.БлокирующаяОшибка КАК НеПубликуется,
+	ОбъектыСОшибками.ФизическоеЛицо КАК ФизическоеЛицо,
+	ОбъектыСОшибками.Позиция КАК Позиция,
+	ОбъектыСОшибками.ОписаниеБлокирующейОшибки КАК ОписаниеОшибки
+ИЗ
+	Справочник.Сотрудники КАК СправочникСотрудники
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПубликуемыеОбъектыКабинетСотрудника КАК ПубликуемыеОбъекты
+		ПО СправочникСотрудники.Ссылка = ПубликуемыеОбъекты.ОбъектПубликации
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ОбъектыСОшибкамиЗаполненияКабинетСотрудника КАК ОбъектыСОшибками
+		ПО СправочникСотрудники.Ссылка = ОбъектыСОшибками.ОбъектПубликации</QueryText>
+				<MainTable>InformationRegister.ОбъектыСОшибкамиЗаполненияКабинетСотрудника</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПоказыватьПозиции" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать позиции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьЗаполнениеОбъектов" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить заполнение объектов</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПроверитьЗаполнениеОбъектов</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПередЗагрузкойДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ИнформационнаяПанельБРО" id="1035">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель БРО</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель БРО</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ИнформационнаяПанельБРОРасширеннаяПодсказка" id="1036"/>
+		</UsualGroup>
+		<UsualGroup name="ОтборПоОрганизациямГруппа" id="152">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор по организациям</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор по организациям группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОтборПоОрганизациямГруппаРасширеннаяПодсказка" id="153"/>
+			<ChildItems>
+				<UsualGroup name="ОтборГоловнаяОрганизацияГруппа" id="619">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор головная организация группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор головная организация группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОтборГоловнаяОрганизацияГруппаРасширеннаяПодсказка" id="620"/>
+					<ChildItems>
+						<LabelDecoration name="ГоловнаяОрганизацияЗаголовок" id="621">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ГоловнаяОрганизацияЗаголовокКонтекстноеМеню" id="622"/>
+							<ExtendedTooltip name="ГоловнаяОрганизацияЗаголовокРасширеннаяПодсказка" id="623"/>
+						</LabelDecoration>
+						<InputField name="ГоловнаяОрганизация" id="624">
+							<DataPath>ГоловнаяОрганизация</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ClearButton>true</ClearButton>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="625"/>
+							<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="626"/>
+							<Events>
+								<Event name="OnChange">ГоловнаяОрганизацияПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОтборОрганизацияГруппа" id="627">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор организация группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор организация группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОтборОрганизацияГруппаРасширеннаяПодсказка" id="628"/>
+					<ChildItems>
+						<LabelDecoration name="ОрганизацияЗаголовок" id="629">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Филиал:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОрганизацияЗаголовокКонтекстноеМеню" id="630"/>
+							<ExtendedTooltip name="ОрганизацияЗаголовокРасширеннаяПодсказка" id="631"/>
+						</LabelDecoration>
+						<InputField name="Организация" id="632">
+							<DataPath>Организация</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ClearButton>true</ClearButton>
+							<ChoiceParameterLinks>
+								<xr:Link>
+									<xr:Name>Отбор.ГоловнаяОрганизация</xr:Name>
+									<xr:DataPath xsi:type="xs:string">ГоловнаяОрганизация</xr:DataPath>
+									<xr:ValueChange>Clear</xr:ValueChange>
+								</xr:Link>
+							</ChoiceParameterLinks>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="633">
+								<ChildItems>
+									<Button name="ВыбратьНасколькоФилиалов" id="635">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВыбратьНасколькоФилиалов</CommandName>
+										<ExtendedTooltip name="ВыбратьНасколькоФилиаловРасширеннаяПодсказка" id="636"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="634"/>
+							<Events>
+								<Event name="OnChange">ОрганизацияПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОтборОрганизацииГруппа" id="639">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор организации группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор организации группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОтборОрганизацииГруппаРасширеннаяПодсказка" id="640"/>
+					<ChildItems>
+						<LabelDecoration name="ОрганизацииЗаголовок" id="641">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Филиалы:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОрганизацииЗаголовокКонтекстноеМеню" id="642"/>
+							<ExtendedTooltip name="ОрганизацииЗаголовокРасширеннаяПодсказка" id="643"/>
+						</LabelDecoration>
+						<UsualGroup name="Группа2" id="644">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="645"/>
+							<ChildItems>
+								<LabelDecoration name="ФилиалыПредставление" id="646">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Филиалы представление</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ФилиалыПредставлениеКонтекстноеМеню" id="647">
+										<ChildItems>
+											<Button name="ВернутьсяКВыборуОдногоФилиала" id="649">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ВернутьсяКВыборуОдногоФилиала</CommandName>
+												<ExtendedTooltip name="ВернутьсяКВыборуОдногоФилиалаРасширеннаяПодсказка" id="650"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<ExtendedTooltip name="ФилиалыПредставлениеРасширеннаяПодсказка" id="648"/>
+									<Events>
+										<Event name="Click">ОрганизацииПредставлениеНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<Button name="ОчиститьСписокФилиалов" id="651">
+									<Type>Hyperlink</Type>
+									<Representation>Picture</Representation>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<CommandName>Form.Command.ОчиститьСписокФилиалов</CommandName>
+									<ExtendedTooltip name="ОчиститьСписокФилиаловРасширеннаяПодсказка" id="652"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<CommandBar name="СписокОсновнаяКоманднаяПанель" id="150">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список основная командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СписокОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="151"/>
+			<ChildItems>
+				<ButtonGroup name="КнопкиФормы" id="165">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кнопки формы</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="КнопкиФормыРасширеннаяПодсказка" id="166"/>
+				</ButtonGroup>
+				<ButtonGroup name="ГруппаПолучитьСообщенияСЭДОФСС" id="169">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа получить сообщения СЭДОФСС</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа получить сообщения СЭДОФСС</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>Compact</Representation>
+					<ExtendedTooltip name="ГруппаПолучитьСообщенияСЭДОФССРасширеннаяПодсказка" id="170"/>
+					<ChildItems>
+						<Button name="ОтправитьВФонд" id="1030">
+							<Type>CommandBarButton</Type>
+							<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ОтправитьВФонд</CommandName>
+							<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+							<ExtendedTooltip name="ОтправитьВФондРасширеннаяПодсказка" id="1031"/>
+						</Button>
+						<Button name="ПолучитьСообщенияСЭДОЗаПериод" id="173">
+							<Type>CommandBarButton</Type>
+							<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьСообщенияСЭДОФССЗаПериод</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить сообщения за период</v8:content>
+								</v8:item>
+							</Title>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ПолучитьСообщенияСЭДОЗаПериодРасширеннаяПодсказка" id="174"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+				<ButtonGroup name="ПодключаемыеКоманды" id="159">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключаемые команды</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПодключаемыеКомандыРасширеннаяПодсказка" id="160"/>
+				</ButtonGroup>
+				<SearchStringAddition name="СтрокаПоиска" id="1037">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка поиска</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="1038"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="1039"/>
+				</SearchStringAddition>
+				<SearchControlAddition name="УправлениеПоиском" id="1040">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Управление поиском</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="УправлениеПоискомКонтекстноеМеню" id="1041"/>
+					<ExtendedTooltip name="УправлениеПоискомРасширеннаяПодсказка" id="1042"/>
+				</SearchControlAddition>
+				<Button name="ФормаНастройкаСписка" id="1043">
+					<Type>CommandBarButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Item.Список.StandardCommand.ListSettings</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаНастройкаСпискаРасширеннаяПодсказка" id="1044"/>
+				</Button>
+				<Button name="Справка" id="167">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Help</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="168"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<UsualGroup name="ГруппаСообщенияОжидаемыеОтФСС" id="607">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения ожидаемые от ФСС</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСообщенияОжидаемыеОтФССРасширеннаяПодсказка" id="608"/>
+			<ChildItems>
+				<PictureDecoration name="КартинкаСообщенияОжидаемыеОтФСС" id="609">
+					<VerticalStretch>false</VerticalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка сообщения ожидаемые от ФСС</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.ПроцессОтложен24</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="КартинкаСообщенияОжидаемыеОтФССКонтекстноеМеню" id="610"/>
+					<ExtendedTooltip name="КартинкаСообщенияОжидаемыеОтФССРасширеннаяПодсказка" id="611"/>
+				</PictureDecoration>
+				<LabelDecoration name="НадписьСообщенияОжидаемыеОтФСС" id="612">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ожидается 5 сообщений ФСС о регистрации сведений для расчета пособия</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьСообщенияОжидаемыеОтФССКонтекстноеМеню" id="613"/>
+					<ExtendedTooltip name="НадписьСообщенияОжидаемыеОтФССРасширеннаяПодсказка" id="614"/>
+				</LabelDecoration>
+				<Button name="ПолучитьНовыеСообщенияСЭДОФСС" id="615">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьНовыеСообщенияСЭДОФСС</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверить наличие ответов ФСС</v8:content>
+						</v8:item>
+					</Title>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ПолучитьНовыеСообщенияСЭДОФССРасширеннаяПодсказка" id="616"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Список" id="175">
+			<CommandBarLocation>None</CommandBarLocation>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="176">
+				<ChildItems>
+					<Button name="ОбработкаОбщиеФормыСЭДОФССОтправитьВФонд" id="1028">
+						<Type>CommandBarButton</Type>
+						<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ОтправитьВФонд</CommandName>
+						<DataPath>Items.Список.CurrentData.Ссылка</DataPath>
+						<RepresentationInContextMenu>OnlyInContextMenu</RepresentationInContextMenu>
+						<ExtendedTooltip name="ОбработкаОбщиеФормыСЭДОФССОтправитьВФондРасширеннаяПодсказка" id="1029"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="177"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="178"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="179">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="180"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="181"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="182">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="183"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="184"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="185">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="186"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="187"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+				<Event name="OnChange">СписокПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="Дата" id="188">
+					<DataPath>Список.Дата</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>5</MaxWidth>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="189"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="190"/>
+				</LabelField>
+				<LabelField name="Номер" id="191">
+					<DataPath>Список.Номер</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>10</MaxWidth>
+					<ContextMenu name="НомерКонтекстноеМеню" id="192"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="193"/>
+				</LabelField>
+				<LabelField name="Сотрудник" id="1007">
+					<DataPath>Список.Сотрудник</DataPath>
+					<ContextMenu name="СотрудникКонтекстноеМеню" id="1008"/>
+					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="1009"/>
+				</LabelField>
+				<LabelField name="ВидПособия" id="1022">
+					<DataPath>Список.ВидПособия</DataPath>
+					<ContextMenu name="ВидПособияКонтекстноеМеню" id="1023"/>
+					<ExtendedTooltip name="ВидПособияРасширеннаяПодсказка" id="1024"/>
+				</LabelField>
+				<LabelField name="НомерПроцесса" id="1013">
+					<DataPath>Список.НомерПроцесса</DataPath>
+					<ContextMenu name="НомерПроцессаКонтекстноеМеню" id="1014"/>
+					<ExtendedTooltip name="НомерПроцессаРасширеннаяПодсказка" id="1015"/>
+				</LabelField>
+				<LabelField name="НомерЛН" id="1025">
+					<DataPath>Список.НомерЛН</DataPath>
+					<ContextMenu name="НомерЛНКонтекстноеМеню" id="1026"/>
+					<ExtendedTooltip name="НомерЛНРасширеннаяПодсказка" id="1027"/>
+				</LabelField>
+				<LabelField name="ДатаОтправки" id="1019">
+					<DataPath>Список.ДатаОтправки</DataPath>
+					<ContextMenu name="ДатаОтправкиКонтекстноеМеню" id="1020"/>
+					<ExtendedTooltip name="ДатаОтправкиРасширеннаяПодсказка" id="1021"/>
+				</LabelField>
+				<LabelField name="Состояние" id="1032">
+					<DataPath>Список.Состояние</DataPath>
+					<ContextMenu name="СостояниеКонтекстноеМеню" id="1033"/>
+					<ExtendedTooltip name="СостояниеРасширеннаяПодсказка" id="1034"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="1004">
+					<DataPath>Список.Ссылка</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="1005"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="1006"/>
+				</LabelField>
+				<ColumnGroup name="ГруппаРегистрация" id="1045">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа регистрация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="ГруппаРегистрацияРасширеннаяПодсказка" id="1046"/>
+					<ChildItems>
+						<CheckBoxField name="Доставлен" id="1053">
+							<DataPath>Список.Доставлен</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ДоставленКонтекстноеМеню" id="1054"/>
+							<ExtendedTooltip name="ДоставленРасширеннаяПодсказка" id="1055"/>
+						</CheckBoxField>
+						<LabelField name="ДоставкаИдентификатор" id="1047">
+							<DataPath>Список.ДоставкаИдентификатор</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ДоставкаИдентификаторКонтекстноеМеню" id="1048"/>
+							<ExtendedTooltip name="ДоставкаИдентификаторРасширеннаяПодсказка" id="1049"/>
+						</LabelField>
+						<LabelField name="ДоставкаТекстОшибки" id="1050">
+							<DataPath>Список.ДоставкаТекстОшибки</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="ДоставкаТекстОшибкиКонтекстноеМеню" id="1051"/>
+							<ExtendedTooltip name="ДоставкаТекстОшибкиРасширеннаяПодсказка" id="1052"/>
+						</LabelField>
+						<CheckBoxField name="Зарегистрирован" id="1056">
+							<DataPath>Список.Зарегистрирован</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗарегистрированКонтекстноеМеню" id="1057"/>
+							<ExtendedTooltip name="ЗарегистрированРасширеннаяПодсказка" id="1058"/>
+						</CheckBoxField>
+						<LabelField name="РегистрацияДата" id="1059">
+							<DataPath>Список.РегистрацияДата</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияДатаКонтекстноеМеню" id="1060"/>
+							<ExtendedTooltip name="РегистрацияДатаРасширеннаяПодсказка" id="1061"/>
+						</LabelField>
+						<LabelField name="РегистрацияИдентификатор" id="1062">
+							<DataPath>Список.РегистрацияИдентификатор</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияИдентификаторКонтекстноеМеню" id="1063"/>
+							<ExtendedTooltip name="РегистрацияИдентификаторРасширеннаяПодсказка" id="1064"/>
+						</LabelField>
+						<LabelField name="РегистрацияНомерПроцесса" id="1065">
+							<DataPath>Список.РегистрацияНомерПроцесса</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияНомерПроцессаКонтекстноеМеню" id="1066"/>
+							<ExtendedTooltip name="РегистрацияНомерПроцессаРасширеннаяПодсказка" id="1067"/>
+						</LabelField>
+						<LabelField name="РегистрацияНомерРеестра" id="1068">
+							<DataPath>Список.РегистрацияНомерРеестра</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияНомерРеестраКонтекстноеМеню" id="1069"/>
+							<ExtendedTooltip name="РегистрацияНомерРеестраРасширеннаяПодсказка" id="1070"/>
+						</LabelField>
+						<LabelField name="РегистрацияПротокол" id="1071">
+							<DataPath>Список.РегистрацияПротокол</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияПротоколКонтекстноеМеню" id="1072"/>
+							<ExtendedTooltip name="РегистрацияПротоколРасширеннаяПодсказка" id="1073"/>
+						</LabelField>
+						<LabelField name="РегистрацияСтатус" id="1074">
+							<DataPath>Список.РегистрацияСтатус</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<ContextMenu name="РегистрацияСтатусКонтекстноеМеню" id="1075"/>
+							<ExtendedTooltip name="РегистрацияСтатусРасширеннаяПодсказка" id="1076"/>
+						</LabelField>
+						<CheckBoxField name="ЕстьОшибкиЛогическогоКонтроля" id="1086">
+							<DataPath>Список.ЕстьОшибкиЛогическогоКонтроля</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЕстьОшибкиЛогическогоКонтроляКонтекстноеМеню" id="1087"/>
+							<ExtendedTooltip name="ЕстьОшибкиЛогическогоКонтроляРасширеннаяПодсказка" id="1088"/>
+						</CheckBoxField>
+					</ChildItems>
+				</ColumnGroup>
+				<LabelField name="ДатаНачалаСобытия" id="1077">
+					<DataPath>Список.ДатаНачалаСобытия</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ДатаНачалаСобытияКонтекстноеМеню" id="1078"/>
+					<ExtendedTooltip name="ДатаНачалаСобытияРасширеннаяПодсказка" id="1079"/>
+				</LabelField>
+				<LabelField name="ФизическоеЛицо" id="1001">
+					<DataPath>Список.ФизическоеЛицо</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ФизическоеЛицоКонтекстноеМеню" id="1002"/>
+					<ExtendedTooltip name="ФизическоеЛицоРасширеннаяПодсказка" id="1003"/>
+				</LabelField>
+				<LabelField name="ВходящийЗапрос" id="1080">
+					<DataPath>Список.ВходящийЗапрос</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ВходящийЗапросКонтекстноеМеню" id="1081"/>
+					<ExtendedTooltip name="ВходящийЗапросРасширеннаяПодсказка" id="1082"/>
+				</LabelField>
+				<LabelField name="ВходящийЗапросИдентификатор" id="1083">
+					<DataPath>Список.ВходящийЗапросИдентификатор</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ВходящийЗапросИдентификаторКонтекстноеМеню" id="1084"/>
+					<ExtendedTooltip name="ВходящийЗапросИдентификаторРасширеннаяПодсказка" id="1085"/>
+				</LabelField>
+				<LabelField name="ПервичныйДокумент" id="1101">
+					<DataPath>Список.ПервичныйДокумент</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ПервичныйДокументКонтекстноеМеню" id="1102"/>
+					<ExtendedTooltip name="ПервичныйДокументРасширеннаяПодсказка" id="1103"/>
+				</LabelField>
+				<LabelField name="СписокОрганизация" id="1010">
+					<DataPath>Список.Организация</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СписокОрганизацияКонтекстноеМеню" id="1011"/>
+					<ExtendedTooltip name="СписокОрганизацияРасширеннаяПодсказка" id="1012"/>
+				</LabelField>
+				<LabelField name="СписокГоловнаяОрганизация" id="1016">
+					<DataPath>Список.ГоловнаяОрганизация</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СписокГоловнаяОрганизацияКонтекстноеМеню" id="1017"/>
+					<ExtendedTooltip name="СписокГоловнаяОрганизацияРасширеннаяПодсказка" id="1018"/>
+				</LabelField>
+				<LabelField name="СпособВыплатыПособия" id="1092">
+					<DataPath>Список.СпособВыплатыПособия</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СпособВыплатыПособияКонтекстноеМеню" id="1093"/>
+					<ExtendedTooltip name="СпособВыплатыПособияРасширеннаяПодсказка" id="1094"/>
+				</LabelField>
+				<CheckBoxField name="Исправление" id="1098">
+					<DataPath>Список.Исправление</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИсправлениеКонтекстноеМеню" id="1099"/>
+					<ExtendedTooltip name="ИсправлениеРасширеннаяПодсказка" id="1100"/>
+				</CheckBoxField>
+				<LabelField name="ИсправленныйДокумент" id="1095">
+					<DataPath>Список.ИсправленныйДокумент</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ИсправленныйДокументКонтекстноеМеню" id="1096"/>
+					<ExtendedTooltip name="ИсправленныйДокументРасширеннаяПодсказка" id="1097"/>
+				</LabelField>
+				<LabelField name="Ответственный" id="1089">
+					<DataPath>Список.Ответственный</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="1090"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="1091"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>~Список.ИндексКартинки</Field>
+				<Field>Список.ИдентификаторСообщения</Field>
+				<Field>Список.Ссылка</Field>
+				<Field>Список.Страхователь</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Ссылка КАК Ссылка,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Номер КАК Номер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Дата КАК Дата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Проведен КАК Проведен,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АвтозаполнениеПериодовОплаты КАК АвтозаполнениеПериодовОплаты,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживания КАК АдресПроживания,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияВид КАК АдресПроживанияВид,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияДом КАК АдресПроживанияДом,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияИндекс КАК АдресПроживанияИндекс,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияКвартира КАК АдресПроживанияКвартира,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияКорпус КАК АдресПроживанияКорпус,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияФИАСДом КАК АдресПроживанияФИАСДом,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресПроживанияФИАСРО КАК АдресПроживанияФИАСРО,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрации КАК АдресРегистрации,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииДом КАК АдресРегистрацииДом,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииЗаПределамиРФ КАК АдресРегистрацииЗаПределамиРФ,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииИндекс КАК АдресРегистрацииИндекс,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииКвартира КАК АдресРегистрацииКвартира,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииКорпус КАК АдресРегистрацииКорпус,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииФИАСДом КАК АдресРегистрацииФИАСДом,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АдресРегистрацииФИАСРО КАК АдресРегистрацииФИАСРО,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АктоваяЗаписьОРожденииДата КАК АктоваяЗаписьОРожденииДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.АктоваяЗаписьОРожденииНомер КАК АктоваяЗаписьОРожденииНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Банк КАК Банк,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.БанкБИК КАК БанкБИК,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.БанкКоррСчет КАК БанкКоррСчет,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.БанкНаименование КАК БанкНаименование,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВидПособия КАК ВидПособия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВнешнееСовместительство КАК ВнешнееСовместительство,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВторойРасчетныйГод КАК ВторойРасчетныйГод,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВторойРасчетныйГодЗаработок КАК ВторойРасчетныйГодЗаработок,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВходящийЗапрос КАК ВходящийЗапрос,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ВходящийЗапросИдентификатор КАК ВходящийЗапросИдентификатор,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДатаНачалаСобытия КАК ДатаНачалаСобытия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДатаОтправки КАК ДатаОтправки,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДатаСоздания КАК ДатаСоздания,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДоляВремени КАК ДоляВремени,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДругойРодительОтсутствует КАК ДругойРодительОтсутствует,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ЗаменаЛетРасчетногоПериода КАК ЗаменаЛетРасчетногоПериода,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИдентификаторСообщения КАК ИдентификаторСообщения,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИзвещениеФССДата КАК ИзвещениеФССДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИзвещениеФССНомер КАК ИзвещениеФССНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИнойДокументОРожденииДатаВыдачи КАК ИнойДокументОРожденииДатаВыдачи,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИнойДокументОРожденииСерияНомер КАК ИнойДокументОРожденииСерияНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Исправление КАК Исправление,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИсправлениеКодПричины КАК ИсправлениеКодПричины,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Примечание КАК Примечание,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИсправленныйДокумент КАК ИсправленныйДокумент,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.КалендарныхДнейРасчетногоПериода КАК КалендарныхДнейРасчетногоПериода,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.КартаМИР КАК КартаМИР,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.КодПодчиненностиФСС КАК КодПодчиненностиФСС,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.КодСтатусаНалогоплательщика КАК КодСтатусаНалогоплательщика,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.КодСтраныГражданства КАК КодСтраныГражданства,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Комментарий КАК Комментарий,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НестраховойСтажЛет КАК НестраховойСтажЛет,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НестраховойСтажМесяцев КАК НестраховойСтажМесяцев,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НомерЛН КАК НомерЛН,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НомерПроцесса КАК НомерПроцесса,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НомерСтрахователяФСС КАК НомерСтрахователяФСС,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.НомерСчета КАК НомерСчета,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОплатаФССДатаНачала КАК ОплатаФССДатаНачала,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОплатаФССДатаОкончания КАК ОплатаФССДатаОкончания,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Организация КАК Организация,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Ответственный КАК Ответственный,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтказВНазначенииПособия КАК ОтказВНазначенииПособия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтказВНазначенииПособияПричина КАК ОтказВНазначенииПособияПричина,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтпускПоУходуДата КАК ОтпускПоУходуДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтпускПоУходуДатаНачала КАК ОтпускПоУходуДатаНачала,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтпускПоУходуДатаОкончания КАК ОтпускПоУходуДатаОкончания,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ОтпускПоУходуНомер КАК ОтпускПоУходуНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПервичныйДокумент КАК ПервичныйДокумент,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПервыйРасчетныйГод КАК ПервыйРасчетныйГод,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПервыйРасчетныйГодЗаработок КАК ПервыйРасчетныйГодЗаработок,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПередачаНаВоспитаниеДата КАК ПередачаНаВоспитаниеДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПередачаНаВоспитаниеНомер КАК ПередачаНаВоспитаниеНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПричинаПредоставленияЛьготы КАК ПричинаПредоставленияЛьготы,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РайонныйКоэффициент КАК РайонныйКоэффициент,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РебенокДатаРождения КАК РебенокДатаРождения,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РебенокИмя КАК РебенокИмя,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РебенокОтчество КАК РебенокОтчество,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РебенокСНИЛС КАК РебенокСНИЛС,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.РебенокФамилия КАК РебенокФамилия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СвидетельствоОРожденииДатаВыдачи КАК СвидетельствоОРожденииДатаВыдачи,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СвидетельствоОРожденииСерияНомер КАК СвидетельствоОРожденииСерияНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Сотрудник КАК Сотрудник,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникГражданство КАК СотрудникГражданство,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникДатаРождения КАК СотрудникДатаРождения,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникИмя КАК СотрудникИмя,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникИНН КАК СотрудникИНН,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникКатегория КАК СотрудникКатегория,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникОтчество КАК СотрудникОтчество,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникПол КАК СотрудникПол,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникСНИЛС КАК СотрудникСНИЛС,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СотрудникФамилия КАК СотрудникФамилия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СпособВыплатыПособия КАК СпособВыплатыПособия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СправкаОтДругогоРодителяДата КАК СправкаОтДругогоРодителяДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СправкаОтДругогоРодителяНомер КАК СправкаОтДругогоРодителяНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СтатусНалогоплательщика КАК СтатусНалогоплательщика,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.Страхователь КАК Страхователь,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СтраховойСтажЛет КАК СтраховойСтажЛет,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.СтраховойСтажМесяцев КАК СтраховойСтажМесяцев,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ТрудовойДоговорДатаНачала КАК ТрудовойДоговорДатаНачала,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ТрудовойДоговорДатаОкончания КАК ТрудовойДоговорДатаОкончания,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиВид КАК УдостоверениеЛичностиВид,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиДатаВыдачи КАК УдостоверениеЛичностиДатаВыдачи,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиКемВыдан КАК УдостоверениеЛичностиКемВыдан,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиНомер КАК УдостоверениеЛичностиНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиСерия КАК УдостоверениеЛичностиСерия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УдостоверениеЛичностиСрокДействия КАК УдостоверениеЛичностиСрокДействия,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсловияИсчисленияКод1 КАК УсловияИсчисленияКод1,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсловияИсчисленияКод2 КАК УсловияИсчисленияКод2,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсловияИсчисленияКод3 КАК УсловияИсчисленияКод3,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсыновлениеОпекаДата КАК УсыновлениеОпекаДата,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсыновлениеОпекаНомер КАК УсыновлениеОпекаНомер,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.УсыновлениеОпекаТип КАК УсыновлениеОпекаТип,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ФизическоеЛицо КАК ФизическоеЛицо,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ХранилищеXML КАК ХранилищеXML,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ДополнительныеРеквизиты.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Свойство КАК Свойство,
+		Значение КАК Значение,
+		ТекстоваяСтрока КАК ТекстоваяСтрока
+	) КАК ДополнительныеРеквизиты,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ИсключаемыеПериоды.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ДатаНачала КАК ДатаНачала,
+		ДатаОкончания КАК ДатаОкончания,
+		Причина КАК Причина
+	) КАК ИсключаемыеПериоды,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ПериодыПростоя.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ДатаНачала КАК ДатаНачала,
+		ДатаОкончания КАК ДатаОкончания,
+		СреднийЗаработок КАК СреднийЗаработок
+	) КАК ПериодыПростоя,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.ФиксацияИзменений.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ИмяРеквизита КАК ИмяРеквизита,
+		Путь КАК Путь,
+		ИдентификаторСтроки КАК ИдентификаторСтроки
+	) КАК ФиксацияИзменений,
+	ДокументОтветНаЗапросФССДляРасчетаПособия.МоментВремени КАК МоментВремени,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.Состояние КАК Состояние,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ДоставкаИдентификатор КАК ДоставкаИдентификатор,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ДоставкаТекстОшибки КАК ДоставкаТекстОшибки,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.Доставлен КАК Доставлен,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.Зарегистрирован КАК Зарегистрирован,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияДата КАК РегистрацияДата,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияИдентификатор КАК РегистрацияИдентификатор,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияНомерПроцесса КАК РегистрацияНомерПроцесса,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияНомерРеестра КАК РегистрацияНомерРеестра,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияСтатус КАК РегистрацияСтатус,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ЕстьОшибкиЛогическогоКонтроля КАК ЕстьОшибкиЛогическогоКонтроля,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.РегистрацияПротокол КАК РегистрацияПротокол,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ОшибкиЛогическогоКонтроля КАК ОшибкиЛогическогоКонтроля,
+	РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ТекстОшибки КАК ТекстОшибки
+ИЗ
+	Документ.ОтветНаЗапросФССДляРасчетаПособия КАК ДокументОтветНаЗапросФССДляРасчетаПособия
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РегистрацииОтветовНаЗапросыФССДляРасчетаПособий КАК РегистрацииОтветовНаЗапросыФССДляРасчетаПособий
+		ПО РегистрацииОтветовНаЗапросыФССДляРасчетаПособий.ИсходящийДокумент = ДокументОтветНаЗапросФССДляРасчетаПособия.Ссылка</QueryText>
+				<MainTable>Document.ОтветНаЗапросФССДляРасчетаПособия</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">ВидПособия</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>d055ad6f-8117-4178-8864-276b54b63409</dcsset:userSettingID>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>d8b2754a-f9e0-4ccc-a02c-50d7449884c5</dcsset:userSettingID>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Организация" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗапросыВРаботе" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запросы в работе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ЗапросыВРаботе</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИдентификаторОтбораОрганизация" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор отбора организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ИдентификаторОтбораЗапросыВРаботе" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор отбора запросы в работе</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="6">
+			<Type/>
+		</Attribute>
+		<Attribute name="ГоловнаяОрганизация" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Головная организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+			<Save>
+				<Field>ГоловнаяОрганизация</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Организации" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Save>
+				<Field>Организации</Field>
+			</Save>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокОрганизацийДляВыбора" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список организаций для выбора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Save>
+				<Field>СписокОрганизацийДляВыбора</Field>
+			</Save>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПоказыватьГоловныеОрганизации" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать головные организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьОрганизации" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать организации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьСписокОрганизаций" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать список организаций</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ИспользоватьСписокОрганизаций</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИдентификаторОтбораГоловнаяОрганизация" id="13">
+			<Type/>
+		</Attribute>
+		<Attribute name="ИнформационнаяПанельБРОКэш" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель БРОКэш</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВернутьсяКВыборуОдногоФилиала" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вернуться к выбору одного филиала</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вернуться к выбору одного филиала</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПолеВводаБЗК</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>ВернутьсяКВыборуОдногоФилиала</Action>
+		</Command>
+		<Command name="ВыбратьНасколькоФилиалов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать насколько филиалов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать насколько филиалов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ТипСписок</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыбратьНасколькоФилиалов</Action>
+		</Command>
+		<Command name="ОчиститьСписокФилиалов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список филиалов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить список филиалов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОчиститьЗначение</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>ОчиститьСписокФилиалов</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ТолькоТребующиеОтправки">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ТолькоТребующиеОтправкиСегодня">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ТолькоТребующиеПодтверждения">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Организация">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>0:27bd63eb-45dd-48e5-8586-61551235cb37</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormCommandBarImportant</CommandGroup>
+			</Item>
+			<Item>
+				<Command>0:db616251-992b-4829-a2ee-d4d35bf62432</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormCommandBarImportant</CommandGroup>
+				<Index>1</Index>
+			</Item>
+			<Item>
+				<Command>0:86609aac-3491-45a3-93c5-b4cf3f203c2d</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormCommandBarImportant</CommandGroup>
+				<Index>2</Index>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ГруппаДобавить" id="55">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Зарегистрировать</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаДобавитьРасширеннаяПодсказка" id="56"/>
+				<ChildItems>
+					<Button name="ФормаДобавитьРегистрациюОдногоОбъекта" id="59">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ДобавитьРегистрациюОдногоОбъекта</CommandName>
+						<ExtendedTooltip name="ФормаДобавитьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="60"/>
+					</Button>
+					<Button name="ФормаДобавитьРегистрациюВсехОбъектов" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ДобавитьРегистрациюВсехОбъектов</CommandName>
+						<ExtendedTooltip name="ФормаДобавитьРегистрациюВсехОбъектовРасширеннаяПодсказка" id="58"/>
+					</Button>
+					<Button name="ФормаДобавитьРегистрациюОтбор" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ДобавитьРегистрациюОтбор</CommandName>
+						<ExtendedTooltip name="ФормаДобавитьРегистрациюОтборРасширеннаяПодсказка" id="62"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Popup name="ГруппаУбрать" id="63">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отменить регистрацию</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ГруппаУбратьРасширеннаяПодсказка" id="64"/>
+				<ChildItems>
+					<Button name="ФормаУбратьРегистрациюВсехОбъектов" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УбратьРегистрациюВсехОбъектов</CommandName>
+						<ExtendedTooltip name="ФормаУбратьРегистрациюВсехОбъектовРасширеннаяПодсказка" id="66"/>
+					</Button>
+					<Button name="ФормаУбратьРегистрациюОдногоОбъекта" id="67">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УбратьРегистрациюОдногоОбъекта</CommandName>
+						<ExtendedTooltip name="ФормаУбратьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="68"/>
+					</Button>
+					<Button name="ФормаУбратьРегистрациюОтбор" id="69">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УбратьРегистрациюОтбор</CommandName>
+						<ExtendedTooltip name="ФормаУбратьРегистрациюОтборРасширеннаяПодсказка" id="70"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+			<Button name="ФормаОбновить" id="50">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.Command.Обновить</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="51"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОбработка" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа обработка</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбработкаРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЛеваяКолонка" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа левая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЛеваяКолонкаРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="ЗарегистрированныеОбъекты" id="1">
+							<Representation>Tree</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<SelectionMode>SingleRow</SelectionMode>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>ЗарегистрированныеОбъекты</DataPath>
+							<RowPictureDataPath>ЗарегистрированныеОбъекты.КартинкаОбъекта</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.КоллекцияОбъектыМетаданных</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Зарегистрированные объекты</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗарегистрированныеОбъектыКонтекстноеМеню" id="2">
+								<ChildItems>
+									<ButtonGroup name="ЗарегистрированныеОбъектыКонтекстноеМенюГруппаДобавить" id="76">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Зарегистрированные объекты контекстное меню группа добавить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюГруппаДобавитьРасширеннаяПодсказка" id="77"/>
+										<ChildItems>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюВсехОбъектов" id="78">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьРегистрациюВсехОбъектов</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюВсехОбъектовРасширеннаяПодсказка" id="79"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюОдногоОбъекта" id="80">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьРегистрациюОдногоОбъекта</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="81"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюОтбор" id="82">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьРегистрациюОтбор</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюДобавитьРегистрациюОтборРасширеннаяПодсказка" id="83"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="ЗарегистрированныеОбъектыКонтекстноеМенюГруппаУбрать" id="84">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Зарегистрированные объекты контекстное меню группа убрать</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюГруппаУбратьРасширеннаяПодсказка" id="85"/>
+										<ChildItems>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюВсехОбъектов" id="86">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьРегистрациюВсехОбъектов</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюВсехОбъектовРасширеннаяПодсказка" id="87"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюОдногоОбъекта" id="88">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьРегистрациюОдногоОбъекта</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="89"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюОтбор" id="90">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьРегистрациюОтбор</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыКонтекстноеМенюУбратьРегистрациюОтборРасширеннаяПодсказка" id="91"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="ЗарегистрированныеОбъектыКоманднаяПанель" id="3">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗарегистрированныеОбъектыРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="ЗарегистрированныеОбъектыСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъекты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗарегистрированныеОбъектыСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъекты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗарегистрированныеОбъектыУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъекты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnActivateRow">ЗарегистрированныеОбъектыПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<ColumnGroup name="ЗарегистрированныеОбъектыГруппа" id="71">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Зарегистрированные объекты группа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Зарегистрированные объекты группа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="ЗарегистрированныеОбъектыГруппаРасширеннаяПодсказка" id="72"/>
+									<ChildItems>
+										<CheckBoxField name="ЗарегистрированныеОбъектыВыбран" id="73">
+											<DataPath>ЗарегистрированныеОбъекты.Выбран</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЗарегистрированныеОбъектыВыбранКонтекстноеМеню" id="74"/>
+											<ExtendedTooltip name="ЗарегистрированныеОбъектыВыбранРасширеннаяПодсказка" id="75"/>
+											<Events>
+												<Event name="OnChange">ЗарегистрированныеОбъектыВыбранПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="ЗарегистрированныеОбъектыОбъектКонфигурации" id="14">
+											<DataPath>ЗарегистрированныеОбъекты.ОбъектКонфигурации</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ЗарегистрированныеОбъектыОбъектКонфигурацииКонтекстноеМеню" id="15"/>
+											<ExtendedTooltip name="ЗарегистрированныеОбъектыОбъектКонфигурацииРасширеннаяПодсказка" id="16"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ЗарегистрированныеОбъектыКоличество" id="52">
+									<DataPath>ЗарегистрированныеОбъекты.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧН='Нет изменений'</v8:content>
+										</v8:item>
+									</Format>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧН='Нет изменений'</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="ЗарегистрированныеОбъектыКоличествоКонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="ЗарегистрированныеОбъектыКоличествоРасширеннаяПодсказка" id="54"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПраваяКолонка" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа правая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПраваяКолонкаРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОписание" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Описание</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаОписаниеРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияОписание" id="104">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>true</VerticalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Описание</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияОписаниеКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="ДекорацияОписаниеРасширеннаяПодсказка" id="106"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ЗарегистрированныеОбъектыРегистрация" id="17">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Items.ЗарегистрированныеОбъекты.CurrentData.Регистрация</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Зарегистрированные объекты регистрация</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМеню" id="18">
+								<ChildItems>
+									<ButtonGroup name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюГруппаДобавить" id="92">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Зарегистрированные объекты регистрация контекстное меню группа добавить</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюГруппаДобавитьРасширеннаяПодсказка" id="93"/>
+										<ChildItems>
+											<Button name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюДобавитьРегистрациюОдногоОбъекта" id="94">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьРегистрациюОдногоОбъекта</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюДобавитьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="95"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюДобавитьРегистрациюОтбор" id="96">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ДобавитьРегистрациюОтбор</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюДобавитьРегистрациюОтборРасширеннаяПодсказка" id="97"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюГруппаУбрать" id="98">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Зарегистрированные объекты регистрация контекстное меню группа убрать</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Зарегистрированные объекты регистрация контекстное меню группа убрать</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюГруппаУбратьРасширеннаяПодсказка" id="99"/>
+										<ChildItems>
+											<Button name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюУбратьРегистрациюОдногоОбъекта" id="100">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьРегистрациюОдногоОбъекта</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюУбратьРегистрациюОдногоОбъектаРасширеннаяПодсказка" id="101"/>
+											</Button>
+											<Button name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюУбратьРегистрациюОтбор" id="102">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьРегистрациюОтбор</CommandName>
+												<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияКонтекстноеМенюУбратьРегистрациюОтборРасширеннаяПодсказка" id="103"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="ЗарегистрированныеОбъектыРегистрацияКоманднаяПанель" id="19">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияРасширеннаяПодсказка" id="20"/>
+							<SearchStringAddition name="ЗарегистрированныеОбъектыРегистрацияСтрокаПоиска" id="21">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъектыРегистрация</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыРегистрацияСтрокаПоискаКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЗарегистрированныеОбъектыРегистрацияСостояниеПросмотра" id="24">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъектыРегистрация</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыРегистрацияСостояниеПросмотраКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЗарегистрированныеОбъектыРегистрацияУправлениеПоиском" id="27">
+								<AdditionSource>
+									<Item>ЗарегистрированныеОбъектыРегистрация</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЗарегистрированныеОбъектыРегистрацияУправлениеПоискомКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ЗарегистрированныеОбъектыРегистрацияОбъект" id="30">
+									<DataPath>Items.ЗарегистрированныеОбъекты.CurrentData.Регистрация.Ссылка</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЗарегистрированныеОбъектыРегистрацияОбъектКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="ЗарегистрированныеОбъектыРегистрацияОбъектРасширеннаяПодсказка" id="32"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РегистрацияОбъектовКПубликацииКабинетСотрудника</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ЗарегистрированныеОбъекты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрированные объекты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ОбъектКонфигурации" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Объект конфигурации</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Регистрация" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрация</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueTable</v8:Type>
+					</Type>
+				</Column>
+				<Column name="РегистрИзменений" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистр изменений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КартинкаОбъекта" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка объекта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Количество" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Выбран" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбран</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Тип" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<AdditionalColumns table="ЗарегистрированныеОбъекты.Регистрация">
+					<Column name="Ссылка" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ссылка</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Обновить" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F5</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="ДобавитьРегистрациюОдногоОбъекта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать одиночный объект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить регистрацию одного объекта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьРегистрациюОдногоОбъекта</Action>
+		</Command>
+		<Command name="ДобавитьРегистрациюОтбор" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать объекты при помощи отбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить регистрацию отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРегистрациюОтбор</Action>
+		</Command>
+		<Command name="ДобавитьРегистрациюВсехОбъектов" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать все объекты выбранного типа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить регистрацию всех объектов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРегистрациюВсехОбъектов</Action>
+		</Command>
+		<Command name="УбратьРегистрациюВсехОбъектов" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить регистрацию всех объектов выбранного типа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать регистрацию всех объектов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УбратьРегистрациюВсехОбъектов</Action>
+		</Command>
+		<Command name="УбратьРегистрациюОдногоОбъекта" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить регистрацию одиночного объекта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать регистрацию одного объекта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УбратьРегистрациюОдногоОбъекта</Action>
+		</Command>
+		<Command name="УбратьРегистрациюОтбор" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить регистрацию объектов при помощи отбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать регистрацию отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УбратьРегистрациюОтбор</Action>
+		</Command>
+	</Commands>
+</Form>

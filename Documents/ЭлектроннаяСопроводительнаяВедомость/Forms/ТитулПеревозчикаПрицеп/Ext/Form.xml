@@ -1,0 +1,1220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаСохранить" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Сохранить</CommandName>
+				<ExtendedTooltip name="ФормаСохранитьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Закрыть</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="4"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="11">
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="143"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРеквизиты" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРеквизитыРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаРеквизитаПрицепРегистрационныйНомер" id="97">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрационный номер</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепРегистрационныйНомерРасширеннаяПодсказка" id="98"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепРегистрационныйНомер" id="99">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрационный номер:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепРегистрационныйНомерКонтекстноеМеню" id="100"/>
+							<ExtendedTooltip name="ЗаголовокПрицепРегистрационныйНомерРасширеннаяПодсказка" id="101"/>
+						</LabelDecoration>
+						<InputField name="ПрицепРегистрационныйНомер" id="102">
+							<DataPath>ПрицепРегистрационныйНомер</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрационный номер</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>9</Width>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПрицепРегистрационныйНомерКонтекстноеМеню" id="103"/>
+							<ExtendedTooltip name="ПрицепРегистрационныйНомерРасширеннаяПодсказка" id="104"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепМарка" id="65">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Марка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепМаркаРасширеннаяПодсказка" id="66"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепМарка" id="67">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Марка:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепМаркаКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="ЗаголовокПрицепМаркаРасширеннаяПодсказка" id="69"/>
+						</LabelDecoration>
+						<InputField name="ПрицепМарка" id="70">
+							<DataPath>ПрицепМарка</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Марка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПрицепМаркаКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ПрицепМаркаРасширеннаяПодсказка" id="72"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепТип" id="57">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепТипРасширеннаяПодсказка" id="58"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепТип" id="59">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепТипКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ЗаголовокПрицепТипРасширеннаяПодсказка" id="61"/>
+						</LabelDecoration>
+						<InputField name="ПрицепТип" id="62">
+							<DataPath>ПрицепТип</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<ListChoiceMode>true</ListChoiceMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПрицепТипКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ПрицепТипРасширеннаяПодсказка" id="64"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепГрузоподъемность" id="73">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Грузоподъемность, в тоннах</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепГрузоподъемностьРасширеннаяПодсказка" id="74"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепГрузоподъемность" id="75">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Грузоподъемность, в тоннах:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепГрузоподъемностьКонтекстноеМеню" id="76"/>
+							<ExtendedTooltip name="ЗаголовокПрицепГрузоподъемностьРасширеннаяПодсказка" id="77"/>
+						</LabelDecoration>
+						<InputField name="ПрицепГрузоподъемность" id="78">
+							<DataPath>ПрицепГрузоподъемность</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Грузоподъемность, в тоннах</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>10</Width>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПрицепГрузоподъемностьКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="ПрицепГрузоподъемностьРасширеннаяПодсказка" id="80"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепВместимость" id="81">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вместимость, в кубических метрах</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепВместимостьРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепВместимость" id="83">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вместимость, в кубических метрах:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепВместимостьКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="ЗаголовокПрицепВместимостьРасширеннаяПодсказка" id="85"/>
+						</LabelDecoration>
+						<InputField name="ПрицепВместимость" id="86">
+							<DataPath>ПрицепВместимость</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вместимость, в кубических метрах</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>10</Width>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПрицепВместимостьКонтекстноеМеню" id="87"/>
+							<ExtendedTooltip name="ПрицепВместимостьРасширеннаяПодсказка" id="88"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепТипВладения" id="89">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип владения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепТипВладенияРасширеннаяПодсказка" id="90"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепТипВладения" id="91">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип владения:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепТипВладенияКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="ЗаголовокПрицепТипВладенияРасширеннаяПодсказка" id="93"/>
+						</LabelDecoration>
+						<InputField name="ПрицепТипВладения" id="94">
+							<DataPath>ПрицепТипВладения</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип владения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Width>1</Width>
+							<ListChoiceMode>true</ListChoiceMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Собственность</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">1</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Совместная собственность супругов</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">2</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Аренда</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">3</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Лизинг</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">4</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Безвозмездное пользование</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">5</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ПрицепТипВладенияКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="ПрицепТипВладенияРасширеннаяПодсказка" id="96"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепVIN" id="105">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>VIN номер</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепVINРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепVIN" id="107">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>VIN номер:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепVINКонтекстноеМеню" id="108"/>
+							<ExtendedTooltip name="ЗаголовокПрицепVINРасширеннаяПодсказка" id="109"/>
+						</LabelDecoration>
+						<InputField name="ПрицепVIN" id="110">
+							<DataPath>ПрицепVIN</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>VIN номер</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>17</Width>
+							<ContextMenu name="ПрицепVINКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="ПрицепVINРасширеннаяПодсказка" id="112"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепНомерСТС" id="113">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер СТС</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепНомерСТСРасширеннаяПодсказка" id="114"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепНомерСТС" id="115">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер СТС:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепНомерСТСКонтекстноеМеню" id="116"/>
+							<ExtendedTooltip name="ЗаголовокПрицепНомерСТСРасширеннаяПодсказка" id="117"/>
+						</LabelDecoration>
+						<InputField name="ПрицепНомерСТС" id="118">
+							<DataPath>ПрицепНомерСТС</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер СТС</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>10</Width>
+							<ContextMenu name="ПрицепНомерСТСКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="ПрицепНомерСТСРасширеннаяПодсказка" id="120"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепОснованиеВладенияДополнительныеСведения" id="49">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные сведения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепОснованиеВладенияДополнительныеСведенияРасширеннаяПодсказка" id="50"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепОснованиеВладенияДополнительныеСведения" id="51">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные сведения:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепОснованиеВладенияДополнительныеСведенияКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="ЗаголовокПрицепОснованиеВладенияДополнительныеСведенияРасширеннаяПодсказка" id="53"/>
+						</LabelDecoration>
+						<InputField name="ПрицепОснованиеВладенияДополнительныеСведения" id="54">
+							<DataPath>ПрицепОснованиеВладенияДополнительныеСведения</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные сведения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<ContextMenu name="ПрицепОснованиеВладенияДополнительныеСведенияКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ПрицепОснованиеВладенияДополнительныеСведенияРасширеннаяПодсказка" id="56"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРазделительПрицепОснованиеВладенияНаименованиеДокумента" id="14">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа разделитель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:TableHeaderBackColor</BackColor>
+					<ExtendedTooltip name="ГруппаРазделительПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="15"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЛевоПрицепОснованиеВладенияНаименованиеДокумента" id="16">
+							<Font ref="style:NormalTextFont" height="1" kind="StyleItem"/>
+							<ContextMenu name="ДекорацияЛевоПрицепОснованиеВладенияНаименованиеДокументаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ДекорацияЛевоПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="18"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЦентрПрицепОснованиеВладенияНаименованиеДокумента" id="19">
+							<Font ref="style:NormalTextFont" height="1" kind="StyleItem"/>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<ContextMenu name="ДекорацияЦентрПрицепОснованиеВладенияНаименованиеДокументаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДекорацияЦентрПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="21"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияПравоПрицепОснованиеВладенияНаименованиеДокумента" id="22">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font ref="style:NormalTextFont" height="1" kind="StyleItem"/>
+							<ContextMenu name="ДекорацияПравоПрицепОснованиеВладенияНаименованиеДокументаКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ДекорацияПравоПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="24"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепОснованиеВладенияНаименованиеДокумента" id="25">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование документа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепОснованиеВладенияНаименованиеДокумента" id="27">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование документа:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепОснованиеВладенияНаименованиеДокументаКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ЗаголовокПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="29"/>
+						</LabelDecoration>
+						<InputField name="ПрицепОснованиеВладенияНаименованиеДокумента" id="30">
+							<DataPath>ПрицепОснованиеВладенияНаименованиеДокумента</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование документа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<ContextMenu name="ПрицепОснованиеВладенияНаименованиеДокументаКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ПрицепОснованиеВладенияНаименованиеДокументаРасширеннаяПодсказка" id="32"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепОснованиеВладенияНомерДокумента" id="33">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер документа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепОснованиеВладенияНомерДокументаРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепОснованиеВладенияНомерДокумента" id="35">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер документа:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепОснованиеВладенияНомерДокументаКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ЗаголовокПрицепОснованиеВладенияНомерДокументаРасширеннаяПодсказка" id="37"/>
+						</LabelDecoration>
+						<InputField name="ПрицепОснованиеВладенияНомерДокумента" id="38">
+							<DataPath>ПрицепОснованиеВладенияНомерДокумента</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер документа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>20</Width>
+							<ContextMenu name="ПрицепОснованиеВладенияНомерДокументаКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ПрицепОснованиеВладенияНомерДокументаРасширеннаяПодсказка" id="40"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРеквизитаПрицепОснованиеВладенияДатаДокумента" id="41">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата документа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>18</Width>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрицепОснованиеВладенияДатаДокументаРасширеннаяПодсказка" id="42"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокПрицепОснованиеВладенияДатаДокумента" id="43">
+							<TextColor>style:ButtonTextColor</TextColor>
+							<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата документа:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаголовокПрицепОснованиеВладенияДатаДокументаКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="ЗаголовокПрицепОснованиеВладенияДатаДокументаРасширеннаяПодсказка" id="45"/>
+						</LabelDecoration>
+						<InputField name="ПрицепОснованиеВладенияДатаДокумента" id="46">
+							<DataPath>ПрицепОснованиеВладенияДатаДокумента</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата документа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>8</Width>
+							<ContextMenu name="ПрицепОснованиеВладенияДатаДокументаКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ПрицепОснованиеВладенияДатаДокументаРасширеннаяПодсказка" id="48"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаТаблицы" id="121">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа таблицы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа таблицы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаТаблицыРасширеннаяПодсказка" id="122"/>
+			<ChildItems>
+				<Pages name="СтраницыТаблиц" id="123">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблицы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<PagesRepresentation>None</PagesRepresentation>
+					<ExtendedTooltip name="СтраницыТаблицExtendedTooltip" id="124"/>
+					<ChildItems>
+						<Page name="СтраницаТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон" id="125">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентифицирующие реквизиты сторон, составивших документ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентифицирующие реквизиты сторон, составивших документ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницаТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонExtendedTooltip" id="126"/>
+							<ChildItems>
+								<Table name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон" id="127">
+									<Representation>List</Representation>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонКонтекстноеМеню" id="128"/>
+									<AutoCommandBar name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонКоманднаяПанель" id="129"/>
+									<ExtendedTooltip name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонРасширеннаяПодсказка" id="130"/>
+									<SearchStringAddition name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСтрокаПоиска" id="131">
+										<AdditionSource>
+											<Item>ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСтрокаПоискаКонтекстноеМеню" id="132"/>
+										<ExtendedTooltip name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСтрокаПоискаРасширеннаяПодсказка" id="133"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСостояниеПросмотра" id="134">
+										<AdditionSource>
+											<Item>ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСостояниеПросмотраКонтекстноеМеню" id="135"/>
+										<ExtendedTooltip name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонСостояниеПросмотраРасширеннаяПодсказка" id="136"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонУправлениеПоиском" id="137">
+										<AdditionSource>
+											<Item>ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонУправлениеПоискомКонтекстноеМеню" id="138"/>
+										<ExtendedTooltip name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонУправлениеПоискомРасширеннаяПодсказка" id="139"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="BeforeDeleteRow">ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонПередУдалением</Event>
+										<Event name="OnStartEdit">ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторонПриНачалеРедактирования</Event>
+									</Events>
+									<ChildItems>
+										<InputField name="ХранимыеДанныеСторонаПодписавшаяДокумент" id="140">
+											<DataPath>ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон.ХранимыеДанныеСторонаПодписавшаяДокумент</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<Width>30</Width>
+											<CreateButton>false</CreateButton>
+											<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+											<ContextMenu name="ХранимыеДанныеСторонаПодписавшаяДокументКонтекстноеМеню" id="141"/>
+											<ExtendedTooltip name="ХранимыеДанныеСторонаПодписавшаяДокументРасширеннаяПодсказка" id="142"/>
+											<Events>
+												<Event name="OnChange">ХранимыеДанныеТитулПеревозчикаСторонаПодписавшаяДокументПриИзменении</Event>
+												<Event name="AutoComplete">ХранимыеДанныеТитулПеревозчикаСторонаПодписавшаяДокументАвтоПодбор</Event>
+												<Event name="StartChoice">ХранимыеДанныеТитулПеревозчикаСторонаПодписавшаяДокументНачалоВыбора</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПрицепОснованиеВладенияНаименованиеДокумента" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>255</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепОснованиеВладенияНомерДокумента" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>255</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепОснованиеВладенияДатаДокумента" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата документа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепОснованиеВладенияИдентификаторФайла" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор файла документа (в том числе регистрационный номер, если документ / сведения о таком документе содержатся в государственных информационных системах)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>255</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепОснованиеВладенияДополнительныеСведения" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные сведения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТитулПеревозчикаПрицепОснованиеВладенияРеквизитыСторон" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентифицирующие реквизиты сторон, составивших документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИдентификаторСтроки" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор строки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>40</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИдентификаторСтрокиРодителя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор строки родительской таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>40</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ХранимыеДанныеСторонаПодписавшаяДокумент" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сторона, подписавшая документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХранимыеДанныеЭПД</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЮЛ_ИНН" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН юридического лица</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Fixed</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ФЛ_ИНН" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН физического лица, в том числе индивидуального предпринимателя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Fixed</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаДатаУдостоверения" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата выдачи документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаНомерУдостоверения" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаВидУдостоверения" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1000</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаИныеСведения" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Иные сведения, идентифицирующие иностранное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаИдентификатор" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор иностранного лица</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаНаименование" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование юридического лица полное / Фамилия, имя, отчество (при наличии) физического лица</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1000</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаСтрана" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страна</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнострЛицоБезУчетаСтатусФЛ_ЮЛ" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификация статуса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>25</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОрганВластиВыдавшийДокумент" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Орган власти, выдавший документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПрицепТип" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепМарка" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Марка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепГрузоподъемность" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грузоподъемность, в тоннах</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепВместимость" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вместимость, в кубических метрах</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепТипВладения" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип владения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1</v8:Length>
+					<v8:AllowedLength>Fixed</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепРегистрационныйНомер" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрационный номер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>9</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепVIN" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>VIN номер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>17</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрицепНомерСТС" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер СТС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сохранить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+	</Commands>
+</Form>

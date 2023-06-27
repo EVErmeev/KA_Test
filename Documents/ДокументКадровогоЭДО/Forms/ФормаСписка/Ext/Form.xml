@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Документы кадрового ЭДО</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<CommandSet>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКритерииОтбора" id="88">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список критерии отбора</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКритерииОтбораРасширеннаяПодсказка" id="89"/>
+		</UsualGroup>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<UsualGroup name="СписокНастройкиОтбора" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные условия</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="СписокНастройкиОтбораРасширеннаяПодсказка" id="87"/>
+		</UsualGroup>
+		<CommandBar name="КоманднаяПанельФормы" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="68"/>
+			<ChildItems>
+				<Button name="ФормаВыбрать" id="50">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.StandardCommand.Choose</CommandName>
+					<ExtendedTooltip name="ФормаВыбратьРасширеннаяПодсказка" id="51"/>
+				</Button>
+				<Popup name="ВидСпискаПодменю" id="71">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид списка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВидСпискаПодменюРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<Button name="ВсеДокументы" id="73">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.ВсеДокументы</CommandName>
+							<ExtendedTooltip name="ВсеДокументыРасширеннаяПодсказка" id="74"/>
+						</Button>
+						<Button name="НаПодпись" id="75">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.НаПодпись</CommandName>
+							<ExtendedTooltip name="НаПодписьРасширеннаяПодсказка" id="76"/>
+						</Button>
+						<Button name="Подписанные" id="77">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.Подписанные</CommandName>
+							<ExtendedTooltip name="ПодписанныеРасширеннаяПодсказка" id="78"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<Button name="Создать" id="90">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Create</CommandName>
+					<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="91"/>
+				</Button>
+				<Button name="ФормаИзменить" id="42">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Change</CommandName>
+					<ExtendedTooltip name="ФормаИзменитьРасширеннаяПодсказка" id="43"/>
+				</Button>
+				<ButtonGroup name="КомандыФормыГруппа" id="40">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды формы</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="КомандыФормыГруппаРасширеннаяПодсказка" id="41"/>
+				</ButtonGroup>
+			</ChildItems>
+		</CommandBar>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<ChoiceMode>true</ChoiceMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<CommandSet>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+			</CommandSet>
+			<AutoRefresh>true</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="СписокКонтекстноеМенюИзменить" id="46">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Item.Список.StandardCommand.Change</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="47"/>
+					</Button>
+					<ButtonGroup name="СписокКонтекстноеМенюГруппа" id="48">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Список контекстное меню</v8:content>
+							</v8:item>
+						</Title>
+						<CommandSource>Item.Список</CommandSource>
+						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаРасширеннаяПодсказка" id="49"/>
+					</ButtonGroup>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+				<Event name="OnGetDataAtServer">СписокПриПолученииДанныхНаСервере</Event>
+				<Event name="BeforeLoadUserSettingsAtServer">СписокПередЗагрузкойПользовательскихНастроекНаСервере</Event>
+				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
+			</Events>
+			<ChildItems>
+				<PictureField name="ТребуетВнимания" id="64">
+					<DataPath>Список.ТребуетВнимания</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ТребуетВниманияКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ТребуетВниманияРасширеннаяПодсказка" id="66"/>
+				</PictureField>
+				<LabelField name="Дата" id="19">
+					<DataPath>Список.Дата</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<Width>10</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="Период" id="58">
+					<DataPath>Список.Период</DataPath>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ='ММММ гггг'</v8:content>
+						</v8:item>
+					</Format>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="60"/>
+				</LabelField>
+				<LabelField name="Организация" id="22">
+					<DataPath>Список.Организация</DataPath>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="КраткийСоставДокумента" id="83">
+					<DataPath>Список.КраткийСоставДокумента</DataPath>
+					<ContextMenu name="КраткийСоставДокументаКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="КраткийСоставДокументаРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+				<LabelField name="ДатаПубликации" id="61">
+					<DataPath>Список.ДатаПубликации</DataPath>
+					<Width>10</Width>
+					<ContextMenu name="ДатаПубликацииКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ДатаПубликацииРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="ЭлектронныйДокумент" id="28">
+					<DataPath>Список.ЭлектронныйДокумент</DataPath>
+					<ContextMenu name="ЭлектронныйДокументКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ЭлектронныйДокументРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="КатегорияДокумента" id="52">
+					<DataPath>Список.КатегорияДокумента</DataPath>
+					<ContextMenu name="КатегорияДокументаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="КатегорияДокументаРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+				<LabelField name="ПодписанСотрудниками" id="55">
+					<DataPath>Список.ПодписанСотрудниками</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подписан</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПодписанСотрудникамиКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПодписанСотрудникамиРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="92">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="16">
+					<DataPath>Список.Ссылка</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>~Список.Документ</Field>
+				<Field>Список.БЗК_ДокументСВерсиейДляПечати</Field>
+				<Field>Список.Внешний</Field>
+				<Field>Список.КатегорияДокумента</Field>
+				<Field>Список.КраткийСоставДокумента</Field>
+				<Field>Список.ОжидаетПодписания</Field>
+				<Field>Список.ОснованиеДокумента</Field>
+				<Field>Список.Расширение</Field>
+				<Field>Список.Ссылка</Field>
+				<Field>Список.ТребуетВнимания</Field>
+				<Field>Список.ЭлектронныйДокумент</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ДокументДокументКадровогоЭДО.Ссылка КАК Ссылка,
+	ДокументДокументКадровогоЭДО.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументДокументКадровогоЭДО.Номер КАК Номер,
+	ДокументДокументКадровогоЭДО.Дата КАК Дата,
+	ДокументДокументКадровогоЭДО.Проведен КАК Проведен,
+	ДокументДокументКадровогоЭДО.Организация КАК Организация,
+	ДокументДокументКадровогоЭДО.ЭлектронныйДокумент КАК ЭлектронныйДокумент,
+	ДокументДокументКадровогоЭДО.ОснованиеДокумента КАК ОснованиеДокумента,
+	ДокументДокументКадровогоЭДО.ИдентификаторЗаявкиКабинетСотрудника КАК ИдентификаторЗаявкиКабинетСотрудника,
+	ДокументДокументКадровогоЭДО.ИдентификаторДокумента КАК ИдентификаторДокумента,
+	ДокументДокументКадровогоЭДО.Комментарий КАК Комментарий,
+	ДокументДокументКадровогоЭДО.МоментВремени КАК МоментВремени,
+	ДокументДокументКадровогоЭДО.КатегорияДокумента КАК КатегорияДокумента,
+	ВЫРАЗИТЬ("" КАК СТРОКА(100)) КАК ПодписанСотрудниками,
+	ДокументДокументКадровогоЭДО.КраткийСоставДокумента КАК КраткийСоставДокумента,
+	ЕСТЬNULL(РасчетныеЛистки.Месяц, ДАТАВРЕМЯ(1, 1, 1)) КАК Период,
+	ЕСТЬNULL(РасчетныеЛистки.ДатаПубликации, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаПубликации,
+	ЛОЖЬ КАК ОжидаетПодписания,
+	ЛОЖЬ КАК ТребуетВнимания,
+	ВЫБОР
+		КОГДА ДокументДокументКадровогоЭДО.КатегорияДокумента = ЗНАЧЕНИЕ(Перечисление.КатегорииДокументовКадровогоЭДО.РасчетныйЛисток)
+				ИЛИ ДокументДокументКадровогоЭДО.КатегорияДокумента = ЗНАЧЕНИЕ(Перечисление.КатегорииДокументовКадровогоЭДО.ЗаявлениеСотрудника)
+			ТОГДА ДокументДокументКадровогоЭДО.КатегорияДокумента
+		ИНАЧЕ ТИПЗНАЧЕНИЯ(ДокументДокументКадровогоЭДО.ОснованиеДокумента)
+	КОНЕЦ КАК ВидОснования,
+	ЛОЖЬ КАК БЗК_ДокументСВерсиейДляПечати,
+	ДокументДокументКадровогоЭДО.Внешний КАК Внешний,
+	"          " КАК Расширение
+ИЗ
+	Документ.ДокументКадровогоЭДО КАК ДокументДокументКадровогоЭДО
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РасчетныеЛисткиКабинетСотрудника КАК РасчетныеЛистки
+		ПО ДокументДокументКадровогоЭДО.Ссылка = РасчетныеЛистки.ДокументКадровогоЭДО}
+{ГДЕ
+	(ДокументДокументКадровогоЭДО.ЭлектронныйДокумент В
+			(ВЫБРАТЬ
+				ЗапланированныеДействия.ПрисоединенныйФайл
+			ИЗ
+				РегистрСведений.ЗапланированныеДействияСФайламиДокументовКЭДО КАК ЗапланированныеДействия
+			ГДЕ
+				ДокументДокументКадровогоЭДО.ЭлектронныйДокумент = ЗапланированныеДействия.ПрисоединенныйФайл
+				И ЗапланированныеДействия.Исполнитель В (&amp;Исполнители)
+				И ЗапланированныеДействия.Действие = ЗНАЧЕНИЕ(Перечисление.ДействияСФайламиДокументовКЭДО.Подписать))),
+	(ДокументДокументКадровогоЭДО.ЭлектронныйДокумент В
+			(ВЫБРАТЬ
+				ПодписанныеОбъектыПользователей.ПодписанныйОбъект
+			ИЗ
+				РегистрСведений.ПодписанныеОбъектыПользователей КАК ПодписанныеОбъектыПользователей
+			ГДЕ
+				ДокументДокументКадровогоЭДО.ЭлектронныйДокумент = ПодписанныеОбъектыПользователей.ПодписанныйОбъект
+				И ПодписанныеОбъектыПользователей.УстановившийПодпись В (&amp;Подписанты))),
+	(ДокументДокументКадровогоЭДО.СодержимоеДокумента В (&amp;СодержимоеДокументов)),
+	(ИСТИНА В
+			(ВЫБРАТЬ ПЕРВЫЕ 1
+				ИСТИНА
+			ИЗ
+				РегистрСведений.СоставДокументовЗарплатаКадры КАК СоставДокументовЗарплатаКадры
+			ГДЕ
+				СоставДокументовЗарплатаКадры.ФизическоеЛицо = &amp;ФизическоеЛицо
+				И ДокументДокументКадровогоЭДО.Ссылка = СоставДокументовЗарплатаКадры.ДокументФизическогоЛица)),
+	(ДокументДокументКадровогоЭДО.КатегорияДокумента = &amp;ВидОснованияКатегория),
+	(ТИПЗНАЧЕНИЯ(ДокументДокументКадровогоЭДО.ОснованиеДокумента) = &amp;ВидОснованияДокумент),
+	(НЕ ДокументДокументКадровогоЭДО.КатегорияДокумента В (ЗНАЧЕНИЕ(Перечисление.КатегорииДокументовКадровогоЭДО.РасчетныйЛисток), ЗНАЧЕНИЕ(Перечисление.КатегорииДокументовКадровогоЭДО.ЗаявлениеСотрудника))
+			И ДокументДокументКадровогоЭДО.Внешний = &amp;Внешний)}</QueryText>
+				<MainTable>Document.ДокументКадровогоЭДО</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ЗапрещенныеРасширения" id="2">
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
+		</Attribute>
+		<Attribute name="ТекущийПользователь" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НаПодпись" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На подпись мне</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На подпись</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НаПодпись</Action>
+		</Command>
+		<Command name="Подписанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписанные мною</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписанные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подписанные</Action>
+		</Command>
+		<Command name="ВсеДокументы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все документы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все документы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВсеДокументы</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="РасчетныеЛисты">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ДокументыНаПодпись">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>
