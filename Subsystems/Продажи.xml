@@ -74,6 +74,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПодключаемоеОборудованиеЭлектронныеВесы32</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПодсистемаПродажи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЭлектронныеПеревозочныеДокументы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УчетЗаявок_ГИТ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

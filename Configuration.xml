@@ -13628,6 +13628,7 @@
 			<Document>ЭлектронныйДокументВходящийЭДО</Document>
 			<Document>ЭлектронныйДокументИсходящийЭДО</Document>
 			<Document>ЭлектронныйЗаказНаряд</Document>
+			<Document>УчетЗаявок_ГИТ</Document>
 			<DocumentNumerator>ДенежныеДокументы</DocumentNumerator>
 			<DocumentNumerator>ДокументыРеализацииТоваров</DocumentNumerator>
 			<DocumentNumerator>ОтчетыКомиссионеров</DocumentNumerator>
